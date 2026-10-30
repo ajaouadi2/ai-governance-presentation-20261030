@@ -1,0 +1,3424 @@
+{
+  "version": "2026-10-25.questionnaire-v2-draft.1",
+  "status": "specification-only",
+  "language": "fr",
+  "sources": [
+    {
+      "id": "unil",
+      "filename": "Questionnaire_UNIL_revise.docx",
+      "sha256": "8f6c91fa622f416fbf85d97e2d5521bb33695d3a3fe3aa8138796fb5066f6722"
+    },
+    {
+      "id": "supplier",
+      "filename": "Questionnaire_fournisseur_revise.docx",
+      "sha256": "f0cbde3ee9d99bc01d59205192e0118ebdf3f1ec31d9ce0fc3b5230ca5900506"
+    }
+  ],
+  "entryModes": ["unil", "supplier", "both"],
+  "stages": [
+    {
+      "id": 1,
+      "title": "Qualification du projet",
+      "questionIds": ["A1", "A2", "A4", "A3", "A5", "N3", "N4"]
+    },
+    {
+      "id": 2,
+      "title": "Pratiques interdites",
+      "questionIds": ["N1", "N2"]
+    },
+    {
+      "id": 3,
+      "title": "Traitement des données personnelles",
+      "questionIds": ["I3", "I1", "I2", "I4", "I5", "I8", "A6", "I6", "I7"]
+    },
+    {
+      "id": 4,
+      "title": "Préparation de l’achat",
+      "questionIds": ["M1", "M2", "M3", "M4", "M5", "M6", "M7", "M8", "M9", "M9a", "M9b"]
+    },
+    {
+      "id": 5,
+      "title": "Évaluation du fournisseur et contrat",
+      "questionIds": [
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "T1",
+        "T2",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "M16",
+        "M17",
+        "M18",
+        "M19",
+        "M20",
+        "M21",
+        "M22",
+        "M24",
+        "M25",
+        "M26",
+        "M27",
+        "M28",
+        "M29"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Préparation de la mise en service et suivi",
+      "questionIds": ["N5", "N6", "N7", "N8", "N9", "N10", "N11", "M30", "M31"]
+    }
+  ],
+  "checkpoints": ["assessment", "supplier-selection", "signature", "deployment"],
+  "questions": [
+    {
+      "id": "A1",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 1,
+      "order": 1,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A1. Pour quelles activités l’outil sera-t-il utilisé ?",
+        "Plusieurs réponses possibles : ☐ Enseignement ou apprentissage ; ☐ Recherche scientifique ; ☐ Administration, ressources humaines ou communication ; ☐ Autre : préciser.",
+        "Décrivez un exemple concret d’utilisation, les personnes concernées et les informations utilisées.",
+        "Suite : poursuivre la qualification. Activer les contrôles pertinents selon l’usage réel, notamment la confidentialité et la liberté académique en recherche ou enseignement. Le choix « recherche » ne constitue ni une exemption automatique ni une validation sous condition à lui seul.",
+        "Base légale : AI Act, art. 2 et annexe III : le contexte et l’usage contribuent à l’examen du champ d’application et de la classification ; les exclusions relatives à la recherche ont leurs propres conditions. LUL, art. 15 al. 3 : point de vigilance contractuel pour l’indépendance de l’enseignement et de la recherche, à examiner avec S21. Les catégories et l’exemple demandé sont des moyens de collecte des faits, non un test juridique suffisant."
+      ],
+      "title": "A1. Pour quelles activités l’outil sera-t-il utilisé ?",
+      "legalBasisText": "Base légale : AI Act, art. 2 et annexe III : le contexte et l’usage contribuent à l’examen du champ d’application et de la classification ; les exclusions relatives à la recherche ont leurs propres conditions. LUL, art. 15 al. 3 : point de vigilance contractuel pour l’indépendance de l’enseignement et de la recherche, à examiner avec S21. Les catégories et l’exemple demandé sont des moyens de collecte des faits, non un test juridique suffisant.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Plusieurs réponses possibles : ☐ Enseignement ou apprentissage ; ☐ Recherche scientifique ; ☐ Administration, ressources humaines ou communication ; ☐ Autre : préciser."
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Suite : poursuivre la qualification. Activer les contrôles pertinents selon l’usage réel, notamment la confidentialité et la liberté académique en recherche ou enseignement. Le choix « recherche » ne constitue ni une exemption automatique ni une validation sous condition à lui seul."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "A2",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 1,
+      "order": 2,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A2. L’outil utilise-t-il un système qui déduit, à partir des informations reçues, comment produire des prédictions, des contenus, des recommandations ou des décisions ?",
+        "☐ Oui, selon la documentation disponible ; ☐ Non, il exécute uniquement des règles ou opérations définies à l’avance, sans cette capacité d’inférence ; ☐ À vérifier.",
+        "Décrivez les principales fonctions et indiquez ou joignez la documentation utilisée.",
+        "Vérification : faire confirmer la qualification au regard de la définition complète. Cette question est un premier repérage ; l’autonomie, l’appellation commerciale ou la présence de règles ne suffisent pas isolément à conclure.",
+        "Suite : si la qualification IA est confirmée, examiner les règles IA pertinentes ; si elle est écartée, conserver les contrôles applicables aux données, à la confidentialité, aux droits, au contrat et aux marchés publics. Si elle reste inconnue, poursuivre la collecte sans conclure à une exemption.",
+        "Base légale : AI Act, art. 3, point 1 : définition du système d’IA. La définition comprend notamment le système automatisé, des niveaux variables d’autonomie, une éventuelle capacité d’adaptation et l’inférence à partir des entrées. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689"
+      ],
+      "title": "A2. L’outil utilise-t-il un système qui déduit, à partir des informations reçues, comment produire des prédictions, des contenus, des recommandations ou des décisions ?",
+      "legalBasisText": "Base légale : AI Act, art. 3, point 1 : définition du système d’IA. La définition comprend notamment le système automatisé, des niveaux variables d’autonomie, une éventuelle capacité d’adaptation et l’inférence à partir des entrées. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "sourceUrls": ["https://eur-lex.europa.eu/eli/reg/2024/1689"],
+      "sourceResponseParagraphs": [
+        "☐ Oui, selon la documentation disponible ; ☐ Non, il exécute uniquement des règles ou opérations définies à l’avance, sans cette capacité d’inférence ; ☐ À vérifier."
+      ],
+      "sourceEvidenceParagraphs": [
+        "☐ Oui, selon la documentation disponible ; ☐ Non, il exécute uniquement des règles ou opérations définies à l’avance, sans cette capacité d’inférence ; ☐ À vérifier.",
+        "Décrivez les principales fonctions et indiquez ou joignez la documentation utilisée."
+      ],
+      "sourceInstructionParagraphs": [
+        "Vérification : faire confirmer la qualification au regard de la définition complète. Cette question est un premier repérage ; l’autonomie, l’appellation commerciale ou la présence de règles ne suffisent pas isolément à conclure.",
+        "Suite : si la qualification IA est confirmée, examiner les règles IA pertinentes ; si elle est écartée, conserver les contrôles applicables aux données, à la confidentialité, aux droits, au contrat et aux marchés publics. Si elle reste inconnue, poursuivre la collecte sans conclure à une exemption."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "A4",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 1,
+      "order": 3,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A4. Comment l’UNIL prévoit-elle d’utiliser, de modifier ou de présenter le système ?",
+        "Plusieurs réponses possibles : ☐ Utilisation conforme à la finalité prévue par le fournisseur ; ☐ Modification du fonctionnement ; ☐ Changement de finalité ; ☐ Présentation sous le nom ou la marque de l’UNIL ; ☐ Développement réalisé ou commandé pour son propre usage ou sous son nom ; ☐ À vérifier.",
+        "Décrivez la finalité prévue et les changements envisagés. Joignez la documentation et, si disponible, la position du fournisseur.",
+        "Examen UNIL : confirmer le rôle juridique et déterminer si une modification substantielle ou un changement de rôle est en cause. Une configuration ou une modification ne déclenche pas automatiquement les obligations de fournisseur.",
+        "Suite : poursuivre la collecte ; obtenir la confirmation du rôle et des obligations avant la modification, la mise à disposition ou le déploiement concerné. Consigner le responsable et les actions à réaliser.",
+        "Base légale : AI Act, art. 3, notamment points 3, 4 et 23, et art. 25. La définition du fournisseur et les cas spécifiques de changement de responsabilité pour les systèmes à haut risque doivent être distingués. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689"
+      ],
+      "title": "A4. Comment l’UNIL prévoit-elle d’utiliser, de modifier ou de présenter le système ?",
+      "legalBasisText": "Base légale : AI Act, art. 3, notamment points 3, 4 et 23, et art. 25. La définition du fournisseur et les cas spécifiques de changement de responsabilité pour les systèmes à haut risque doivent être distingués. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "sourceUrls": ["https://eur-lex.europa.eu/eli/reg/2024/1689"],
+      "sourceResponseParagraphs": [
+        "Plusieurs réponses possibles : ☐ Utilisation conforme à la finalité prévue par le fournisseur ; ☐ Modification du fonctionnement ; ☐ Changement de finalité ; ☐ Présentation sous le nom ou la marque de l’UNIL ; ☐ Développement réalisé ou commandé pour son propre usage ou sous son nom ; ☐ À vérifier."
+      ],
+      "sourceEvidenceParagraphs": [
+        "Plusieurs réponses possibles : ☐ Utilisation conforme à la finalité prévue par le fournisseur ; ☐ Modification du fonctionnement ; ☐ Changement de finalité ; ☐ Présentation sous le nom ou la marque de l’UNIL ; ☐ Développement réalisé ou commandé pour son propre usage ou sous son nom ; ☐ À vérifier.",
+        "Décrivez la finalité prévue et les changements envisagés. Joignez la documentation et, si disponible, la position du fournisseur.",
+        "Examen UNIL : confirmer le rôle juridique et déterminer si une modification substantielle ou un changement de rôle est en cause. Une configuration ou une modification ne déclenche pas automatiquement les obligations de fournisseur."
+      ],
+      "sourceInstructionParagraphs": [
+        "Examen UNIL : confirmer le rôle juridique et déterminer si une modification substantielle ou un changement de rôle est en cause. Une configuration ou une modification ne déclenche pas automatiquement les obligations de fournisseur.",
+        "Suite : poursuivre la collecte ; obtenir la confirmation du rôle et des obligations avant la modification, la mise à disposition ou le déploiement concerné. Consigner le responsable et les actions à réaliser."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "A3",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 1,
+      "order": 4,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A3. Quels liens l’offre du fournisseur et l’utilisation prévue présentent-elles avec l’Union européenne ?",
+        "A3a — Le fournisseur propose-t-il ce système sur le marché de l’Union européenne ? ☐ Oui ; ☐ Non ; ☐ À vérifier. Précisez les informations disponibles.",
+        "A3b — L’utilisation prévue implique-t-elle un établissement ou une activité de déploiement dans l’Union européenne ? ☐ Oui : préciser ; ☐ Non ; ☐ À vérifier.",
+        "A3c — Des résultats produits par le système seront-ils utilisés dans l’Union européenne ? ☐ Oui : décrire par qui, où et pour quel usage ; ☐ Non ; ☐ À vérifier.",
+        "Examen UNIL : déterminer séparément le champ d’application pour le fournisseur et pour l’UNIL, les obligations concernées, les éventuelles exclusions et les dates applicables. ☐ Analyse motivée disponible ; ☐ Informations ou avis requis. Nom du validateur et référence de l’analyse : à renseigner.",
+        "Suite : les réponses ne valent pas conclusion automatique que toutes les obligations s’appliquent à l’UNIL. Un lien non établi ou inconnu ne constitue pas une exemption confirmée.",
+        "Choix contractuel distinct : si des garanties inspirées de l’AI Act sont demandées au-delà de son application directe, préciser lesquelles et par qui cette exigence a été approuvée. Ne pas présumer une politique UNIL existante.",
+        "Base légale : AI Act, art. 2, notamment par. 1 let. a, b et c, et art. 113 pour le calendrier, dans leur version en vigueur. Les liens territoriaux et obligations doivent être examinés par acteur. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689"
+      ],
+      "title": "A3. Quels liens l’offre du fournisseur et l’utilisation prévue présentent-elles avec l’Union européenne ?",
+      "legalBasisText": "Base légale : AI Act, art. 2, notamment par. 1 let. a, b et c, et art. 113 pour le calendrier, dans leur version en vigueur. Les liens territoriaux et obligations doivent être examinés par acteur. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "sourceUrls": ["https://eur-lex.europa.eu/eli/reg/2024/1689"],
+      "sourceResponseParagraphs": [
+        "A3a — Le fournisseur propose-t-il ce système sur le marché de l’Union européenne ? ☐ Oui ; ☐ Non ; ☐ À vérifier. Précisez les informations disponibles.",
+        "A3b — L’utilisation prévue implique-t-elle un établissement ou une activité de déploiement dans l’Union européenne ? ☐ Oui : préciser ; ☐ Non ; ☐ À vérifier.",
+        "A3c — Des résultats produits par le système seront-ils utilisés dans l’Union européenne ? ☐ Oui : décrire par qui, où et pour quel usage ; ☐ Non ; ☐ À vérifier.",
+        "Examen UNIL : déterminer séparément le champ d’application pour le fournisseur et pour l’UNIL, les obligations concernées, les éventuelles exclusions et les dates applicables. ☐ Analyse motivée disponible ; ☐ Informations ou avis requis. Nom du validateur et référence de l’analyse : à renseigner."
+      ],
+      "sourceEvidenceParagraphs": [
+        "A3a — Le fournisseur propose-t-il ce système sur le marché de l’Union européenne ? ☐ Oui ; ☐ Non ; ☐ À vérifier. Précisez les informations disponibles.",
+        "Examen UNIL : déterminer séparément le champ d’application pour le fournisseur et pour l’UNIL, les obligations concernées, les éventuelles exclusions et les dates applicables. ☐ Analyse motivée disponible ; ☐ Informations ou avis requis. Nom du validateur et référence de l’analyse : à renseigner."
+      ],
+      "sourceInstructionParagraphs": [
+        "Examen UNIL : déterminer séparément le champ d’application pour le fournisseur et pour l’UNIL, les obligations concernées, les éventuelles exclusions et les dates applicables. ☐ Analyse motivée disponible ; ☐ Informations ou avis requis. Nom du validateur et référence de l’analyse : à renseigner.",
+        "Suite : les réponses ne valent pas conclusion automatique que toutes les obligations s’appliquent à l’UNIL. Un lien non établi ou inconnu ne constitue pas une exemption confirmée.",
+        "Choix contractuel distinct : si des garanties inspirées de l’AI Act sont demandées au-delà de son application directe, préciser lesquelles et par qui cette exigence a été approuvée. Ne pas présumer une politique UNIL existante."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "A5",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 1,
+      "order": 5,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A5. Quels liens le traitement de données présente-t-il avec l’Union européenne ?",
+        "A5a — Le traitement est-il effectué dans le cadre des activités d’un établissement dans l’Union européenne ? ☐ Oui : préciser l’acteur et l’établissement ; ☐ Non ; ☐ À vérifier.",
+        "A5b — Le traitement est-il lié à une offre de biens ou de services destinée à des personnes se trouvant dans l’Union européenne ? ☐ Oui : décrire les services et les personnes visées ; ☐ Non ; ☐ À vérifier.",
+        "A5c — Le traitement sert-il à suivre le comportement de personnes, dans la mesure où ce comportement a lieu dans l’Union européenne ? ☐ Oui : décrire ; ☐ Non ; ☐ À vérifier.",
+        "Examen UNIL : faire confirmer l’application éventuelle du RGPD pour le traitement et chaque acteur concerné par le responsable compétent en protection des données. ☐ Analyse motivée disponible ; ☐ Avis ou informations requis. Référence : à renseigner.",
+        "Suite : la nationalité européenne, la présence d’une personne dans l’UE ou le recours à un fournisseur européen ne suffisent pas isolément à décider du régime applicable à l’UNIL. Le dépistage ne constitue pas une exemption si les réponses sont négatives ou inconnues. Les autres règles de protection des données applicables restent à examiner.",
+        "Base légale : RGPD, art. 3, notamment par. 1 et 2 ; lignes directrices 3/2018 du Comité européen de la protection des données sur le champ territorial. L’offre ciblée ou le suivi du comportement sont à distinguer de la seule présence d’une personne. Source officielle : https://www.edpb.europa.eu/documents/guideline/guidelines-32018-on-the-territorial-scope-of-the-gdpr-article-3-version-adopted_en"
+      ],
+      "title": "A5. Quels liens le traitement de données présente-t-il avec l’Union européenne ?",
+      "legalBasisText": "Base légale : RGPD, art. 3, notamment par. 1 et 2 ; lignes directrices 3/2018 du Comité européen de la protection des données sur le champ territorial. L’offre ciblée ou le suivi du comportement sont à distinguer de la seule présence d’une personne. Source officielle : https://www.edpb.europa.eu/documents/guideline/guidelines-32018-on-the-territorial-scope-of-the-gdpr-article-3-version-adopted_en",
+      "sourceUrls": [
+        "https://www.edpb.europa.eu/documents/guideline/guidelines-32018-on-the-territorial-scope-of-the-gdpr-article-3-version-adopted_en"
+      ],
+      "sourceResponseParagraphs": [
+        "A5a — Le traitement est-il effectué dans le cadre des activités d’un établissement dans l’Union européenne ? ☐ Oui : préciser l’acteur et l’établissement ; ☐ Non ; ☐ À vérifier.",
+        "A5b — Le traitement est-il lié à une offre de biens ou de services destinée à des personnes se trouvant dans l’Union européenne ? ☐ Oui : décrire les services et les personnes visées ; ☐ Non ; ☐ À vérifier.",
+        "A5c — Le traitement sert-il à suivre le comportement de personnes, dans la mesure où ce comportement a lieu dans l’Union européenne ? ☐ Oui : décrire ; ☐ Non ; ☐ À vérifier.",
+        "Examen UNIL : faire confirmer l’application éventuelle du RGPD pour le traitement et chaque acteur concerné par le responsable compétent en protection des données. ☐ Analyse motivée disponible ; ☐ Avis ou informations requis. Référence : à renseigner."
+      ],
+      "sourceEvidenceParagraphs": [
+        "Suite : la nationalité européenne, la présence d’une personne dans l’UE ou le recours à un fournisseur européen ne suffisent pas isolément à décider du régime applicable à l’UNIL. Le dépistage ne constitue pas une exemption si les réponses sont négatives ou inconnues. Les autres règles de protection des données applicables restent à examiner."
+      ],
+      "sourceInstructionParagraphs": [
+        "Examen UNIL : faire confirmer l’application éventuelle du RGPD pour le traitement et chaque acteur concerné par le responsable compétent en protection des données. ☐ Analyse motivée disponible ; ☐ Avis ou informations requis. Référence : à renseigner.",
+        "Suite : la nationalité européenne, la présence d’une personne dans l’UE ou le recours à un fournisseur européen ne suffisent pas isolément à décider du régime applicable à l’UNIL. Le dépistage ne constitue pas une exemption si les réponses sont négatives ou inconnues. Les autres règles de protection des données applicables restent à examiner."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N3",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 1,
+      "order": 6,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N3. L'outil servira-t-il à prendre ou à préparer des décisions sur des personnes (admission, notes, orientation, surveillance des examens, recrutement, évaluation ou licenciement du personnel) ?",
+        "Orientation immédiate : si la réponse active le haut risque, suivre le parcours haut risque. Les exigences fournisseur S2 à S5 et les préparatifs UNIL N5 à N8 et N11 deviennent applicables ; les vérifier aux étapes 5 et 6. Les autres contrôles restent applicables.",
+        "Oui → Poursuivre : l'outil est à haut risque",
+        "Oui, mais il ne fait qu'une tâche simple (tri, mise en forme), sans profilage, et le fournisseur l'a justifié par écrit (T1 du questionnaire fournisseur) → Poursuivre",
+        "Non → Poursuivre : sauter les questions réservées au haut risque",
+        "Base légale : AI Act, art. 6 par. 2 et 3 ; annexe III, ch. 3 et 4"
+      ],
+      "title": "N3. L'outil servira-t-il à prendre ou à préparer des décisions sur des personnes (admission, notes, orientation, surveillance des examens, recrutement, évaluation ou licenciement du personnel) ?",
+      "legalBasisText": "Base légale : AI Act, art. 6 par. 2 et 3 ; annexe III, ch. 3 et 4",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre : l'outil est à haut risque",
+        "Oui, mais il ne fait qu'une tâche simple (tri, mise en forme), sans profilage, et le fournisseur l'a justifié par écrit (T1 du questionnaire fournisseur) → Poursuivre",
+        "Non → Poursuivre : sauter les questions réservées au haut risque"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Orientation immédiate : si la réponse active le haut risque, suivre le parcours haut risque. Les exigences fournisseur S2 à S5 et les préparatifs UNIL N5 à N8 et N11 deviennent applicables ; les vérifier aux étapes 5 et 6. Les autres contrôles restent applicables.",
+        "Oui, mais il ne fait qu'une tâche simple (tri, mise en forme), sans profilage, et le fournisseur l'a justifié par écrit (T1 du questionnaire fournisseur) → Poursuivre"
+      ],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N4",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 1,
+      "order": 7,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N4. Les étudiants ou le personnel seront-ils obligés d'utiliser l'outil ?",
+        "Oui → Poursuivre : l'accessibilité devient obligatoire (S20 du questionnaire fournisseur)",
+        "Non → Poursuivre",
+        "Base légale : Cst., art. 8 al. 2"
+      ],
+      "title": "N4. Les étudiants ou le personnel seront-ils obligés d'utiliser l'outil ?",
+      "legalBasisText": "Base légale : Cst., art. 8 al. 2",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre : l'accessibilité devient obligatoire (S20 du questionnaire fournisseur)",
+        "Non → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui → Poursuivre : l'accessibilité devient obligatoire (S20 du questionnaire fournisseur)"
+      ],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N1",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 2,
+      "order": 1,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N1. L'outil va-t-il deviner les émotions des étudiants ou du personnel à partir de leur visage ou de leur voix ?",
+        "Oui → Ne pas poursuivre",
+        "Oui, mais uniquement pour une raison médicale ou de sécurité → Poursuivre",
+        "Non → Poursuivre",
+        "Base légale : AI Act, art. 5 par. 1 let. f"
+      ],
+      "title": "N1. L'outil va-t-il deviner les émotions des étudiants ou du personnel à partir de leur visage ou de leur voix ?",
+      "legalBasisText": "Base légale : AI Act, art. 5 par. 1 let. f",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Ne pas poursuivre",
+        "Oui, mais uniquement pour une raison médicale ou de sécurité → Poursuivre",
+        "Non → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N2",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 2,
+      "order": 2,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N2. L'outil fait-il une des choses suivantes : manipuler les personnes à leur insu ; exploiter leurs faiblesses (âge, handicap, situation sociale) ; noter les personnes selon leur comportement ; classer les personnes selon leur origine, leur religion ou leur orientation sexuelle à partir de données biométriques ?",
+        "Oui → Ne pas poursuivre",
+        "Non → Poursuivre",
+        "Base légale : AI Act, art. 5 par. 1 let. a, b, c et g"
+      ],
+      "title": "N2. L'outil fait-il une des choses suivantes : manipuler les personnes à leur insu ; exploiter leurs faiblesses (âge, handicap, situation sociale) ; noter les personnes selon leur comportement ; classer les personnes selon leur origine, leur religion ou leur orientation sexuelle à partir de données biométriques ?",
+      "legalBasisText": "Base légale : AI Act, art. 5 par. 1 let. a, b, c et g",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Ne pas poursuivre", "Non → Poursuivre"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I3",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 1,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I3. Quel type de données seront traitées ? (en dresser la liste du côté de l'UNIL)",
+        "Aucune donnée personnelle → Poursuivre : les questions D du questionnaire fournisseur sont allégées",
+        "Données personnelles ordinaires → Poursuivre",
+        "Données sensibles, biométriques ou profil de la personnalité → Poursuivre sous condition",
+        "Recommandation c : Les règles plus strictes s'appliquent (D2 et D4 du questionnaire fournisseur). Pour des données biométriques, vérifier aussi N1 et N2.",
+        "Base légale : art. 4 al. 1 ch. 2 et 3 LPrD"
+      ],
+      "title": "I3. Quel type de données seront traitées ? (en dresser la liste du côté de l'UNIL)",
+      "legalBasisText": "Base légale : art. 4 al. 1 ch. 2 et 3 LPrD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Aucune donnée personnelle → Poursuivre : les questions D du questionnaire fournisseur sont allégées",
+        "Données personnelles ordinaires → Poursuivre",
+        "Données sensibles, biométriques ou profil de la personnalité → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Aucune donnée personnelle → Poursuivre : les questions D du questionnaire fournisseur sont allégées",
+        "Recommandation c : Les règles plus strictes s'appliquent (D2 et D4 du questionnaire fournisseur). Pour des données biométriques, vérifier aussi N1 et N2."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Les règles plus strictes s'appliquent (D2 et D4 du questionnaire fournisseur). Pour des données biométriques, vérifier aussi N1 et N2."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I1",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 2,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I1. L'outil d'IA est-il utilisé pour une finalité précise ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Base légale : art. 6 LPrD"
+      ],
+      "title": "I1. L'outil d'IA est-il utilisé pour une finalité précise ?",
+      "legalBasisText": "Base légale : art. 6 LPrD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I2",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 3,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I2. Cette finalité est-elle licite, c'est-à-dire justifiée par l'une des conditions suivantes ?",
+        "Données personnelles : une base légale autorise le traitement, ou le traitement sert à l'accomplissement d'une tâche publique. Données sensibles : une loi au sens formel le prévoit expressément ; l'accomplissement d'une tâche clairement définie dans une loi au sens formel l'exige absolument ; ou la personne concernée y a consenti ou a rendu ses données accessibles à tout un chacun.",
+        "Oui, l'une de ces conditions est remplie → Poursuivre",
+        "Aucune de ces conditions → Ne pas poursuivre",
+        "Base légale : art. 5 al. 1 et 2 LPrD"
+      ],
+      "title": "I2. Cette finalité est-elle licite, c'est-à-dire justifiée par l'une des conditions suivantes ?",
+      "legalBasisText": "Base légale : art. 5 al. 1 et 2 LPrD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, l'une de ces conditions est remplie → Poursuivre",
+        "Aucune de ces conditions → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I4",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 4,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I4. Des données identifiantes doivent-elles être collectées pour répondre à la finalité ?",
+        "Non : les données sont anonymisées → Poursuivre",
+        "Oui : les données sont pseudonymisées → Poursuivre",
+        "Oui, avec des données en plus de l'objectif poursuivi → Poursuivre sous condition",
+        "Recommandation c : Réduire la collecte aux données nécessaires à la finalité (art. 7 LPrD).",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "I4. Des données identifiantes doivent-elles être collectées pour répondre à la finalité ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non : les données sont anonymisées → Poursuivre",
+        "Oui : les données sont pseudonymisées → Poursuivre",
+        "Oui, avec des données en plus de l'objectif poursuivi → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Réduire la collecte aux données nécessaires à la finalité (art. 7 LPrD)."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I5",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 5,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I5. Selon la finalité poursuivie, seules les données strictement nécessaires seront-elles collectées ?",
+        "Oui → Poursuivre",
+        "Non, plus que nécessaire « au cas où » → Ne pas poursuivre",
+        "Base légale : art. 7 LPrD"
+      ],
+      "title": "I5. Selon la finalité poursuivie, seules les données strictement nécessaires seront-elles collectées ?",
+      "legalBasisText": "Base légale : art. 7 LPrD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non, plus que nécessaire « au cas où » → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I8",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 6,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I8. Les résultats de l'IA serviront-ils à prendre une décision sur une personne ?",
+        "Non → Poursuivre",
+        "Oui, avec un contrôle humain → Poursuivre sous condition",
+        "Oui, la décision est prise par l'outil seul → Ne pas poursuivre",
+        "Recommandation b : Informer la personne concernée qu'une IA a contribué à la décision, et vérifier A6 (voie de contestation).",
+        "Base légale : AI Act, art. 14 et 26 ; Convention-cadre du Conseil de l'Europe sur l'IA, art. 15"
+      ],
+      "title": "I8. Les résultats de l'IA serviront-ils à prendre une décision sur une personne ?",
+      "legalBasisText": "Base légale : AI Act, art. 14 et 26 ; Convention-cadre du Conseil de l'Europe sur l'IA, art. 15",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre",
+        "Oui, avec un contrôle humain → Poursuivre sous condition",
+        "Oui, la décision est prise par l'outil seul → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Informer la personne concernée qu'une IA a contribué à la décision, et vérifier A6 (voie de contestation)."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "A6",
+      "author": "Ahmed",
+      "form": "unil",
+      "stage": 3,
+      "order": 7,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "A6. Si l’outil contribue à une décision concernant une personne, quelle procédure lui permet de demander une explication et un réexamen humain ?",
+        "☐ Une procédure opérationnelle permet un réexamen par une personne habilitée à modifier la décision ; ☐ Une procédure doit être mise en place avant les décisions concernées ; ☐ Aucune procédure n’est prévue ; ☐ L’outil ne contribue pas à des décisions concernant des personnes ; ☐ À vérifier.",
+        "Précisez le contact, les modalités, les délais, les pouvoirs du réviseur et la manière dont les personnes seront informées. Joignez la procédure ou désignez le responsable de sa préparation.",
+        "Suite : examiner les garanties et recours applicables à la décision. Si une garantie requise est absente, elle doit être mise en place avant les décisions concernées. L’existence d’un simple contact humain ne suffit pas. Articulation avec I8 : I8 concerne la prise de décision ; A6 concerne son explication et sa contestation.",
+        "Base légale et référence : Convention-cadre du Conseil de l’Europe sur l’IA, art. 14 et 15, comme référence pour les recours et garanties procédurales. Vérifier son statut, son applicabilité et sa mise en œuvre ; la signature suisse ne suffit pas à établir une obligation directement applicable à l’UNIL. Identifier également les règles de procédure et de protection des données effectivement applicables à la décision et, le cas échéant, l’art. 86 AI Act. Source de la convention : https://rm.coe.int/0900001680afae3c ; statut officiel : https://www.coe.int/en-GB/web/conventions/full-list2?module=treaty-detail&treatynum=225"
+      ],
+      "title": "A6. Si l’outil contribue à une décision concernant une personne, quelle procédure lui permet de demander une explication et un réexamen humain ?",
+      "legalBasisText": "Base légale et référence : Convention-cadre du Conseil de l’Europe sur l’IA, art. 14 et 15, comme référence pour les recours et garanties procédurales. Vérifier son statut, son applicabilité et sa mise en œuvre ; la signature suisse ne suffit pas à établir une obligation directement applicable à l’UNIL. Identifier également les règles de procédure et de protection des données effectivement applicables à la décision et, le cas échéant, l’art. 86 AI Act. Source de la convention : https://rm.coe.int/0900001680afae3c ; statut officiel : https://www.coe.int/en-GB/web/conventions/full-list2?module=treaty-detail&treatynum=225",
+      "sourceUrls": [
+        "https://rm.coe.int/0900001680afae3c",
+        "https://www.coe.int/en-GB/web/conventions/full-list2?module=treaty-detail&treatynum=225"
+      ],
+      "sourceResponseParagraphs": [
+        "☐ Une procédure opérationnelle permet un réexamen par une personne habilitée à modifier la décision ; ☐ Une procédure doit être mise en place avant les décisions concernées ; ☐ Aucune procédure n’est prévue ; ☐ L’outil ne contribue pas à des décisions concernant des personnes ; ☐ À vérifier."
+      ],
+      "sourceEvidenceParagraphs": [
+        "Précisez le contact, les modalités, les délais, les pouvoirs du réviseur et la manière dont les personnes seront informées. Joignez la procédure ou désignez le responsable de sa préparation."
+      ],
+      "sourceInstructionParagraphs": [
+        "Suite : examiner les garanties et recours applicables à la décision. Si une garantie requise est absente, elle doit être mise en place avant les décisions concernées. L’existence d’un simple contact humain ne suffit pas. Articulation avec I8 : I8 concerne la prise de décision ; A6 concerne son explication et sa contestation."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I6",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 8,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I6. Le traitement présente-t-il au moins 2 des caractéristiques suivantes ? (lignes directrices du G29 (droit européen) ; bonne pratique)",
+        "Évaluation ou scoring (y compris le profilage) ; décision automatique avec effet juridique ou similaire ; surveillance systématique ; données sensibles ou à caractère hautement personnel ; collecte à grande échelle ; croisement de données ; personnes vulnérables ; usage innovant (cochable par défaut pour un outil d'IA) ; exclusion du bénéfice d'un droit ou d'un contrat.",
+        "Oui : risque élevé → Poursuivre sous condition",
+        "Non → Poursuivre sous condition",
+        "Recommandation a : Rédiger une analyse d'impact relative à la protection des données (AIPD) avant la mise en service. Elle peut être menée avec l'analyse d'impact sur les droits fondamentaux (N6).",
+        "Recommandation b : Justifier par écrit pourquoi l'AIPD n'est pas nécessaire.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "I6. Le traitement présente-t-il au moins 2 des caractéristiques suivantes ? (lignes directrices du G29 (droit européen) ; bonne pratique)",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui : risque élevé → Poursuivre sous condition",
+        "Non → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Justifier par écrit pourquoi l'AIPD n'est pas nécessaire."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation a : Rédiger une analyse d'impact relative à la protection des données (AIPD) avant la mise en service. Elle peut être menée avec l'analyse d'impact sur les droits fondamentaux (N6).",
+        "Recommandation b : Justifier par écrit pourquoi l'AIPD n'est pas nécessaire."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "I7",
+      "author": "Iliana",
+      "form": "unil",
+      "stage": 3,
+      "order": 9,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "I7. Des données sensibles seront-elles traitées à grande échelle, ou des profils établis ?",
+        "Non → Poursuivre",
+        "Oui → Poursuivre sous condition",
+        "Recommandation b : Mettre en place une journalisation des traitements (qui a fait quoi, et quand) et vérifier D13 et D14 du questionnaire fournisseur.",
+        "Base légale : bonne pratique inspirée de l'art. 4 OPDo"
+      ],
+      "title": "I7. Des données sensibles seront-elles traitées à grande échelle, ou des profils établis ?",
+      "legalBasisText": "Base légale : bonne pratique inspirée de l'art. 4 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Non → Poursuivre", "Oui → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Mettre en place une journalisation des traitements (qui a fait quoi, et quand) et vérifier D13 et D14 du questionnaire fournisseur."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Mettre en place une journalisation des traitements (qui a fait quoi, et quand) et vérifier D13 et D14 du questionnaire fournisseur."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M1",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 1,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M1. L'outil est-il payant ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition : pas de marché public, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)",
+        "Non, mais le fournisseur utilise des données de l'UNIL → Poursuivre sous condition",
+        "Recommandation b : Pas de marché public, car le fournisseur doit fournir une prestation pour que l'art. 8 AIMP s'applique. Vérifier les conditions d'utilisation, car un outil gratuit peut poser des problèmes de droit d'auteur ou de confidentialité.",
+        "Recommandation c : Traiter l'achat comme un marché par prudence et consulter le service juridique : en donnant ses données à un seul fournisseur sans mise en concurrence, l'UNIL lui accorde un avantage économique réel.",
+        "Base légale : art. 8 AIMP"
+      ],
+      "title": "M1. L'outil est-il payant ?",
+      "legalBasisText": "Base légale : art. 8 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition : pas de marché public, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)",
+        "Non, mais le fournisseur utilise des données de l'UNIL → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Non → Poursuivre sous condition : pas de marché public, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)",
+        "Non, mais le fournisseur utilise des données de l'UNIL → Poursuivre sous condition",
+        "Recommandation b : Pas de marché public, car le fournisseur doit fournir une prestation pour que l'art. 8 AIMP s'applique. Vérifier les conditions d'utilisation, car un outil gratuit peut poser des problèmes de droit d'auteur ou de confidentialité.",
+        "Recommandation c : Traiter l'achat comme un marché par prudence et consulter le service juridique : en donnant ses données à un seul fournisseur sans mise en concurrence, l'UNIL lui accorde un avantage économique réel."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Pas de marché public, car le fournisseur doit fournir une prestation pour que l'art. 8 AIMP s'applique. Vérifier les conditions d'utilisation, car un outil gratuit peut poser des problèmes de droit d'auteur ou de confidentialité.",
+        "Recommandation c : Traiter l'achat comme un marché par prudence et consulter le service juridique : en donnant ses données à un seul fournisseur sans mise en concurrence, l'UNIL lui accorde un avantage économique réel."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M2",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 2,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M2. Un contrat existant couvre-t-il déjà cet outil (licence campus, contrat-cadre) ?",
+        "Non → Poursuivre",
+        "Oui → Poursuivre sous condition : pas de nouvelle procédure, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)",
+        "Recommandation b : Vérifier que le contrat existant interdit la réutilisation des données de l'UNIL et garantit la confidentialité, car il a pu être signé avant que l'outil intègre de l'IA.",
+        "Base légale : art. 25 AIMP"
+      ],
+      "title": "M2. Un contrat existant couvre-t-il déjà cet outil (licence campus, contrat-cadre) ?",
+      "legalBasisText": "Base légale : art. 25 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre",
+        "Oui → Poursuivre sous condition : pas de nouvelle procédure, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui → Poursuivre sous condition : pas de nouvelle procédure, sauter les parties B et C, ainsi que M10 à M13 et M16 à M19 du questionnaire fournisseur (garder M14, M15 et la partie F)"
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Vérifier que le contrat existant interdit la réutilisation des données de l'UNIL et garantit la confidentialité, car il a pu être signé avant que l'outil intègre de l'IA."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M3",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 3,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M3. Avec qui l'UNIL signe-t-elle le contrat ?",
+        "Directement avec le fournisseur du modèle → Poursuivre",
+        "Avec un intermédiaire qui intègre le modèle d'un tiers → Poursuivre sous condition",
+        "Recommandation b : Exiger que l'intermédiaire garantisse par écrit que le fournisseur du modèle respecte les mêmes engagements : documentation, confidentialité, droit d'auteur, non-réutilisation des données et propriété des résultats. Sans cette garantie, l'offre est écartée, car l'UNIL n'a aucun contrat avec celui qui contrôle réellement le modèle.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "M3. Avec qui l'UNIL signe-t-elle le contrat ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Directement avec le fournisseur du modèle → Poursuivre",
+        "Avec un intermédiaire qui intègre le modèle d'un tiers → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Directement avec le fournisseur du modèle → Poursuivre",
+        "Recommandation b : Exiger que l'intermédiaire garantisse par écrit que le fournisseur du modèle respecte les mêmes engagements : documentation, confidentialité, droit d'auteur, non-réutilisation des données et propriété des résultats. Sans cette garantie, l'offre est écartée, car l'UNIL n'a aucun contrat avec celui qui contrôle réellement le modèle."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger que l'intermédiaire garantisse par écrit que le fournisseur du modèle respecte les mêmes engagements : documentation, confidentialité, droit d'auteur, non-réutilisation des données et propriété des résultats. Sans cette garantie, l'offre est écartée, car l'UNIL n'a aucun contrat avec celui qui contrôle réellement le modèle."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M4",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 4,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M4. Quelle est la valeur totale du marché, hors TVA ?",
+        "Valeur totale = prix × durée du contrat, options de prolongation comprises. Abonnement sans date de fin : montant mensuel × 48 (art. 15 al. 4 AIMP).",
+        "Moins de 150'000 CHF → Poursuivre : gré à gré",
+        "De 150'000 à 249'999 CHF → Poursuivre : procédure sur invitation",
+        "De 250'000 à 349'999 CHF → Poursuivre : procédure ouverte ou sélective",
+        "350'000 CHF ou plus → Poursuivre : procédure ouverte ou sélective, soumise aux traités internationaux",
+        "Recommandation b, c et d : Documenter chaque étape et chaque décision, car un fournisseur écarté peut faire recours dès 150'000 CHF (art. 52 AIMP).",
+        "Recommandation d : Prévoir des délais plus longs et s'attendre à des offres étrangères, car le marché est ouvert à la concurrence internationale.",
+        "Base légale : art. 15 à 21 et annexe 2 AIMP"
+      ],
+      "title": "M4. Quelle est la valeur totale du marché, hors TVA ?",
+      "legalBasisText": "Base légale : art. 15 à 21 et annexe 2 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Moins de 150'000 CHF → Poursuivre : gré à gré",
+        "De 150'000 à 249'999 CHF → Poursuivre : procédure sur invitation",
+        "De 250'000 à 349'999 CHF → Poursuivre : procédure ouverte ou sélective",
+        "350'000 CHF ou plus → Poursuivre : procédure ouverte ou sélective, soumise aux traités internationaux"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b, c et d : Documenter chaque étape et chaque décision, car un fournisseur écarté peut faire recours dès 150'000 CHF (art. 52 AIMP)."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b, c et d : Documenter chaque étape et chaque décision, car un fournisseur écarté peut faire recours dès 150'000 CHF (art. 52 AIMP).",
+        "Recommandation d : Prévoir des délais plus longs et s'attendre à des offres étrangères, car le marché est ouvert à la concurrence internationale."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M5",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 5,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M5. Cet achat fait-il partie d'un projet plus large divisé en plusieurs achats ?",
+        "Non → Poursuivre",
+        "Oui, et le découpage est maintenu → Ne pas poursuivre",
+        "Recommandation b : Additionner les montants de tous les achats pour déterminer la procédure, car fractionner un marché pour passer sous un seuil est interdit.",
+        "Base légale : art. 15 al. 2 AIMP"
+      ],
+      "title": "M5. Cet achat fait-il partie d'un projet plus large divisé en plusieurs achats ?",
+      "legalBasisText": "Base légale : art. 15 al. 2 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre",
+        "Oui, et le découpage est maintenu → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Additionner les montants de tous les achats pour déterminer la procédure, car fractionner un marché pour passer sous un seuil est interdit."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M6",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 6,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M6. Si le marché atteint 150'000 CHF, un seul fournisseur peut-il techniquement fournir la prestation ?",
+        "Non → Poursuivre : procédure normale selon le montant",
+        "Oui → Poursuivre sous condition : gré à gré exceptionnel possible",
+        "Le marché n'atteint pas 150'000 CHF → Poursuivre : procédure normale selon le montant",
+        "Recommandation b : Rédiger une justification écrite. Exiger aussi que l'UNIL puisse récupérer ses données dans un format réutilisable en fin de contrat, car elle risque de devenir dépendante de ce fournisseur.",
+        "Base légale : art. 21 al. 2 AIMP"
+      ],
+      "title": "M6. Si le marché atteint 150'000 CHF, un seul fournisseur peut-il techniquement fournir la prestation ?",
+      "legalBasisText": "Base légale : art. 21 al. 2 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre : procédure normale selon le montant",
+        "Oui → Poursuivre sous condition : gré à gré exceptionnel possible",
+        "Le marché n'atteint pas 150'000 CHF → Poursuivre : procédure normale selon le montant"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Rédiger une justification écrite. Exiger aussi que l'UNIL puisse récupérer ses données dans un format réutilisable en fin de contrat, car elle risque de devenir dépendante de ce fournisseur."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Rédiger une justification écrite. Exiger aussi que l'UNIL puisse récupérer ses données dans un format réutilisable en fin de contrat, car elle risque de devenir dépendante de ce fournisseur."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M7",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 7,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M7. Si le marché atteint 150'000 CHF, le cahier des charges impose-t-il une marque précise ?",
+        "Non → Poursuivre",
+        "Oui, avec la mention « ou équivalent » → Poursuivre",
+        "Oui, sans la mention « ou équivalent » → Ne pas poursuivre",
+        "Recommandation c : Ajouter « ou équivalent » avant publication, car imposer une marque exclut les concurrents sans raison.",
+        "Base légale : art. 30 AIMP"
+      ],
+      "title": "M7. Si le marché atteint 150'000 CHF, le cahier des charges impose-t-il une marque précise ?",
+      "legalBasisText": "Base légale : art. 30 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre",
+        "Oui, avec la mention « ou équivalent » → Poursuivre",
+        "Oui, sans la mention « ou équivalent » → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Ajouter « ou équivalent » avant publication, car imposer une marque exclut les concurrents sans raison."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M8",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 8,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M8. Si le marché atteint 150'000 CHF, les critères et leur pondération sont-ils publiés avant la réception des offres ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Les publier avant la réception des offres, pour que tous les fournisseurs soient évalués selon les mêmes règles.",
+        "Base légale : art. 29 al. 3 AIMP"
+      ],
+      "title": "M8. Si le marché atteint 150'000 CHF, les critères et leur pondération sont-ils publiés avant la réception des offres ?",
+      "legalBasisText": "Base légale : art. 29 al. 3 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Les publier avant la réception des offres, pour que tous les fournisseurs soient évalués selon les mêmes règles."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Les publier avant la réception des offres, pour que tous les fournisseurs soient évalués selon les mêmes règles."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M9",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 9,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M9. Si le marché atteint 150'000 CHF, le prix est-il le seul critère ?",
+        "Non → Poursuivre",
+        "Oui → Ne pas poursuivre",
+        "Recommandation b : Ajouter des critères de qualité, car le prix seul n'est admis que pour les prestations standardisées. Deux outils d'IA au même prix peuvent présenter des risques très différents.",
+        "Base légale : art. 29 al. 4 AIMP"
+      ],
+      "title": "M9. Si le marché atteint 150'000 CHF, le prix est-il le seul critère ?",
+      "legalBasisText": "Base légale : art. 29 al. 4 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Non → Poursuivre", "Oui → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Ajouter des critères de qualité, car le prix seul n'est admis que pour les prestations standardisées. Deux outils d'IA au même prix peuvent présenter des risques très différents."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M9a",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 10,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M9a. Le cahier des charges exige-t-il que les travaux des étudiants et des chercheurs saisis dans l'outil restent leur propriété, et que l'UNIL puisse utiliser librement les résultats produits ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Ajouter cette exigence avant publication, car l'auteur d'une œuvre est la personne qui l'a créée. Le fournisseur ne doit acquérir aucun droit sur les mémoires, thèses ou articles saisis dans l'outil.",
+        "Base légale : art. 6 LDA"
+      ],
+      "title": "M9a. Le cahier des charges exige-t-il que les travaux des étudiants et des chercheurs saisis dans l'outil restent leur propriété, et que l'UNIL puisse utiliser librement les résultats produits ?",
+      "legalBasisText": "Base légale : art. 6 LDA",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Ajouter cette exigence avant publication, car l'auteur d'une œuvre est la personne qui l'a créée. Le fournisseur ne doit acquérir aucun droit sur les mémoires, thèses ou articles saisis dans l'outil."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Ajouter cette exigence avant publication, car l'auteur d'une œuvre est la personne qui l'a créée. Le fournisseur ne doit acquérir aucun droit sur les mémoires, thèses ou articles saisis dans l'outil."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M9b",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 4,
+      "order": 11,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M9b. Le cahier des charges exige-t-il que le fournisseur du modèle respecte le droit d'auteur dans ses données d'entraînement ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Ajouter cette exigence avant publication, car l'AI Act impose aux fournisseurs de modèles d'IA à usage général une politique de respect du droit d'auteur. Elle protège l'UNIL contre le risque d'utiliser un outil entraîné sur des œuvres copiées sans autorisation.",
+        "Base légale : AI Act, art. 53 al. 1 let. c"
+      ],
+      "title": "M9b. Le cahier des charges exige-t-il que le fournisseur du modèle respecte le droit d'auteur dans ses données d'entraînement ?",
+      "legalBasisText": "Base légale : AI Act, art. 53 al. 1 let. c",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Ajouter cette exigence avant publication, car l'AI Act impose aux fournisseurs de modèles d'IA à usage général une politique de respect du droit d'auteur. Elle protège l'UNIL contre le risque d'utiliser un outil entraîné sur des œuvres copiées sans autorisation."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Ajouter cette exigence avant publication, car l'AI Act impose aux fournisseurs de modèles d'IA à usage général une politique de respect du droit d'auteur. Elle protège l'UNIL contre le risque d'utiliser un outil entraîné sur des œuvres copiées sans autorisation."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M10",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 1,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M10. Faites-vous l'objet d'un motif d'exclusion (faillite, impôts impayés, fausses déclarations) ?",
+        "Non, attestations fournies → Poursuivre",
+        "Oui → Poursuivre sous condition",
+        "Recommandation b : L'UNIL décide d'exclure ou non et justifie sa décision par écrit, car l'art. 44 AIMP permet l'exclusion sans l'imposer.",
+        "Base légale : art. 44 AIMP"
+      ],
+      "title": "M10. Faites-vous l'objet d'un motif d'exclusion (faillite, impôts impayés, fausses déclarations) ?",
+      "legalBasisText": "Base légale : art. 44 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non, attestations fournies → Poursuivre",
+        "Oui → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Non, attestations fournies → Poursuivre",
+        "Recommandation b : L'UNIL décide d'exclure ou non et justifie sa décision par écrit, car l'art. 44 AIMP permet l'exclusion sans l'imposer."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : L'UNIL décide d'exclure ou non et justifie sa décision par écrit, car l'art. 44 AIMP permet l'exclusion sans l'imposer."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M11",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 2,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M11. Respectez-vous la protection des travailleurs et l'égalité salariale ?",
+        "Oui, attestation fournie → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Écarter le fournisseur, car ce respect est une condition de participation.",
+        "Base légale : art. 12 et 26 AIMP"
+      ],
+      "title": "M11. Respectez-vous la protection des travailleurs et l'égalité salariale ?",
+      "legalBasisText": "Base légale : art. 12 et 26 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, attestation fournie → Poursuivre",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui, attestation fournie → Poursuivre",
+        "Recommandation b : Écarter le fournisseur, car ce respect est une condition de participation."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car ce respect est une condition de participation."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M12",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 3,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M12. Pouvez-vous prouver votre solidité financière ?",
+        "Oui, comptes ou justificatifs fournis → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Écarter le fournisseur, car sa faillite couperait l'accès à l'outil et aux données de l'UNIL.",
+        "Base légale : art. 27 AIMP"
+      ],
+      "title": "M12. Pouvez-vous prouver votre solidité financière ?",
+      "legalBasisText": "Base légale : art. 27 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, comptes ou justificatifs fournis → Poursuivre",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui, comptes ou justificatifs fournis → Poursuivre",
+        "Recommandation b : Écarter le fournisseur, car sa faillite couperait l'accès à l'outil et aux données de l'UNIL."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car sa faillite couperait l'accès à l'outil et aux données de l'UNIL."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M13",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 4,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M13. Fournissez-vous au moins deux références comparables (universités, institutions publiques) ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Écarter le fournisseur, car rien ne prouve qu'il sait répondre aux besoins d'une institution publique.",
+        "Base légale : art. 27 AIMP"
+      ],
+      "title": "M13. Fournissez-vous au moins deux références comparables (universités, institutions publiques) ?",
+      "legalBasisText": "Base légale : art. 27 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car rien ne prouve qu'il sait répondre aux besoins d'une institution publique."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car rien ne prouve qu'il sait répondre aux besoins d'une institution publique."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M14",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 5,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M14. Êtes-vous certifié ISO 27001 ?",
+        "Oui → Poursuivre",
+        "Non, mais une preuve équivalente est fournie (par exemple un rapport d'audit externe de type SOC 2) → Poursuivre",
+        "En cours → Poursuivre sous condition",
+        "Non, sans preuve équivalente, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, sans preuve équivalente, et l'outil n'est pas à haut risque → Poursuivre sous condition",
+        "Recommandation c : Fixer dans le contrat un délai pour obtenir la certification.",
+        "Recommandation e : Demander au fournisseur de décrire ses mesures de sécurité et les faire vérifier par le service informatique.",
+        "Base légale : art. 27 AIMP"
+      ],
+      "title": "M14. Êtes-vous certifié ISO 27001 ?",
+      "legalBasisText": "Base légale : art. 27 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non, mais une preuve équivalente est fournie (par exemple un rapport d'audit externe de type SOC 2) → Poursuivre",
+        "En cours → Poursuivre sous condition",
+        "Non, sans preuve équivalente, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, sans preuve équivalente, et l'outil n'est pas à haut risque → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Non, mais une preuve équivalente est fournie (par exemple un rapport d'audit externe de type SOC 2) → Poursuivre",
+        "Non, sans preuve équivalente, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, sans preuve équivalente, et l'outil n'est pas à haut risque → Poursuivre sous condition",
+        "Recommandation e : Demander au fournisseur de décrire ses mesures de sécurité et les faire vérifier par le service informatique."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Fixer dans le contrat un délai pour obtenir la certification.",
+        "Recommandation e : Demander au fournisseur de décrire ses mesures de sécurité et les faire vérifier par le service informatique."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M15",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 6,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M15. Avez-vous un système de gestion de l'IA (ISO/IEC 42001 ou équivalent) ?",
+        "Oui → Poursuivre",
+        "Équivalent démontré → Poursuivre",
+        "Non, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, et l'outil n'est pas à haut risque → Poursuivre sous condition",
+        "Recommandation d : Demander au fournisseur comment il contrôle les risques de son modèle (tests, surveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis.",
+        "Base légale : art. 27 AIMP"
+      ],
+      "title": "M15. Avez-vous un système de gestion de l'IA (ISO/IEC 42001 ou équivalent) ?",
+      "legalBasisText": "Base légale : art. 27 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Équivalent démontré → Poursuivre",
+        "Non, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, et l'outil n'est pas à haut risque → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation d : Demander au fournisseur comment il contrôle les risques de son modèle (tests, surveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation d : Demander au fournisseur comment il contrôle les risques de son modèle (tests, surveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "T1",
+      "author": "Ahmed",
+      "form": "supplier",
+      "stage": 5,
+      "order": 7,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "T1. Quelle qualification retenez-vous pour ce système au regard de l’AI Act, et pour quels usages ?",
+        "Réponse du fournisseur : indiquez la finalité prévue, les usages couverts et exclus, la qualification retenue, son raisonnement et les documents justificatifs. Identifiez le système et sa version.",
+        "☐ Qualification et justification fournies ; ☐ Analyse en cours : préciser l’échéance ; ☐ Aucune justification disponible ; ☐ Applicabilité de l’AI Act contestée : expliquer.",
+        "Si vous invoquez une exception au classement à haut risque pour un usage de l’annexe III, précisez les conditions invoquées et fournissez l’évaluation documentée correspondante.",
+        "Examen distinct réservé à l’UNIL : la qualification et les usages décrits sont-ils compatibles avec l’utilisation prévue et les faits recueillis en N3 ? ☐ Oui, avec justification ; ☐ Divergence à résoudre ; ☐ Informations insuffisantes. Consigner l’analyse, le validateur et les actions restantes.",
+        "Suite : une divergence ne permet pas de désactiver les exigences haut risque sans examen motivé. Continuer la collecte ; confirmer la qualification, les obligations et les dates applicables avant l’engagement ou l’usage qui exige leur respect. L’absence de justification ne se résout pas par une simple négociation commerciale.",
+        "Base légale : AI Act, art. 3 sur la finalité prévue, art. 6 par. 3 et 4 sur les conditions et la documentation de certaines exceptions pour l’annexe III, et art. 25 sur certains changements de rôle ou de finalité ; vérifier art. 2 et calendrier applicable. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689"
+      ],
+      "title": "T1. Quelle qualification retenez-vous pour ce système au regard de l’AI Act, et pour quels usages ?",
+      "legalBasisText": "Base légale : AI Act, art. 3 sur la finalité prévue, art. 6 par. 3 et 4 sur les conditions et la documentation de certaines exceptions pour l’annexe III, et art. 25 sur certains changements de rôle ou de finalité ; vérifier art. 2 et calendrier applicable. Source officielle : https://eur-lex.europa.eu/eli/reg/2024/1689",
+      "sourceUrls": ["https://eur-lex.europa.eu/eli/reg/2024/1689"],
+      "sourceResponseParagraphs": [
+        "☐ Qualification et justification fournies ; ☐ Analyse en cours : préciser l’échéance ; ☐ Aucune justification disponible ; ☐ Applicabilité de l’AI Act contestée : expliquer.",
+        "Examen distinct réservé à l’UNIL : la qualification et les usages décrits sont-ils compatibles avec l’utilisation prévue et les faits recueillis en N3 ? ☐ Oui, avec justification ; ☐ Divergence à résoudre ; ☐ Informations insuffisantes. Consigner l’analyse, le validateur et les actions restantes."
+      ],
+      "sourceEvidenceParagraphs": [
+        "Réponse du fournisseur : indiquez la finalité prévue, les usages couverts et exclus, la qualification retenue, son raisonnement et les documents justificatifs. Identifiez le système et sa version.",
+        "☐ Qualification et justification fournies ; ☐ Analyse en cours : préciser l’échéance ; ☐ Aucune justification disponible ; ☐ Applicabilité de l’AI Act contestée : expliquer.",
+        "Si vous invoquez une exception au classement à haut risque pour un usage de l’annexe III, précisez les conditions invoquées et fournissez l’évaluation documentée correspondante.",
+        "Examen distinct réservé à l’UNIL : la qualification et les usages décrits sont-ils compatibles avec l’utilisation prévue et les faits recueillis en N3 ? ☐ Oui, avec justification ; ☐ Divergence à résoudre ; ☐ Informations insuffisantes. Consigner l’analyse, le validateur et les actions restantes.",
+        "Suite : une divergence ne permet pas de désactiver les exigences haut risque sans examen motivé. Continuer la collecte ; confirmer la qualification, les obligations et les dates applicables avant l’engagement ou l’usage qui exige leur respect. L’absence de justification ne se résout pas par une simple négociation commerciale."
+      ],
+      "sourceInstructionParagraphs": [
+        "Examen distinct réservé à l’UNIL : la qualification et les usages décrits sont-ils compatibles avec l’utilisation prévue et les faits recueillis en N3 ? ☐ Oui, avec justification ; ☐ Divergence à résoudre ; ☐ Informations insuffisantes. Consigner l’analyse, le validateur et les actions restantes.",
+        "Suite : une divergence ne permet pas de désactiver les exigences haut risque sans examen motivé. Continuer la collecte ; confirmer la qualification, les obligations et les dates applicables avant l’engagement ou l’usage qui exige leur respect. L’absence de justification ne se résout pas par une simple négociation commerciale."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "T2",
+      "author": "Ahmed",
+      "form": "supplier",
+      "stage": 5,
+      "order": 8,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "ahmed-corrected",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "T2. Quel droit et quels mécanismes de règlement des litiges le contrat prévoit-il ?",
+        "T2a — Quel droit régit le contrat proposé ? ☐ Droit suisse ; ☐ Autre droit : préciser ; ☐ Non précisé ; ☐ À négocier.",
+        "T2b — Quels tribunaux ou mécanismes de règlement des litiges sont prévus ? ☐ Tribunaux en Suisse : préciser ; ☐ Tribunaux à l’étranger : préciser ; ☐ Arbitrage : préciser ; ☐ Non précisé ; ☐ À négocier.",
+        "Joignez la clause et identifiez les éventuelles dispositions contradictoires dans les conditions générales ou documents incorporés.",
+        "Examen UNIL : vérifier ces clauses, les règles impératives, les exigences institutionnelles confirmées et l’autorité habilitée à les accepter. ☐ Clauses validées ; ☐ Modification ou avis requis. Consigner la justification.",
+        "Suite : poursuivre l’analyse ; obtenir la validation ou modifier les clauses avant signature. Le droit suisse et un for en Suisse peuvent être des objectifs de négociation ou des exigences institutionnelles à confirmer ; leur absence ne démontre pas, à elle seule, l’illégalité du contrat.",
+        "Base légale : pour les contrats internationaux de droit privé, LDIP, art. 116 et 117 sur le droit applicable ; apprécier séparément la compétence juridictionnelle selon les règles et conventions pertinentes, notamment la Convention de Lugano lorsqu’elle s’applique, ainsi que les règles propres à la nature du contrat. Aucun principe universel imposant droit suisse et tribunal suisse à tout contrat UNIL n’est présumé ici. Texte officiel LDIP : https://www.fedlex.admin.ch/eli/cc/1988/1776_1776_1776/fr"
+      ],
+      "title": "T2. Quel droit et quels mécanismes de règlement des litiges le contrat prévoit-il ?",
+      "legalBasisText": "Base légale : pour les contrats internationaux de droit privé, LDIP, art. 116 et 117 sur le droit applicable ; apprécier séparément la compétence juridictionnelle selon les règles et conventions pertinentes, notamment la Convention de Lugano lorsqu’elle s’applique, ainsi que les règles propres à la nature du contrat. Aucun principe universel imposant droit suisse et tribunal suisse à tout contrat UNIL n’est présumé ici. Texte officiel LDIP : https://www.fedlex.admin.ch/eli/cc/1988/1776_1776_1776/fr",
+      "sourceUrls": ["https://www.fedlex.admin.ch/eli/cc/1988/1776_1776_1776/fr"],
+      "sourceResponseParagraphs": [
+        "T2a — Quel droit régit le contrat proposé ? ☐ Droit suisse ; ☐ Autre droit : préciser ; ☐ Non précisé ; ☐ À négocier.",
+        "T2b — Quels tribunaux ou mécanismes de règlement des litiges sont prévus ? ☐ Tribunaux en Suisse : préciser ; ☐ Tribunaux à l’étranger : préciser ; ☐ Arbitrage : préciser ; ☐ Non précisé ; ☐ À négocier.",
+        "Examen UNIL : vérifier ces clauses, les règles impératives, les exigences institutionnelles confirmées et l’autorité habilitée à les accepter. ☐ Clauses validées ; ☐ Modification ou avis requis. Consigner la justification."
+      ],
+      "sourceEvidenceParagraphs": [
+        "Joignez la clause et identifiez les éventuelles dispositions contradictoires dans les conditions générales ou documents incorporés.",
+        "Examen UNIL : vérifier ces clauses, les règles impératives, les exigences institutionnelles confirmées et l’autorité habilitée à les accepter. ☐ Clauses validées ; ☐ Modification ou avis requis. Consigner la justification."
+      ],
+      "sourceInstructionParagraphs": [
+        "Examen UNIL : vérifier ces clauses, les règles impératives, les exigences institutionnelles confirmées et l’autorité habilitée à les accepter. ☐ Clauses validées ; ☐ Modification ou avis requis. Consigner la justification.",
+        "Suite : poursuivre l’analyse ; obtenir la validation ou modifier les clauses avant signature. Le droit suisse et un for en Suisse peuvent être des objectifs de négociation ou des exigences institutionnelles à confirmer ; leur absence ne démontre pas, à elle seule, l’illégalité du contrat."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D1",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 9,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D1. Pour des données personnelles ordinaires, où se trouvent le fournisseur (sous-traitant) et sa maison mère ?",
+        "En Suisse (nLPD, OPDo, LPrD) → Poursuivre",
+        "Dans l'Union européenne (RGPD, AI Act) → Poursuivre",
+        "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → Poursuivre sous condition",
+        "Aux États-Unis, entreprise certifiée Data Privacy Framework (DPF) → Poursuivre sous condition",
+        "Filiale suisse ou européenne d'un groupe soumis au droit américain → Poursuivre sous condition",
+        "Aux États-Unis, entreprise non certifiée DPF → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre",
+        "Recommandation c : Vérifier que la reconnaissance du pays couvre bien ce fournisseur (pour le Canada : seulement une entreprise privée exerçant une activité commerciale), et prévoir dans le contrat que les données ne sont pas transférées ailleurs sans l'accord de l'UNIL.",
+        "Recommandation d et e : Le transfert est légal (le DPF est reconnu par la Suisse depuis le 15 septembre 2024), mais le Cloud Act permet aux autorités américaines d'exiger les données. Interdire par contrat tout transfert sans l'accord de l'UNIL et faire détenir les clés de chiffrement par l'UNIL (D7).",
+        "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo"
+      ],
+      "title": "D1. Pour des données personnelles ordinaires, où se trouvent le fournisseur (sous-traitant) et sa maison mère ?",
+      "legalBasisText": "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "En Suisse (nLPD, OPDo, LPrD) → Poursuivre",
+        "Dans l'Union européenne (RGPD, AI Act) → Poursuivre",
+        "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → Poursuivre sous condition",
+        "Aux États-Unis, entreprise certifiée Data Privacy Framework (DPF) → Poursuivre sous condition",
+        "Filiale suisse ou européenne d'un groupe soumis au droit américain → Poursuivre sous condition",
+        "Aux États-Unis, entreprise non certifiée DPF → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation c : Vérifier que la reconnaissance du pays couvre bien ce fournisseur (pour le Canada : seulement une entreprise privée exerçant une activité commerciale), et prévoir dans le contrat que les données ne sont pas transférées ailleurs sans l'accord de l'UNIL."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Vérifier que la reconnaissance du pays couvre bien ce fournisseur (pour le Canada : seulement une entreprise privée exerçant une activité commerciale), et prévoir dans le contrat que les données ne sont pas transférées ailleurs sans l'accord de l'UNIL.",
+        "Recommandation d et e : Le transfert est légal (le DPF est reconnu par la Suisse depuis le 15 septembre 2024), mais le Cloud Act permet aux autorités américaines d'exiger les données. Interdire par contrat tout transfert sans l'accord de l'UNIL et faire détenir les clés de chiffrement par l'UNIL (D7)."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D2",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 10,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D2. Pour des données personnelles sensibles, où se trouvent le fournisseur (sous-traitant) et sa maison mère ?",
+        "En Suisse (nLPD, OPDo, LPrD) → Poursuivre",
+        "Dans l'Union européenne (RGPD, AI Act) → Poursuivre",
+        "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → Poursuivre sous condition",
+        "Aux États-Unis, entreprise certifiée DPF (soumise au Cloud Act) → Ne pas poursuivre",
+        "Filiale suisse ou européenne d'un groupe soumis au droit américain → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre",
+        "Recommandation c : Pour un fournisseur au Canada, vérifier qu'il s'agit d'une entreprise privée qui exerce une activité commerciale : c'est seulement dans ce cas que la loi canadienne sur la protection des données s'applique et que le Canada est reconnu comme sûr (annexe 1 OPDo). Prévoir dans le contrat que le fournisseur ne transfère pas les données ailleurs sans l'accord de l'UNIL, et demander l'avis du DPO de l'UNIL.",
+        "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo"
+      ],
+      "title": "D2. Pour des données personnelles sensibles, où se trouvent le fournisseur (sous-traitant) et sa maison mère ?",
+      "legalBasisText": "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "En Suisse (nLPD, OPDo, LPrD) → Poursuivre",
+        "Dans l'Union européenne (RGPD, AI Act) → Poursuivre",
+        "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → Poursuivre sous condition",
+        "Aux États-Unis, entreprise certifiée DPF (soumise au Cloud Act) → Ne pas poursuivre",
+        "Filiale suisse ou européenne d'un groupe soumis au droit américain → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation c : Pour un fournisseur au Canada, vérifier qu'il s'agit d'une entreprise privée qui exerce une activité commerciale : c'est seulement dans ce cas que la loi canadienne sur la protection des données s'applique et que le Canada est reconnu comme sûr (annexe 1 OPDo). Prévoir dans le contrat que le fournisseur ne transfère pas les données ailleurs sans l'accord de l'UNIL, et demander l'avis du DPO de l'UNIL."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Pour un fournisseur au Canada, vérifier qu'il s'agit d'une entreprise privée qui exerce une activité commerciale : c'est seulement dans ce cas que la loi canadienne sur la protection des données s'applique et que le Canada est reconnu comme sûr (annexe 1 OPDo). Prévoir dans le contrat que le fournisseur ne transfère pas les données ailleurs sans l'accord de l'UNIL, et demander l'avis du DPO de l'UNIL."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D3",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 11,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D3. Une fois la liste des données personnelles ordinaires dressée, où sont-elles traitées, stockées, sauvegardées ou consultées, y compris pour générer les réponses ?",
+        "En Suisse → Poursuivre",
+        "Dans un pays ou territoire reconnu par l'annexe 1 OPDo : États de l'EEE, Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay → Poursuivre",
+        "Aux États-Unis, par une entreprise certifiée selon le Swiss-U.S. Data Privacy Framework → Poursuivre sous condition",
+        "Dans un autre pays → Voir D5",
+        "Recommandation c : Même recommandation que D1 d et e.",
+        "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo"
+      ],
+      "title": "D3. Une fois la liste des données personnelles ordinaires dressée, où sont-elles traitées, stockées, sauvegardées ou consultées, y compris pour générer les réponses ?",
+      "legalBasisText": "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "En Suisse → Poursuivre",
+        "Dans un pays ou territoire reconnu par l'annexe 1 OPDo : États de l'EEE, Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay → Poursuivre",
+        "Aux États-Unis, par une entreprise certifiée selon le Swiss-U.S. Data Privacy Framework → Poursuivre sous condition",
+        "Dans un autre pays → Voir D5"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation c : Même recommandation que D1 d et e."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D4",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 12,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D4. Une fois la liste des données personnelles sensibles dressée, où sont-elles traitées, stockées, sauvegardées ou consultées ?",
+        "En Suisse → Poursuivre",
+        "Dans l'EEE → Poursuivre",
+        "Aux États-Unis, par une entreprise certifiée DPF → Ne pas poursuivre",
+        "Dans un autre pays soumis au droit américain → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre",
+        "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo"
+      ],
+      "title": "D4. Une fois la liste des données personnelles sensibles dressée, où sont-elles traitées, stockées, sauvegardées ou consultées ?",
+      "legalBasisText": "Base légale : art. 17 al. 1 LPrD ; annexe 1 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "En Suisse → Poursuivre",
+        "Dans l'EEE → Poursuivre",
+        "Aux États-Unis, par une entreprise certifiée DPF → Ne pas poursuivre",
+        "Dans un autre pays soumis au droit américain → Ne pas poursuivre",
+        "Dans un autre pays → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D5",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 13,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D5. Si une partie du traitement ou de l'accès aux données personnelles ordinaires a lieu ponctuellement dans un pays qui n'offre pas de protection adéquate, sur quelle base ce transfert repose-t-il ?",
+        "La personne concernée a donné son consentement, qui doit dans tous les cas être explicite → Poursuivre sous condition",
+        "La communication est nécessaire à l'exécution d'un contrat entre la personne concernée et le responsable du traitement, ou à des mesures précontractuelles prises à sa demande → Poursuivre sous condition",
+        "La communication est nécessaire à la conclusion ou à l'exécution d'un contrat conclu ou à conclure, dans l'intérêt de la personne concernée, entre le responsable du traitement et un tiers → Poursuivre sous condition",
+        "La communication est, en l'espèce, indispensable à la sauvegarde d'un intérêt public, ou à la constatation, l'exercice ou la défense d'un droit en justice → Poursuivre sous condition",
+        "La communication est, en l'espèce, nécessaire pour protéger la vie ou l'intégrité corporelle de la personne concernée → Poursuivre sous condition",
+        "La communication intervient d'un registre public destiné à l'information du public ou de toute personne justifiant d'un intérêt légitime, dans la mesure où les conditions légales de consultation sont remplies → Poursuivre sous condition",
+        "Des garanties suffisantes, notamment contractuelles, permettent d'assurer un niveau de protection adéquat à l'étranger → Poursuivre sous condition",
+        "Aucune de ces bases → Ne pas poursuivre",
+        "Recommandation a à f : Documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel.",
+        "Recommandation g : Annexer les garanties au contrat.",
+        "Base légale : art. 17 al. 2 LPrD"
+      ],
+      "title": "D5. Si une partie du traitement ou de l'accès aux données personnelles ordinaires a lieu ponctuellement dans un pays qui n'offre pas de protection adéquate, sur quelle base ce transfert repose-t-il ?",
+      "legalBasisText": "Base légale : art. 17 al. 2 LPrD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "La personne concernée a donné son consentement, qui doit dans tous les cas être explicite → Poursuivre sous condition",
+        "La communication est nécessaire à l'exécution d'un contrat entre la personne concernée et le responsable du traitement, ou à des mesures précontractuelles prises à sa demande → Poursuivre sous condition",
+        "La communication est nécessaire à la conclusion ou à l'exécution d'un contrat conclu ou à conclure, dans l'intérêt de la personne concernée, entre le responsable du traitement et un tiers → Poursuivre sous condition",
+        "La communication est, en l'espèce, indispensable à la sauvegarde d'un intérêt public, ou à la constatation, l'exercice ou la défense d'un droit en justice → Poursuivre sous condition",
+        "La communication est, en l'espèce, nécessaire pour protéger la vie ou l'intégrité corporelle de la personne concernée → Poursuivre sous condition",
+        "La communication intervient d'un registre public destiné à l'information du public ou de toute personne justifiant d'un intérêt légitime, dans la mesure où les conditions légales de consultation sont remplies → Poursuivre sous condition",
+        "Des garanties suffisantes, notamment contractuelles, permettent d'assurer un niveau de protection adéquat à l'étranger → Poursuivre sous condition",
+        "Aucune de ces bases → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "La communication intervient d'un registre public destiné à l'information du public ou de toute personne justifiant d'un intérêt légitime, dans la mesure où les conditions légales de consultation sont remplies → Poursuivre sous condition",
+        "Recommandation a à f : Documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation a à f : Documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel.",
+        "Recommandation g : Annexer les garanties au contrat."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D6",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 14,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D6. Les données seront-elles conservées sur une durée proportionnelle à l'objectif poursuivi ?",
+        "Oui, chaque catégorie de données est conservée selon ce que sa finalité exige → Poursuivre",
+        "Elles sont conservées « aussi longtemps que nécessaire » → Ne pas poursuivre",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "D6. Les données seront-elles conservées sur une durée proportionnelle à l'objectif poursuivi ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, chaque catégorie de données est conservée selon ce que sa finalité exige → Poursuivre",
+        "Elles sont conservées « aussi longtemps que nécessaire » → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D7",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 15,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D7. Les données sont-elles chiffrées, et qui détient les clés ?",
+        "Oui, au repos et en transit, avec des clés détenues par l'UNIL → Poursuivre",
+        "Oui, au repos et en transit, mais les clés restent chez le fournisseur → Poursuivre sous condition",
+        "Seulement en transit → Ne pas poursuivre",
+        "Non → Ne pas poursuivre",
+        "Preuve exigée : le protocole utilisé en transit (TLS 1.3 recommandé) et le standard de chiffrement au repos (AES-256 recommandé).",
+        "Recommandation b : Négocier la détention des clés par l'UNIL : celui qui détient la clé peut lire les données, et donc être obligé de les remettre à une autorité étrangère.",
+        "Base légale : art. 10 LPrD ; art. 8 nLPD"
+      ],
+      "title": "D7. Les données sont-elles chiffrées, et qui détient les clés ?",
+      "legalBasisText": "Base légale : art. 10 LPrD ; art. 8 nLPD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, au repos et en transit, avec des clés détenues par l'UNIL → Poursuivre",
+        "Oui, au repos et en transit, mais les clés restent chez le fournisseur → Poursuivre sous condition",
+        "Seulement en transit → Ne pas poursuivre",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui, au repos et en transit, mais les clés restent chez le fournisseur → Poursuivre sous condition",
+        "Preuve exigée : le protocole utilisé en transit (TLS 1.3 recommandé) et le standard de chiffrement au repos (AES-256 recommandé)."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Négocier la détention des clés par l'UNIL : celui qui détient la clé peut lire les données, et donc être obligé de les remettre à une autorité étrangère."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D8",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 16,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D8. Les données de l'UNIL (requêtes, documents, contenus générés) servent-elles à entraîner, améliorer ou évaluer des modèles d'IA ?",
+        "Jamais → Poursuivre",
+        "Seulement si l'UNIL l'active elle-même (désactivé par défaut) → Poursuivre",
+        "Activé par défaut, mais l'UNIL peut le désactiver pour tous ses utilisateurs → Poursuivre sous condition",
+        "Oui, sans possibilité de le désactiver → Ne pas poursuivre",
+        "Recommandation c : Exiger dans le contrat que l'option soit désactivée par défaut, pour ne pas dépendre d'un réglage oublié.",
+        "Base légale : art. 7 nLPD"
+      ],
+      "title": "D8. Les données de l'UNIL (requêtes, documents, contenus générés) servent-elles à entraîner, améliorer ou évaluer des modèles d'IA ?",
+      "legalBasisText": "Base légale : art. 7 nLPD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Jamais → Poursuivre",
+        "Seulement si l'UNIL l'active elle-même (désactivé par défaut) → Poursuivre",
+        "Activé par défaut, mais l'UNIL peut le désactiver pour tous ses utilisateurs → Poursuivre sous condition",
+        "Oui, sans possibilité de le désactiver → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Exiger dans le contrat que l'option soit désactivée par défaut, pour ne pas dépendre d'un réglage oublié."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D9",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 17,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D9. Le fournisseur (sous-traitant) aide-t-il l'UNIL à répondre aux personnes qui exercent leurs droits (information, accès, rectification, suppression) ?",
+        "Oui, une personne de contact est désignée → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "D9. Le fournisseur (sous-traitant) aide-t-il l'UNIL à répondre aux personnes qui exercent leurs droits (information, accès, rectification, suppression) ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, une personne de contact est désignée → Poursuivre",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D10",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 18,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D10. Quel est le délai pour tout accès, modification, exportation ou suppression des données d'une personne précise ?",
+        "Jusqu'à 10 jours ouvrables → Poursuivre",
+        "Possible, mais pas dans les sauvegardes ni les journaux → Poursuivre sous condition",
+        "Pas possible → Ne pas poursuivre",
+        "Recommandation b : Négocier la suppression dans les sauvegardes et les journaux, dans un délai fixé.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "D10. Quel est le délai pour tout accès, modification, exportation ou suppression des données d'une personne précise ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Jusqu'à 10 jours ouvrables → Poursuivre",
+        "Possible, mais pas dans les sauvegardes ni les journaux → Poursuivre sous condition",
+        "Pas possible → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Négocier la suppression dans les sauvegardes et les journaux, dans un délai fixé."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D11",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 19,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D11. En combien de temps l'UNIL est-elle informée en cas de violation de données ?",
+        "Entre 24 et 72 heures au maximum, avec le type de violation, les personnes et données touchées et les mesures prises → Poursuivre",
+        "Plus de 72 heures → Poursuivre sous condition",
+        "Recommandation b : Exiger une justification et négocier un délai plus court.",
+        "Base légale : art. 24 nLPD"
+      ],
+      "title": "D11. En combien de temps l'UNIL est-elle informée en cas de violation de données ?",
+      "legalBasisText": "Base légale : art. 24 nLPD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Entre 24 et 72 heures au maximum, avec le type de violation, les personnes et données touchées et les mesures prises → Poursuivre",
+        "Plus de 72 heures → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Exiger une justification et négocier un délai plus court."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger une justification et négocier un délai plus court."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D12",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 20,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D12. La confidentialité, l'intégrité, la disponibilité et la traçabilité sont-elles assurées par des mesures techniques et organisationnelles adéquates, prises à la fois par le fournisseur (sous-traitant) et par l'UNIL (responsable du traitement) ?",
+        "Oui, les mesures sont décrites pour chacun des objectifs et un audit est réalisé → Poursuivre",
+        "Oui, les mesures sont décrites, mais aucun audit n'est réalisé → Poursuivre sous condition",
+        "Oui, mais l'un des principes n'est pas couvert → Ne pas poursuivre",
+        "Pas de description détaillée des mesures, ou refus de les communiquer → Ne pas poursuivre",
+        "Recommandation b : Prévoir un audit du fournisseur.",
+        "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo"
+      ],
+      "title": "D12. La confidentialité, l'intégrité, la disponibilité et la traçabilité sont-elles assurées par des mesures techniques et organisationnelles adéquates, prises à la fois par le fournisseur (sous-traitant) et par l'UNIL (responsable du traitement) ?",
+      "legalBasisText": "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, les mesures sont décrites pour chacun des objectifs et un audit est réalisé → Poursuivre",
+        "Oui, les mesures sont décrites, mais aucun audit n'est réalisé → Poursuivre sous condition",
+        "Oui, mais l'un des principes n'est pas couvert → Ne pas poursuivre",
+        "Pas de description détaillée des mesures, ou refus de les communiquer → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": ["Recommandation b : Prévoir un audit du fournisseur."],
+      "sourceInstructionParagraphs": ["Recommandation b : Prévoir un audit du fournisseur."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D13",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 21,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D13. Quels événements sont journalisés, avec l'identité, la date, l'heure, la nature et le destinataire ?",
+        "Attendu : connexions ; accès aux données ; requêtes sous forme de métadonnées ; exports, partages et suppressions ; accès par le personnel du fournisseur ; changements de configuration.",
+        "Tous ces événements, sous forme de métadonnées → Poursuivre",
+        "Une partie seulement → Poursuivre sous condition",
+        "Le contenu des requêtes est journalisé → Ne pas poursuivre",
+        "Recommandation b : Compléter la liste des événements journalisés.",
+        "Base légale : art. 4 OPDo"
+      ],
+      "title": "D13. Quels événements sont journalisés, avec l'identité, la date, l'heure, la nature et le destinataire ?",
+      "legalBasisText": "Base légale : art. 4 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Tous ces événements, sous forme de métadonnées → Poursuivre",
+        "Une partie seulement → Poursuivre sous condition",
+        "Le contenu des requêtes est journalisé → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Attendu : connexions ; accès aux données ; requêtes sous forme de métadonnées ; exports, partages et suppressions ; accès par le personnel du fournisseur ; changements de configuration."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Compléter la liste des événements journalisés."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "D14",
+      "author": "Iliana",
+      "form": "supplier",
+      "stage": 5,
+      "order": 22,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "D14. Les journaux sont-ils mis à disposition de l'UNIL ?",
+        "Oui, pendant au moins 1 an → Poursuivre",
+        "Non, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, et l'outil n'est pas à haut risque → Poursuivre sous condition",
+        "Recommandation c : Prévoir la mise à disposition des journaux dans le contrat.",
+        "Base légale : art. 10 LPrD ; AI Act, art. 12 et 26 al. 6"
+      ],
+      "title": "D14. Les journaux sont-ils mis à disposition de l'UNIL ?",
+      "legalBasisText": "Base légale : art. 10 LPrD ; AI Act, art. 12 et 26 al. 6",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, pendant au moins 1 an → Poursuivre",
+        "Non, et l'outil est à haut risque → Ne pas poursuivre",
+        "Non, et l'outil n'est pas à haut risque → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Prévoir la mise à disposition des journaux dans le contrat."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S1",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 23,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S1. Si l'outil discute avec des personnes, leur dit-il clairement qu'elles parlent à une IA ?",
+        "Oui → Poursuivre",
+        "L'outil ne discute pas avec des personnes → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Base légale : AI Act, art. 50 al. 1"
+      ],
+      "title": "S1. Si l'outil discute avec des personnes, leur dit-il clairement qu'elles parlent à une IA ?",
+      "legalBasisText": "Base légale : AI Act, art. 50 al. 1",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "L'outil ne discute pas avec des personnes → Poursuivre",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S2",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 24,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S2. Si l'outil est à haut risque, a-t-il le marquage CE, ou le fournisseur s'engage-t-il à l'obtenir avant le 2 décembre 2027 ? (AI Act, art. 47 à 49 ; règlement (UE) 2026/1744)",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "S2. Si l'outil est à haut risque, a-t-il le marquage CE, ou le fournisseur s'engage-t-il à l'obtenir avant le 2 décembre 2027 ? (AI Act, art. 47 à 49 ; règlement (UE) 2026/1744)",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S3",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 25,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S3. Si l'outil est à haut risque, le fournisseur donne-t-il un mode d'emploi qui explique comment l'outil fonctionne, ses limites et son taux d'erreur, avec des tests à l'appui ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Base légale : AI Act, art. 13 et 15"
+      ],
+      "title": "S3. Si l'outil est à haut risque, le fournisseur donne-t-il un mode d'emploi qui explique comment l'outil fonctionne, ses limites et son taux d'erreur, avec des tests à l'appui ?",
+      "legalBasisText": "Base légale : AI Act, art. 13 et 15",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S4",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 26,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S4. Si l'outil est à haut risque, une personne peut-elle vérifier, corriger ou arrêter ses résultats ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Base légale : AI Act, art. 14"
+      ],
+      "title": "S4. Si l'outil est à haut risque, une personne peut-elle vérifier, corriger ou arrêter ses résultats ?",
+      "legalBasisText": "Base légale : AI Act, art. 14",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S5",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 27,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S5. Si l'outil est à haut risque, le fournisseur donne-t-il à l'UNIL les informations dont elle a besoin pour son analyse d'impact et pour expliquer une décision à une personne ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Base légale : AI Act, art. 13, 27 et 86"
+      ],
+      "title": "S5. Si l'outil est à haut risque, le fournisseur donne-t-il à l'UNIL les informations dont elle a besoin pour son analyse d'impact et pour expliquer une décision à une personne ?",
+      "legalBasisText": "Base légale : AI Act, art. 13, 27 et 86",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S6",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 28,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S6. Le fournisseur prévient-il l'UNIL avant de changer la liste de ses sous-traitants ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat.",
+        "Base légale : art. 18 LPrD ; art. 9 nLPD"
+      ],
+      "title": "S6. Le fournisseur prévient-il l'UNIL avant de changer la liste de ses sous-traitants ?",
+      "legalBasisText": "Base légale : art. 18 LPrD ; art. 9 nLPD",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger une clause dans le contrat."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S7",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 29,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S7. Les utilisateurs se connectent-ils avec leur compte UNIL (SWITCH edu-ID) ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger cette connexion.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "S7. Les utilisateurs se connectent-ils avec leur compte UNIL (SWITCH edu-ID) ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger cette connexion."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S8",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 30,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S8. L'accès du personnel du fournisseur aux données de l'UNIL est-il limité aux seules personnes qui en ont besoin ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "S8. L'accès du personnel du fournisseur aux données de l'UNIL est-il limité aux seules personnes qui en ont besoin ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger une clause dans le contrat."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S9",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 31,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S9. Des experts indépendants du fournisseur ont-ils déjà essayé d'attaquer l'outil pour trouver ses failles (red teaming), par exemple par injection de requêtes ou extraction de données ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger ces tests.",
+        "Base légale : AI Act, art. 15"
+      ],
+      "title": "S9. Des experts indépendants du fournisseur ont-ils déjà essayé d'attaquer l'outil pour trouver ses failles (red teaming), par exemple par injection de requêtes ou extraction de données ?",
+      "legalBasisText": "Base légale : AI Act, art. 15",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger ces tests."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S10",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 32,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S10. Le fournisseur prévient-il l'UNIL avant de modifier le modèle de façon importante ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat.",
+        "Base légale : AI Act, art. 43 al. 4"
+      ],
+      "title": "S10. Le fournisseur prévient-il l'UNIL avant de modifier le modèle de façon importante ?",
+      "legalBasisText": "Base légale : AI Act, art. 43 al. 4",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger une clause dans le contrat."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S11",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 33,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S11. Le fournisseur protège-t-il ses données d'entraînement contre l'empoisonnement, c'est-à-dire l'ajout de données piégées pour fausser les réponses de l'IA ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger des explications sur les mesures prises.",
+        "Base légale : AI Act, art. 15 al. 5"
+      ],
+      "title": "S11. Le fournisseur protège-t-il ses données d'entraînement contre l'empoisonnement, c'est-à-dire l'ajout de données piégées pour fausser les réponses de l'IA ?",
+      "legalBasisText": "Base légale : AI Act, art. 15 al. 5",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger des explications sur les mesures prises."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S12",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 34,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S12. Le fournisseur indique-t-il à quelle fréquence l'outil se trompe ou invente des informations (hallucinations), même s'il n'est pas à haut risque ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger ces chiffres, et les vérifier lors du test sur des cas réels de l'UNIL (M16).",
+        "Base légale : art. 30 AIMP"
+      ],
+      "title": "S12. Le fournisseur indique-t-il à quelle fréquence l'outil se trompe ou invente des informations (hallucinations), même s'il n'est pas à haut risque ?",
+      "legalBasisText": "Base légale : art. 30 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger ces chiffres, et les vérifier lors du test sur des cas réels de l'UNIL (M16)."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S13",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 35,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S13. L'outil fonctionne-t-il aussi bien en français qu'en anglais ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Tester l'outil en français avant de signer.",
+        "Base légale : RLUL, art. 13"
+      ],
+      "title": "S13. L'outil fonctionne-t-il aussi bien en français qu'en anglais ?",
+      "legalBasisText": "Base légale : RLUL, art. 13",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Tester l'outil en français avant de signer."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S14",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 36,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S14. L'outil peut-il agir seul dans d'autres systèmes de l'UNIL (envoyer des messages, modifier des fichiers, accéder à des bases de données) ?",
+        "Non → Poursuivre",
+        "Oui, mais chaque action doit être validée par l'utilisateur et l'UNIL peut désactiver ces fonctions → Poursuivre",
+        "Oui, sans validation possible → Ne pas poursuivre",
+        "Base légale : AI Act, art. 15 al. 5 ; OWASP LLM06"
+      ],
+      "title": "S14. L'outil peut-il agir seul dans d'autres systèmes de l'UNIL (envoyer des messages, modifier des fichiers, accéder à des bases de données) ?",
+      "legalBasisText": "Base légale : AI Act, art. 15 al. 5 ; OWASP LLM06",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Non → Poursuivre",
+        "Oui, mais chaque action doit être validée par l'utilisateur et l'UNIL peut désactiver ces fonctions → Poursuivre",
+        "Oui, sans validation possible → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S15",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 37,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S15. Le contrat garantit-il un taux de disponibilité de l'outil approprié ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat, avec un taux chiffré.",
+        "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo"
+      ],
+      "title": "S15. Le contrat garantit-il un taux de disponibilité de l'outil approprié ?",
+      "legalBasisText": "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger une clause dans le contrat, avec un taux chiffré."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S16",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 38,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S16. Le fournisseur a-t-il un plan de secours en cas de panne ou d'attaque ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger ce plan.",
+        "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo"
+      ],
+      "title": "S16. Le fournisseur a-t-il un plan de secours en cas de panne ou d'attaque ?",
+      "legalBasisText": "Base légale : art. 10 LPrD ; art. 8 nLPD ; art. 1 à 3 OPDo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger ce plan."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S17",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 39,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S17. Le fournisseur donne-t-il un contact pour que l'UNIL puisse signaler un problème technique ou un risque lié à l'IA ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat.",
+        "Base légale : AI Act, art. 26 al. 5"
+      ],
+      "title": "S17. Le fournisseur donne-t-il un contact pour que l'UNIL puisse signaler un problème technique ou un risque lié à l'IA ?",
+      "legalBasisText": "Base légale : AI Act, art. 26 al. 5",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger une clause dans le contrat."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S18",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 40,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S18. Le fournisseur fait-il tester sa sécurité par des experts externes (tests d'intrusion) au moins une fois par an ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger ces tests.",
+        "Base légale : art. 8 nLPD ; AI Act, art. 15"
+      ],
+      "title": "S18. Le fournisseur fait-il tester sa sécurité par des experts externes (tests d'intrusion) au moins une fois par an ?",
+      "legalBasisText": "Base légale : art. 8 nLPD ; AI Act, art. 15",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation b : Exiger ces tests."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S19",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 41,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S19. Le fournisseur a-t-il vérifié que l'outil traite tout le monde de la même façon, et en donne-t-il les résultats ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger un rapport de tests avant de signer.",
+        "Base légale : Cst., art. 8 ; AI Act, art. 10"
+      ],
+      "title": "S19. Le fournisseur a-t-il vérifié que l'outil traite tout le monde de la même façon, et en donne-t-il les résultats ?",
+      "legalBasisText": "Base légale : Cst., art. 8 ; AI Act, art. 10",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger un rapport de tests avant de signer."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S20",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 42,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S20. L'outil est-il utilisable par les personnes en situation de handicap ?",
+        "Oui → Poursuivre",
+        "Non, et l'outil est obligatoire → Ne pas poursuivre",
+        "Non, et l'outil est facultatif → Poursuivre sous condition",
+        "Recommandation c : Prévoir une autre solution accessible.",
+        "Base légale : Cst., art. 8 al. 2 ; CDPH, art. 9 et 24"
+      ],
+      "title": "S20. L'outil est-il utilisable par les personnes en situation de handicap ?",
+      "legalBasisText": "Base légale : Cst., art. 8 al. 2 ; CDPH, art. 9 et 24",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non, et l'outil est obligatoire → Ne pas poursuivre",
+        "Non, et l'outil est facultatif → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": ["Recommandation c : Prévoir une autre solution accessible."],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "S21",
+      "author": "Noée",
+      "form": "supplier",
+      "stage": 5,
+      "order": 43,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "S21. Le fournisseur garantit-il qu'il ne censure pas les sujets de recherche ou d'enseignement ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Exiger une clause dans le contrat : l'art. 15 al. 3 LUL impose de sauvegarder explicitement l'indépendance de l'enseignement et de la recherche dans les engagements contractuels.",
+        "Base légale : LUL, art. 15 al. 1 et 3 ; Cst., art. 20"
+      ],
+      "title": "S21. Le fournisseur garantit-il qu'il ne censure pas les sujets de recherche ou d'enseignement ?",
+      "legalBasisText": "Base légale : LUL, art. 15 al. 1 et 3 ; Cst., art. 20",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger une clause dans le contrat : l'art. 15 al. 3 LUL impose de sauvegarder explicitement l'indépendance de l'enseignement et de la recherche dans les engagements contractuels."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M16",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 44,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": ["Résultats des tests et attribution des points"],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M16. Acceptez-vous un test de l'outil sur des cas réels de l'UNIL ?",
+        "Oui → 0 à 5 points selon la précision des résultats",
+        "Non → 0 point",
+        "Base légale : art. 29 AIMP – qualité, 40 %"
+      ],
+      "title": "M16. Acceptez-vous un test de l'outil sur des cas réels de l'UNIL ?",
+      "legalBasisText": "Base légale : art. 29 AIMP – qualité, 40 %",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → 0 à 5 points selon la précision des résultats",
+        "Non → 0 point"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M17",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 45,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": ["Résultats des tests et attribution des points"],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M17. L'outil s'intègre-t-il dans le système informatique de l'UNIL ?",
+        "Complètement → 5 points",
+        "Partiellement → 3 points",
+        "Non → 0 point",
+        "Base légale : art. 29 AIMP – adéquation, 15 %"
+      ],
+      "title": "M17. L'outil s'intègre-t-il dans le système informatique de l'UNIL ?",
+      "legalBasisText": "Base légale : art. 29 AIMP – adéquation, 15 %",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Complètement → 5 points",
+        "Partiellement → 3 points",
+        "Non → 0 point"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M18",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 46,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": ["Résultats des tests et attribution des points"],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M18. Quel est le coût total sur toute la durée (licences, intégration, formation, sortie) ?",
+        "L'offre la moins chère obtient 5 points, les autres 5 × (coût le plus bas ÷ coût de l'offre).",
+        "Base légale : art. 29 al. 4 AIMP – coûts, 30 %"
+      ],
+      "title": "M18. Quel est le coût total sur toute la durée (licences, intégration, formation, sortie) ?",
+      "legalBasisText": "Base légale : art. 29 al. 4 AIMP – coûts, 30 %",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M19",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 47,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": ["Résultats des tests et attribution des points"],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M19. Pouvez-vous chiffrer l'impact environnemental de l'outil ?",
+        "Oui, chiffré → 5 points",
+        "Déclaration générale → 2 points",
+        "Non → 0 point",
+        "Base légale : art. 29 AIMP – développement durable, 15 %"
+      ],
+      "title": "M19. Pouvez-vous chiffrer l'impact environnemental de l'outil ?",
+      "legalBasisText": "Base légale : art. 29 AIMP – développement durable, 15 %",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, chiffré → 5 points",
+        "Déclaration générale → 2 points",
+        "Non → 0 point"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M20",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 48,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M20. Fournissez-vous la documentation du modèle (capacités, limites, données d'entraînement) ?",
+        "Oui → Poursuivre",
+        "Oui, avec modifications → Négocier",
+        "Non → Ne pas poursuivre",
+        "Recommandation c : Écarter le fournisseur, car sans documentation l'UNIL ne peut pas évaluer les risques de l'outil.",
+        "Base légale : AI Act, art. 53"
+      ],
+      "title": "M20. Fournissez-vous la documentation du modèle (capacités, limites, données d'entraînement) ?",
+      "legalBasisText": "Base légale : AI Act, art. 53",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Oui, avec modifications → Négocier",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation c : Écarter le fournisseur, car sans documentation l'UNIL ne peut pas évaluer les risques de l'outil."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation c : Écarter le fournisseur, car sans documentation l'UNIL ne peut pas évaluer les risques de l'outil."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M21",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 49,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M21. Acceptez-vous une confidentialité limitée par la loi sur l'information ?",
+        "Oui → Poursuivre",
+        "Non, confidentialité absolue → Ne pas poursuivre",
+        "Recommandation b : Refuser, car l'UNIL est soumise à la transparence et ne peut garder secret que ce que la LInfo permet.",
+        "Base légale : LInfo; art. 16 et 17 LInfo"
+      ],
+      "title": "M21. Acceptez-vous une confidentialité limitée par la loi sur l'information ?",
+      "legalBasisText": "Base légale : LInfo; art. 16 et 17 LInfo",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non, confidentialité absolue → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Refuser, car l'UNIL est soumise à la transparence et ne peut garder secret que ce que la LInfo permet."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M22",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 50,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M22. Respectez-vous le droit d'auteur et indemnisez-vous l'UNIL en cas de poursuites ?",
+        "Oui → Poursuivre",
+        "Politique sans indemnisation → Négocier",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Exiger l'indemnisation, car si le modèle reproduit une œuvre protégée, c'est l'UNIL qui risque d'être poursuivie.",
+        "Base légale : art. 10 et 62 LDA"
+      ],
+      "title": "M22. Respectez-vous le droit d'auteur et indemnisez-vous l'UNIL en cas de poursuites ?",
+      "legalBasisText": "Base légale : art. 10 et 62 LDA",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Politique sans indemnisation → Négocier",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Exiger l'indemnisation, car si le modèle reproduit une œuvre protégée, c'est l'UNIL qui risque d'être poursuivie."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M24",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 51,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M24. Les résultats produits par l'outil appartiennent-ils à l'UNIL ?",
+        "Oui → Poursuivre",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Écarter le fournisseur, car l'UNIL doit pouvoir utiliser et publier librement ce que l'outil produit pour elle.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "M24. Les résultats produits par l'outil appartiennent-ils à l'UNIL ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Ne pas poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car l'UNIL doit pouvoir utiliser et publier librement ce que l'outil produit pour elle."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Écarter le fournisseur, car l'UNIL doit pouvoir utiliser et publier librement ce que l'outil produit pour elle."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M25",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 52,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M25. Le modèle est-il open source ?",
+        "Oui → Poursuivre sous condition",
+        "Non → Poursuivre",
+        "Recommandation a : Exiger au minimum la politique de droit d'auteur et un résumé des données d'entraînement. Ce sont les obligations qui subsistent pour les modèles open source.",
+        "Base légale : AI Act, art. 53 al. 2"
+      ],
+      "title": "M25. Le modèle est-il open source ?",
+      "legalBasisText": "Base légale : AI Act, art. 53 al. 2",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre sous condition", "Non → Poursuivre"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation a : Exiger au minimum la politique de droit d'auteur et un résumé des données d'entraînement. Ce sont les obligations qui subsistent pour les modèles open source."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M26",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 53,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M26. Le modèle présente-t-il un risque systémique ?",
+        "Oui → Poursuivre sous condition",
+        "Non → Poursuivre",
+        "Je ne sais pas → Poursuivre sous condition",
+        "Recommandation a et c : Exiger que le fournisseur informe l'UNIL sans délai de tout incident grave lié au modèle.",
+        "Base légale : AI Act, art. 55"
+      ],
+      "title": "M26. Le modèle présente-t-il un risque systémique ?",
+      "legalBasisText": "Base légale : AI Act, art. 55",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre sous condition",
+        "Non → Poursuivre",
+        "Je ne sais pas → Poursuivre sous condition"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Recommandation a et c : Exiger que le fournisseur informe l'UNIL sans délai de tout incident grave lié au modèle."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation a et c : Exiger que le fournisseur informe l'UNIL sans délai de tout incident grave lié au modèle."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M27",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 54,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M27. L'outil génère-t-il des textes, des images ou des sons ?",
+        "Oui → Poursuivre sous condition",
+        "Non → Poursuivre",
+        "Recommandation a : Exiger que les contenus générés soient marqués comme produits par une IA.",
+        "Base légale : AI Act, art. 50 al. 2"
+      ],
+      "title": "M27. L'outil génère-t-il des textes, des images ou des sons ?",
+      "legalBasisText": "Base légale : AI Act, art. 50 al. 2",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre sous condition", "Non → Poursuivre"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation a : Exiger que les contenus générés soient marqués comme produits par une IA."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M28",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 55,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M28. Êtes-vous établi hors de Suisse et de l'UE ?",
+        "Oui → Poursuivre sous condition",
+        "Non → Poursuivre",
+        "Recommandation a : Exiger un interlocuteur en Suisse ou dans l'UE, pour joindre le fournisseur rapidement en cas d'incident.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "M28. Êtes-vous établi hors de Suisse et de l'UE ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre sous condition", "Non → Poursuivre"],
+      "sourceEvidenceParagraphs": [
+        "Recommandation a : Exiger un interlocuteur en Suisse ou dans l'UE, pour joindre le fournisseur rapidement en cas d'incident."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation a : Exiger un interlocuteur en Suisse ou dans l'UE, pour joindre le fournisseur rapidement en cas d'incident."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M29",
+      "author": "Manel",
+      "form": "supplier",
+      "stage": 5,
+      "order": 56,
+      "respondent": "supplier",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M29. En fin de contrat, l'UNIL récupère-t-elle ses données dans un format ouvert et réutilisable, puis le fournisseur les supprime-t-il, sauvegardes comprises ?",
+        "Oui, aux deux, avec une attestation écrite de suppression → Poursuivre",
+        "Récupération seulement → Négocier",
+        "Non → Ne pas poursuivre",
+        "Recommandation b : Ajouter l'obligation de suppression attestée par écrit, sauvegardes comprises, sinon le fournisseur garde les données après la fin du contrat.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "M29. En fin de contrat, l'UNIL récupère-t-elle ses données dans un format ouvert et réutilisable, puis le fournisseur les supprime-t-il, sauvegardes comprises ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui, aux deux, avec une attestation écrite de suppression → Poursuivre",
+        "Récupération seulement → Négocier",
+        "Non → Ne pas poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [
+        "Oui, aux deux, avec une attestation écrite de suppression → Poursuivre",
+        "Recommandation b : Ajouter l'obligation de suppression attestée par écrit, sauvegardes comprises, sinon le fournisseur garde les données après la fin du contrat."
+      ],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Ajouter l'obligation de suppression attestée par écrit, sauvegardes comprises, sinon le fournisseur garde les données après la fin du contrat."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N5",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 1,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N5. Si l'outil est à haut risque, l'UNIL a-t-elle choisi et formé des personnes pour surveiller l'outil ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Recommandation b : Désigner ces personnes avant la mise en service.",
+        "Base légale : AI Act, art. 26 al. 2"
+      ],
+      "title": "N5. Si l'outil est à haut risque, l'UNIL a-t-elle choisi et formé des personnes pour surveiller l'outil ?",
+      "legalBasisText": "Base légale : AI Act, art. 26 al. 2",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Désigner ces personnes avant la mise en service."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N6",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 2,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N6. Si l'outil est à haut risque, l'UNIL a-t-elle analysé les effets de l'outil sur les droits fondamentaux des personnes ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Recommandation b : Réaliser l'analyse d'impact sur les droits fondamentaux avant la mise en service. Elle vise les organismes de droit public comme l'UNIL et peut compléter l'AIPD (I6).",
+        "Base légale : AI Act, art. 27"
+      ],
+      "title": "N6. Si l'outil est à haut risque, l'UNIL a-t-elle analysé les effets de l'outil sur les droits fondamentaux des personnes ?",
+      "legalBasisText": "Base légale : AI Act, art. 27",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Réaliser l'analyse d'impact sur les droits fondamentaux avant la mise en service. Elle vise les organismes de droit public comme l'UNIL et peut compléter l'AIPD (I6)."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N7",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 3,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N7. Si l'outil est à haut risque, l'UNIL peut-elle garder les logs de l'outil pendant au moins 6 mois ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Recommandation b : Prévoir le stockage avant la mise en service.",
+        "Base légale : AI Act, art. 26 al. 6"
+      ],
+      "title": "N7. Si l'outil est à haut risque, l'UNIL peut-elle garder les logs de l'outil pendant au moins 6 mois ?",
+      "legalBasisText": "Base légale : AI Act, art. 26 al. 6",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Prévoir le stockage avant la mise en service."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N8",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 4,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N8. Si l'outil est à haut risque, l'UNIL sait-elle comment expliquer à une personne une décision prise avec l'outil ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Recommandation b : Mettre en place une procédure d'explication.",
+        "Base légale : AI Act, art. 86"
+      ],
+      "title": "N8. Si l'outil est à haut risque, l'UNIL sait-elle comment expliquer à une personne une décision prise avec l'outil ?",
+      "legalBasisText": "Base légale : AI Act, art. 86",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Mettre en place une procédure d'explication."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N9",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 5,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N9. L'UNIL a-t-elle nommé une personne chargée de signaler les problèmes au fournisseur ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Nommer cette personne avant la mise en service.",
+        "Base légale : AI Act, art. 26 al. 5"
+      ],
+      "title": "N9. L'UNIL a-t-elle nommé une personne chargée de signaler les problèmes au fournisseur ?",
+      "legalBasisText": "Base légale : AI Act, art. 26 al. 5",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Nommer cette personne avant la mise en service."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N10",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 6,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N10. L'UNIL forme-t-elle les utilisateurs aux bons usages de l'outil, notamment aux informations qu'il ne faut jamais y saisir ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Prévoir une formation avant la mise en service.",
+        "Base légale : AI Act, art. 4"
+      ],
+      "title": "N10. L'UNIL forme-t-elle les utilisateurs aux bons usages de l'outil, notamment aux informations qu'il ne faut jamais y saisir ?",
+      "legalBasisText": "Base légale : AI Act, art. 4",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Poursuivre", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Prévoir une formation avant la mise en service."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "N11",
+      "author": "Noée",
+      "form": "unil",
+      "stage": 6,
+      "order": 7,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "N11. Si l'outil est à haut risque, l'UNIL informera-t-elle le personnel avant le déploiement, et les personnes visées par une décision prise avec l'outil ?",
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre",
+        "Recommandation b : Prévoir cette information avant la mise en service.",
+        "Base légale : AI Act, art. 26 al. 7 et 11"
+      ],
+      "title": "N11. Si l'outil est à haut risque, l'UNIL informera-t-elle le personnel avant le déploiement, et les personnes visées par une décision prise avec l'outil ?",
+      "legalBasisText": "Base légale : AI Act, art. 26 al. 7 et 11",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": [
+        "Oui → Poursuivre",
+        "Non → Poursuivre sous condition",
+        "L'outil n'est pas à haut risque → Poursuivre"
+      ],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Prévoir cette information avant la mise en service."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M30",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 6,
+      "order": 8,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M30. S'il y a eu un marché public, l'adjudication est-elle publiée et le dossier conservé ?",
+        "Oui → Terminé",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Publier l'adjudication et conserver le dossier complet.",
+        "Base légale : art. 48 et 49 AIMP"
+      ],
+      "title": "M30. S'il y a eu un marché public, l'adjudication est-elle publiée et le dossier conservé ?",
+      "legalBasisText": "Base légale : art. 48 et 49 AIMP",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Terminé", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Publier l'adjudication et conserver le dossier complet."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    },
+    {
+      "id": "M31",
+      "author": "Manel",
+      "form": "unil",
+      "stage": 6,
+      "order": 9,
+      "respondent": "unil",
+      "reviewer": "unil",
+      "reviewOnlyParts": [],
+      "wordingStatus": "team-source-awaiting-review",
+      "legalValidation": "not-certified",
+      "sourceParagraphs": [
+        "M31. Une revue est-elle prévue avant chaque renouvellement et à chaque changement de modèle ?",
+        "Oui → Terminé",
+        "Non → Poursuivre sous condition",
+        "Recommandation b : Fixer une date de revue, car un nouveau modèle peut changer les risques sans que le contrat change.",
+        "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter."
+      ],
+      "title": "M31. Une revue est-elle prévue avant chaque renouvellement et à chaque changement de modèle ?",
+      "legalBasisText": "Base légale : Aucune référence explicite dans la question source. Exigence ou recommandation à documenter.",
+      "sourceUrls": [],
+      "sourceResponseParagraphs": ["Oui → Terminé", "Non → Poursuivre sous condition"],
+      "sourceEvidenceParagraphs": [],
+      "sourceInstructionParagraphs": [
+        "Recommandation b : Fixer une date de revue, car un nouveau modèle peut changer les risques sans que le contrat change."
+      ],
+      "answerSchema": null,
+      "activationRule": null,
+      "outcomeRule": null,
+      "implementationStatus": "catalogued-not-executable"
+    }
+  ],
+  "unresolvedDecisions": [
+    {
+      "id": "answer-models",
+      "description": "Convertir les réponses source en champs typés, dont les sous-questions A3, A5 et T2, sans perdre les réponses inconnues."
+    },
+    {
+      "id": "branching",
+      "description": "Formaliser les activations, dispenses et dépendances ; un inconnu ne vaut pas exemption."
+    },
+    {
+      "id": "outcomes",
+      "description": "Associer conditions, preuves, responsables et échéances aux quatre points de contrôle ; ne pas exécuter automatiquement les conclusions source."
+    },
+    {
+      "id": "team-review",
+      "description": "Accord de chaque auteur sur les 86 questions hors Ahmed ; les huit corrections Ahmed ne certifient pas le droit applicable."
+    },
+    {
+      "id": "scoring",
+      "description": "Définir le barème M16–M19, le coût nul et les preuves comparables ; séparer admissibilité et comparaison des offres."
+    },
+    {
+      "id": "supplier-context",
+      "description": "Un fournisseur répond dans un dossier lié contenant le contexte UNIL autorisé ; le mode les deux est une simulation à attribution explicite."
+    },
+    {
+      "id": "versioning",
+      "description": "Nouveaux dossiers v2 séparés ; aucune migration silencieuse des réponses, revues et rapports v1."
+    }
+  ]
+}

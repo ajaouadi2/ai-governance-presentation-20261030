@@ -1,0 +1,71 @@
+{
+  "name": "clair-due-diligence",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "rules:audit": "tsx scripts/audit-rules.ts",
+    "rules:test": "tsx --test tests/rules.test.ts tests/legal-scope.test.ts",
+    "checklist:test": "tsx --test tests/checklist.test.ts",
+    "checklist:verify": "tsx scripts/verify-checklist.ts",
+    "questionnaire:v2:test": "tsx --test tests/questionnaire-v2.test.mjs tests/questionnaire-v2-answers.test.ts tests/questionnaire-v2-workflow.test.ts tests/questionnaire-v2-store.test.ts",
+    "questionnaire:v2:fields": "tsx scripts/export-questionnaire-v2-fields.ts",
+    "questionnaire:v2:workflow": "tsx scripts/export-questionnaire-v2-workflow.ts",
+    "questionnaire:v2:verify": "tsx scripts/verify-questionnaire-v2.ts",
+    "questionnaire:v2:scoring:verify": "tsx scripts/verify-questionnaire-v2-scoring.ts",
+    "questionnaire:v2:reports:verify": "tsx scripts/verify-questionnaire-v2-reports.ts",
+    "presentation:verify": "tsx scripts/verify-presentation.ts",
+    "i18n:test": "tsx --test tests/i18n.test.tsx",
+    "i18n:verify": "tsx scripts/verify-bilingual.ts",
+    "trial:verify": "tsx scripts/verify-trial-data.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "db:up": "docker compose up -d --wait",
+    "db:down": "docker compose stop",
+    "local:setup": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup.ps1",
+    "local:backup": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/backup.ps1",
+    "local:start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start.ps1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "demo:seed": "tsx scripts/demo.ts",
+    "demo:reset": "tsx scripts/demo.ts --reset",
+    "demo:setup": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-demo.ps1",
+    "questionnaire:pdf:test": "tsx --test tests/questionnaire-pdf.test.ts",
+    "questionnaire:pdf:verify": "tsx scripts/verify-pdf-demo.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.60.0",
+    "next": "^16.4.2",
+    "radix-ui": "^1.8.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
+    "prettier": "^3.9.10",
+    "prisma": "^6.19.3",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "deepmerge-ts": "8.0.2"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

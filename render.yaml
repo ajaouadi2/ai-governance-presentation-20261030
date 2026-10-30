@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ai-tool-assessment
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run db:generate && npm run build
+    startCommand: node scripts/hosting-start.mjs
+    healthCheckPath: /projects
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: NEXT_TELEMETRY_DISABLED
+        value: '1'

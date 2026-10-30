@@ -1,0 +1,236 @@
+{
+  "version": "2026-10-27.six-stage.1",
+  "sourceSha256": "7fefb8e12cce5bf30c2e1a38c0f6499c1dd561ad9b7db29768d676c453a74ca2",
+  "policy": "Six étapes actives ; identifiants source conservés. Montant puis regroupement et portes après signature conservés. Les questions source 9 restent dans le suivi séparé.",
+  "stages": [
+    {
+      "number": 1,
+      "phase": "Pré-achat",
+      "title": "Qualification du projet",
+      "count": 4,
+      "sections": [
+        {
+          "name": "Finalité et données du projet",
+          "questionIds": [
+            "V32-S01-Q01",
+            "V32-S01-Q03"
+          ]
+        },
+        {
+          "name": "Périmètre et utilisateurs",
+          "questionIds": [
+            "V32-S00-Q01",
+            "V32-S02-Q15"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "phase": "Pré-achat",
+      "title": "Pratiques interdites",
+      "count": 3,
+      "sections": [
+        {
+          "name": "Pratiques interdites",
+          "questionIds": [
+            "V32-S02-Q01"
+          ]
+        },
+        {
+          "name": "Classement et rôle réglementaire",
+          "questionIds": [
+            "V32-S02-Q02",
+            "V32-S02-Q03"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "phase": "Pré-achat",
+      "title": "Légalité du traitement des données personnelles",
+      "count": 7,
+      "sections": [
+        {
+          "name": "Conditions du traitement à l’UNIL",
+          "questionIds": [
+            "V32-S01-Q02",
+            "V32-S01-Q04",
+            "V32-S01-Q05",
+            "V32-S01-Q06",
+            "V32-S01-Q07",
+            "V32-S01-Q08",
+            "V32-S01-Q09"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "phase": "Achat",
+      "title": "L’achat",
+      "count": 12,
+      "sections": [
+        {
+          "name": "Périmètre du marché",
+          "questionIds": [
+            "V32-S03-Q01",
+            "V32-S03-Q02",
+            "V32-S03-Q03"
+          ]
+        },
+        {
+          "name": "Montant et procédure",
+          "questionIds": [
+            "V32-S03-Q04",
+            "V32-S03-Q05",
+            "V32-S03-Q06",
+            "V32-S03-Q07",
+            "V32-S03-Q08",
+            "V32-S03-Q09"
+          ]
+        },
+        {
+          "name": "Exigences du cahier des charges",
+          "questionIds": [
+            "V32-S03-Q10",
+            "V32-S03-Q11"
+          ]
+        },
+        {
+          "name": "Clôture de l’achat — après signature (règle actuelle)",
+          "questionIds": [
+            "V32-S09-Q01"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "phase": "Achat",
+      "title": "Évaluation du fournisseur",
+      "count": 51,
+      "sections": [
+        {
+          "name": "5A — Éligibilité",
+          "questionIds": [
+            "V32-S04-Q01",
+            "V32-S04-Q02",
+            "V32-S04-Q03",
+            "V32-S04-Q05",
+            "V32-S04-Q06"
+          ]
+        },
+        {
+          "name": "5B — Données et sécurité",
+          "questionIds": [
+            "V32-S05-Q01",
+            "V32-S05-Q02",
+            "V32-S05-Q03",
+            "V32-S05-Q04",
+            "V32-S05-Q05",
+            "V32-S05-Q06",
+            "V32-S05-Q07",
+            "V32-S05-Q08",
+            "V32-S05-Q09",
+            "V32-S05-Q10",
+            "V32-S05-Q11",
+            "V32-S05-Q12",
+            "V32-S05-Q13",
+            "V32-S05-Q14",
+            "V32-S05-Q15",
+            "V32-S05-Q16",
+            "V32-S05-Q17"
+          ]
+        },
+        {
+          "name": "5C — Outil IA et garanties techniques",
+          "questionIds": [
+            "V32-S06-Q01",
+            "V32-S06-Q02",
+            "V32-S06-Q03",
+            "V32-S06-Q04",
+            "V32-S06-Q05",
+            "V32-S06-Q06",
+            "V32-S06-Q07",
+            "V32-S06-Q08",
+            "V32-S06-Q09",
+            "V32-S06-Q10",
+            "V32-S06-Q11",
+            "V32-S06-Q12",
+            "V32-S06-Q13",
+            "V32-S06-Q14",
+            "V32-S06-Q15",
+            "V32-S06-Q16",
+            "V32-S06-Q17",
+            "V32-S06-Q18",
+            "V32-S06-Q19",
+            "V32-S06-Q20",
+            "V32-S06-Q21",
+            "V32-S06-Q22"
+          ]
+        },
+        {
+          "name": "5D — Contrat et modèle",
+          "questionIds": [
+            "V32-S07-Q01",
+            "V32-S07-Q02",
+            "V32-S07-Q03",
+            "V32-S07-Q04",
+            "V32-S07-Q05",
+            "V32-S07-Q06",
+            "V32-S07-Q07"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "phase": "Post-achat",
+      "title": "Préparation de la mise en service",
+      "count": 19,
+      "sections": [
+        {
+          "name": "6A — Analyse des droits fondamentaux",
+          "questionIds": [
+            "V32-S02-Q05"
+          ]
+        },
+        {
+          "name": "6B — Organisation et information des utilisateurs",
+          "questionIds": [
+            "V32-S02-Q04",
+            "V32-S02-Q06",
+            "V32-S02-Q07",
+            "V32-S02-Q08",
+            "V32-S02-Q09",
+            "V32-S02-Q10",
+            "V32-S02-Q11",
+            "V32-S02-Q12",
+            "V32-S02-Q13",
+            "V32-S02-Q14"
+          ]
+        },
+        {
+          "name": "6C — Préparer l’exploitation",
+          "questionIds": [
+            "V32-S09-Q02",
+            "V32-S09-Q03",
+            "V32-S09-Q04",
+            "V32-S09-Q05"
+          ]
+        },
+        {
+          "name": "6D — Synthèse et décision UNIL",
+          "questionIds": [
+            "V32-S08-Q01",
+            "V32-S08-Q02",
+            "V32-S08-Q03",
+            "V32-S08-Q04"
+          ]
+        }
+      ]
+    }
+  ]
+}

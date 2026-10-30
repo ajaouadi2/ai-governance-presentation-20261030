@@ -1,0 +1,2734 @@
+{
+  "version": "2026-10-27.checklist-v3.2.presentation.1",
+  "sourceSha256": "7fefb8e12cce5bf30c2e1a38c0f6499c1dd561ad9b7db29768d676c453a74ca2",
+  "policy": "Présentation seulement : lettres, choix, textes et verdicts source inchangés. Libellés extraits avant la flèche ; qualifications conservées.",
+  "questions": [
+    {
+      "id": "V32-S00-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre : l'AI Act s'applique ; les questions « AI ACT » et « HAUT RISQUE » sont obligatoires",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre : l'AI Act ne s'applique pas directement ; les questions « AI ACT » et « HAUT RISQUE » sont des bonnes pratiques et leurs réponses rouges deviennent orange",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : documenter cette analyse. Même sans application directe, ces exigences anticipent le futur \ndroit suisse de mise en œuvre de la Convention du Conseil de l'Europe sur l'IA, que le Conseil fédéral a décidé de \nratifier en février 2025."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Je ne sais pas",
+          "consequence": "Poursuivre sous condition : demander l'avis du service juridique ; dans l'attente, appliquer la réponse a)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "À remplir a : indiquer la base légale ou la tâche publique invoquée."
+          ]
+        },
+        {
+          "letter": "b",
+          "label": "Aucune de ces conditions",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Données publiques (ni personnelles, ni confidentielles)",
+          "consequence": "Passer directement à l'étape 2 ; à l'étape 5, ne pas poser les questions « DONNÉES PERSONNELLES »",
+          "routingOnly": true,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Données confidentielles non personnelles (données de recherche, secret, propriété intellectuelle)",
+          "consequence": "Aller à la question 6, puis passer à l'étape 2 ; à l'étape 5, ne pas poser les questions « DONNÉES PERSONNELLES » et poser toutes les autres",
+          "routingOnly": true,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Données personnelles ordinaires",
+          "consequence": "Poursuivre ; à l'étape 5, poser les questions 1 et 3, ne pas poser les questions 2 et 4",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "d",
+          "label": "Données personnelles sensibles, données biométriques, profils de la personnalité",
+          "consequence": "Poursuivre ; à l'étape 5, poser les questions 2 et 4 à la place des questions 1 et 3",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation d : mettre en place une journalisation des accès (art. 4 OPDo, appliqué comme bonne pratique à \nl'UNIL ; obligatoire pour le fournisseur dans les cas prévus par cet article)."
+          ]
+        }
+      ],
+      "generalNotes": [
+        "Règle : si plusieurs catégories sont traitées, choisir la plus protectrice (d avant c, c avant b, b avant a)."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": [
+        "Règle : si plusieurs catégories sont traitées, choisir la plus protectrice (d avant c, c avant b, b avant a)."
+      ]
+    },
+    {
+      "id": "V32-S01-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre car anonymisation",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Poursuivre car pseudonymisation",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui, et données supplémentaires à l'objectif poursuivi",
+          "consequence": "Aller à la question 5",
+          "routingOnly": true,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, davantage “au cas où”",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : réduire la collecte aux données nécessaires à la finalité (art. 7 LPrD VD)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, chacun des principes est respecté (authentification, contrôle, journaux, etc.) et un audit est régulièrement effectué auprès du fournisseur",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, chacun des principes est respecté, mais les mesures du fournisseur ne sont pas régulièrement vérifiées",
+          "consequence": "Audit à mettre en place",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui : l'outil présente un risque élevé et nécessite une AIPD (analyse d'impact relative à la protection des données)",
+          "consequence": "Réaliser l'AIPD et la faire valider par le DPO avant la décision finale (étape 8, question 2) :",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, l'AIPD n'est pas nécessaire",
+          "consequence": "Pas rédhibitoire, mais vérifier les conditions précises et rédiger une justification détaillée",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Note : la révision de la LPrD VD introduit une analyse d'impact. Vérifier si elle est entrée en vigueur et adapter les \ncritères en conséquence."
+      ],
+      "choiceGuidance": [
+        "◦ i) évaluation/scoring (y compris le profilage) ;\n◦ ii) décision automatique avec effet légal ou similaire ;\n◦ iii) surveillance systématique ;\n◦ iv) collecte de données sensibles ou de données à caractère hautement personnel ;\n◦ v) collecte de données personnelles à large échelle ;\n◦ vi) croisement de données ;\n◦ vii) personnes vulnérables (patients, personnes âgées, enfants, etc.) ;\n◦ viii) usage innovant (utilisation d'une nouvelle technologie), par défaut pour un outil IA ;\n◦ ix) exclusion du bénéfice d'un droit ou d'un contrat."
+      ],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q08",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, mais il y a un contrôle humain et la personne concernée en est informée",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui, la décision est prise par l'outil IA",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S01-Q09",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, les trois conditions sont remplies",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Doute sur l'une des conditions",
+          "consequence": "Poursuivre sous condition : avis du DPO",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, au moins une des pratiques (1) à (10)",
+          "consequence": "Ne pas poursuivre, la pratique est interdite (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, aucune",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Règle : cette réponse rouge reste rouge même si l'AI Act ne s'applique pas : ces pratiques portent atteinte aux droits \nfondamentaux."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, au moins un usage, et l'outil fait du profilage de personnes",
+          "consequence": "Poursuivre mais l'outil est à HAUT RISQUE (l'exception de l'art. 6 § 3 ne s'applique pas) → Poser toutes les questions « HAUT RISQUE »",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, au moins un usage, sans profilage, et l'outil prend une décision ou l'influence de façon significative",
+          "consequence": "Poursuivre mais l'outil est à HAUT RISQUE → Poser toutes les questions « HAUT RISQUE »",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui, au moins un usage, sans profilage, mais seulement pour une tâche limitée (triage, mise en forme, vérification après une décision humaine)",
+          "consequence": "Poursuivre ; ne pas poser les questions « HAUT RISQUE »",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : documenter par écrit l'analyse de l'UNIL et demander au fournisseur sa propre documentation, \nqu'il doit établir lorsqu'il estime que son système n'est pas à haut risque (art. 6 § 4 AI Act)."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "Non",
+          "consequence": "Poursuivre ; ne pas poser les questions « HAUT RISQUE »",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Note : les exigences « haut risque » s'appliquent dès le 2 décembre 2027 pour les usages de l'annexe III et dès le 2 \naoût 2028 pour l'annexe I (règlement (UE) 2026/1744). La checklist les anticipe."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Aucun de ces cas : l'UNIL utilise l'outil tel quel, elle est « déployeur »",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Au moins un de ces cas",
+          "consequence": "Poursuivre sous condition : escalade au service juridique ; suspendre le parcours jusqu'à son avis écrit",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : l'UNIL devient « fournisseur », avec des obligations beaucoup plus lourdes (gestion des risques, \ndocumentation technique, évaluation de la conformité)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : désigner ces personnes avant la mise en service."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : la réaliser avant la mise en service et la faire valider (étape 8, question 2)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : prévoir le stockage avant la mise en service. Voir aussi l'étape 5, questions 15 à 17 \n(journalisation)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : mettre en place une procédure."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q08",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "L'outil ne concerne pas le personnel",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition : informer avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q09",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition : prévoir cette information avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q10",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non applicable selon l'avis écrit du service juridique",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition : demander l'avis du service juridique et, si requis, enregistrer avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q11",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre mais il faut la nommer",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q12",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "L'outil ne sert pas à publier de tels contenus",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition : prévoir une mention avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Note : la mention n'est pas exigée pour un texte relu et publié sous la responsabilité éditoriale d'une personne."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q13",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre, mais prévoir une formation avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q14",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "L'outil n'est pas utilisé dans l'enseignement ni dans les évaluations",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition : définir ces règles avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S02-Q15",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre, mais l'accessibilité devient obligatoire (étape 6, question 20)",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Pas de marché public : passer directement à l'étape 5 (ne pas poser l'étape 4) ; à l'étape 7, vérifier les points correspondants dans les conditions d'utilisation",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : pas de marché public, car le fournisseur d'IA doit fournir une prestation pour que l'art. 8 AIMP \ns'applique. Vérifier les conditions d'utilisation, car un outil gratuit peut poser des problèmes de droit d'auteur ou de \nconfidentialité."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Non, mais le fournisseur utilise des données de l'UNIL",
+          "consequence": "Poursuivre sous condition : traiter comme un marché public",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : traiter comme un marché par prudence et consulter le service juridique : en donnant ses \ndonnées à un seul fournisseur sans mise en concurrence, l'UNIL lui accorde un avantage économique réel."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Pas de nouvel appel d'offres : passer directement à l'étape 5 (ne pas poser l'étape 4)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : vérifier que le contrat existant interdit la réutilisation des données de l'UNIL et garantit la \nconfidentialité, car il a pu être signé avant que l'outil intègre de l'IA."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Directement avec le fournisseur du modèle",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Avec un intermédiaire qui intègre le modèle d'un tiers",
+          "consequence": "Clause obligatoire pour poursuivre (vérifiée à l'étape 7, question 7)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger que l'intermédiaire garantisse par écrit que le fournisseur du modèle respecte les mêmes \nengagements : documentation, confidentialité, droit d'auteur, non-réutilisation des données et propriété des \nrésultats. Sans cette garantie, l'offre est rédhibitoire, car l'UNIL n'a aucun contrat avec celui qui contrôle réellement le \nmodèle."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Moins de 150'000 CHF",
+          "consequence": "Gré à gré ; ne pas poser les questions 6 à 9 ; poser les questions 10 et 11 (exigences à intégrer au contrat)",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "De 150'000 à 249'999 CHF",
+          "consequence": "Procédure sur invitation",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandations b, c et d : documenter chaque étape et chaque décision, car un fournisseur écarté peut faire \nrecours dès 150'000 CHF (art. 52 AIMP)."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "De 250'000 à 349'999 CHF",
+          "consequence": "Procédure ouverte ou sélective",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandations b, c et d : documenter chaque étape et chaque décision, car un fournisseur écarté peut faire \nrecours dès 150'000 CHF (art. 52 AIMP)."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "350'000 CHF ou plus",
+          "consequence": "Procédure ouverte ou sélective, soumise aux traités internationaux",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandations b, c et d : documenter chaque étape et chaque décision, car un fournisseur écarté peut faire \nrecours dès 150'000 CHF (art. 52 AIMP).",
+            "Recommandation d : prévoir des délais plus longs et s'attendre à des offres étrangères, car le marché est ouvert à la \nconcurrence internationale."
+          ]
+        }
+      ],
+      "generalNotes": [
+        "Note : montants pour les prestations de services selon les annexes 1 et 2 AIMP (valeurs 2024-2025). Vérifier les \nvaleurs en vigueur : les seuils de l'annexe 1 sont adaptés tous les deux ans."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Rédhibitoire si le découpage est maintenu",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : additionner les montants de tous les achats pour déterminer la procédure, car fractionner un \nmarché pour passer sous un seuil est interdit (art. 15 AIMP)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Procédure normale selon le montant",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Gré à gré exceptionnel possible ; ne pas poser les questions 7 à 9",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : rédiger une justification écrite (art. 21 al. 2 AIMP). Exiger aussi que l'UNIL puisse récupérer ses \ndonnées dans un format réutilisable en fin de contrat, car elle risque de devenir dépendante de ce fournisseur."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, avec « ou équivalent »",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui, sans « ou équivalent »",
+          "consequence": "Rédhibitoire",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : ajouter « ou équivalent » avant publication, car imposer une marque exclut les concurrents sans \nraison (art. 30 AIMP)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q08",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Rédhibitoire",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : les publier avant la réception des offres : l'art. 29 al. 3 AIMP l'exige pour que tous les \nfournisseurs soient évalués selon les mêmes règles."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q09",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Rédhibitoire",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : ajouter des critères de qualité, car le prix seul n'est admis que pour les prestations \nstandardisées (art. 29 al. 4 AIMP). Deux outils d'IA au même prix peuvent présenter des risques très différents."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q10",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Rédhibitoire",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : ajouter cette exigence avant publication, car l'auteur d'une œuvre est la personne qui l'a créée \n(art. 6 LDA). Le fournisseur ne doit acquérir aucun droit sur les mémoires, thèses ou articles saisis dans l'outil."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S03-Q11",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : ajouter cette exigence avant publication, car l'AI Act impose aux fournisseurs de modèles d'IA à \nusage général une politique de respect du droit d'auteur (art. 53 § 1 let. c). Elle protège l'UNIL contre le risque \nd'utiliser un outil entraîné sur des œuvres copiées sans autorisation."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non, attestations fournies",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : l'UNIL décide d'exclure ou non et justifie sa décision par écrit, car l'art. 44 AIMP permet \nl'exclusion sans l'imposer."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, attestation fournie",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : écarter le fournisseur, car ce respect est une condition de participation (art. 12 et 26 AIMP)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, comptes ou justificatifs fournis",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : écarter le fournisseur, car sa faillite couperait l'accès à l'outil et aux données de l'UNIL (art. 27 \nAIMP)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : écarter le fournisseur, car rien ne prouve qu'il sait répondre aux besoins d'une institution \npublique."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "En cours",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : fixer dans le contrat un délai pour obtenir la certification."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition (description des mesures de sécurité vérifiée par le service informatique)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : demander au fournisseur de décrire ses mesures de sécurité et les faire vérifier par le service \ninformatique."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S04-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Équivalent démontré",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non, et l'outil est marqué « HAUT RISQUE »",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c et d : demander au fournisseur comment il contrôle les risques de son modèle (tests, \nsurveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "Non, et l'outil n'est pas à haut risque",
+          "consequence": "Poursuivre sous condition : en tenir compte dans la synthèse (étape 8)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c et d : demander au fournisseur comment il contrôle les risques de son modèle (tests, \nsurveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "En Suisse (nLPD, OPDo, LPrD VD)",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Dans l'EEE (RGPD)",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay)",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : vérifier que la reconnaissance du pays couvre bien ce fournisseur (pour le Canada : seulement \nune entreprise privée exerçant une activité commerciale), et prévoir dans le contrat que les données ne sont pas \ntransférées ailleurs sans l'accord de l'UNIL."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "Aux États-Unis, entreprise certifiée Data Privacy Framework (DPF)",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation d et e : le transfert est légal (le DPF est reconnu par la Suisse depuis le 15 septembre 2024), mais le \nCloud Act permet aux autorités américaines d'exiger les données. Interdire par contrat tout transfert sans l'accord de \nl'UNIL et faire détenir les clés de chiffrement par l'UNIL."
+          ]
+        },
+        {
+          "letter": "e",
+          "label": "Filiale suisse ou européenne d'un groupe soumis au droit américain",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation d et e : le transfert est légal (le DPF est reconnu par la Suisse depuis le 15 septembre 2024), mais le \nCloud Act permet aux autorités américaines d'exiger les données. Interdire par contrat tout transfert sans l'accord de \nl'UNIL et faire détenir les clés de chiffrement par l'UNIL."
+          ]
+        },
+        {
+          "letter": "f",
+          "label": "Aux États-Unis, entreprise non certifiée DPF",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "g",
+          "label": "Dans un autre pays",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "En Suisse (nLPD, OPDo, LPrD VD)",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Dans l'EEE (RGPD, AI Act), non soumis au droit américain",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay)",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : pour un fournisseur au Canada, vérifier qu'il s'agit d'une entreprise privée qui exerce une \nactivité commerciale : c'est seulement dans ce cas que la loi canadienne sur la protection des données s'applique et \nque le Canada est reconnu comme sûr (annexe 1 OPDo). Prévoir dans le contrat que le fournisseur ne transfère pas \nles données ailleurs sans l'accord de l'UNIL, et demander l'avis du DPO de l'UNIL. Pour le Royaume-Uni et les \nterritoires liés, la prudence doit être renforcée, car ils sont exposés à l'accord avec les États-Unis sur l'accès aux \ndonnées."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "Aux États-Unis, entreprise certifiée DPF (soumise au Cloud Act)",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "e",
+          "label": "Filiale suisse ou européenne d'un groupe soumis au droit américain",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "f",
+          "label": "Dans un autre pays",
+          "consequence": "Aller à la question 5",
+          "routingOnly": true,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "En Suisse",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Dans un pays ou territoire reconnu par l'annexe 1 OPDo : États de l'EEE, Andorre, Argentine, Canada, Îles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Aux États-Unis, par une entreprise certifiée selon le Swiss-U.S. Data Privacy Framework",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "d",
+          "label": "Dans un autre pays",
+          "consequence": "Aller à la question 5",
+          "routingOnly": true,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "En Suisse",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Dans l'EEE",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Dans un pays hors EEE reconnu par l'annexe 1 OPDo",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : même si le transfert est licite, plusieurs conditions cumulatives s'ajoutent à la reconnaissance \npar l'annexe 1 : pas d'exposition au droit américain, rédaction d'une analyse d'impact, avis favorable du DPO, \ngaranties contractuelles (pas de transfert ultérieur sans l'accord de l'UNIL)."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "Aux États-Unis, par une entreprise certifiée DPF",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "e",
+          "label": "Dans un autre pays",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "la personne concernée a donné son consentement, qui doit dans tous les cas être explicite",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "b",
+          "label": "la communication de données est nécessaire à l'exécution d'un contrat entre la personne concernée et le responsable du traitement ou à l'exécution de mesures précontractuelles prises à la demande de la personne concernée",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "la communication est nécessaire à la conclusion ou à l'exécution d'un contrat conclu ou à conclure, dans l'intérêt de la personne concernée, entre le responsable du traitement et un tiers",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "d",
+          "label": "la communication est, en l'espèce, indispensable soit à la sauvegarde d'un intérêt public, soit à la constatation, l'exercice ou la défense d'un droit en justice",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "e",
+          "label": "la communication est, en l'espèce, nécessaire pour protéger la vie ou l'intégrité corporelle de la personne concernée",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "f",
+          "label": "la communication intervient d'un registre public qui, en vertu de dispositions légales ou réglementaires, est destiné à l'information du public ou de toute personne justifiant d'un intérêt légitime, dans la mesure où les conditions légales pour la consultation sont remplies dans le cas particulier",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel."
+          ]
+        },
+        {
+          "letter": "g",
+          "label": "des garanties suffisantes, notamment contractuelles, permettent d'assurer un niveau de protection adéquat à l'étranger",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "h",
+          "label": "Aucune de ces bases",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, chaque catégorie de données est conservée aussi longtemps que sa finalité l'exige, puis détruite ou anonymisée",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Elles sont conservées « aussi longtemps que nécessaire », sans durée définie",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, au repos et en transit, avec des clés détenues par l'UNIL",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, au repos et en transit, mais les clés restent chez le fournisseur",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : négocier la détention des clés par l'UNIL : celui qui détient la clé peut lire les données, et donc \nêtre obligé de les remettre à une autorité étrangère."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Seulement en transit",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "d",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Preuve exigée : le protocole utilisé en transit (TLS 1.3 recommandé) et le standard de chiffrement au repos (AES-256 \nrecommandé)."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q08",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, mais seulement si l'utilisateur ou l'administrateur le désactive",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q09",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, une personne de contact est désignée",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "À exiger avant la signature",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q10",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Jusqu'à 10 jours ouvrables",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Possible, mais pas dans les sauvegardes ni les journaux",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : négocier la suppression dans les sauvegardes et les journaux, dans un délai fixé."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Pas possible",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q11",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Dans les 72 heures au maximum, avec le type de violation, les personnes et données touchées et les mesures prises",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Plus de 72 heures",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une justification et négocier un délai plus court."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q12",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, les mesures sont décrites pour chacun des objectifs et un audit est réalisé",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, les mesures sont décrites, mais sans certification ni audit",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : prévoir un audit du fournisseur ; fixer son échéance et son responsable dans la décision finale \n(étape 8, question 4)."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Oui, mais l'un des principes n'est pas couvert",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "d",
+          "label": "Pas de description détaillée des mesures, ou refus de les communiquer",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q13",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, les deux, avec une attestation écrite de suppression",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Récupération seulement",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : ajouter l'obligation de suppression attestée par écrit, sauvegardes comprises, sinon le \nfournisseur garde les données après la fin du contrat."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q14",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, tests réguliers et documentés",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, mais seulement en interne ou sans documentation particulière",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger ces tests, y compris par des experts indépendants."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q15",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui : traitement automatisé à grande échelle de données sensibles ou profilage à risque élevé, lorsque les mesures préventives ne suffisent pas ; conservation d'au moins 1 an (art. 4 al. 1 et 5 OPDo)",
+          "consequence": "Poser les questions 16 et 17",
+          "routingOnly": true,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, mais recommandée",
+          "consequence": "Poser les questions 16 et 17 (recommandé)",
+          "routingOnly": true,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q16",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Tous ces événements, sous forme de métadonnées",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Une partie seulement",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : compléter la liste des événements journalisés."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Le contenu des requêtes est journalisé",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S05-Q17",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, pendant au moins 1 an",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, et l'outil est marqué « HAUT RISQUE »",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non, et l'outil n'est pas à haut risque",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : prévoir la mise à disposition des journaux dans le contrat."
+          ]
+        }
+      ],
+      "generalNotes": [
+        "Note : 1 an correspond à la durée minimale de l'art. 4 al. 5 OPDo ; l'AI Act exige au moins 6 mois pour un système à \nhaut risque (art. 26 § 6)."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "L'outil ne discute pas avec des personnes",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, marquage lisible par machine",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "L'outil ne génère pas de contenus",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Sous condition : exiger le marquage avant la signature",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "Note : les systèmes génératifs mis sur le marché avant le 2 août 2026 ont jusqu'au 2 décembre 2026 pour se mettre \nen conformité (règlement (UE) 2026/1744)."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q08",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger cette connexion."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q09",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q10",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q11",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger des explications sur les mesures prises."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q12",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger ces chiffres."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q13",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : le tester en français avant de signer."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q14",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, mais chaque action doit être validée par l'utilisateur et l'UNIL peut désactiver ces fonctions",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Oui, sans validation possible",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q15",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat, avec un taux chiffré."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q16",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger ce plan."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q17",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q18",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger ces tests."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q19",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger un rapport de tests avant de signer."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q20",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, et l'outil est obligatoire",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non, et l'outil est facultatif",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : prévoir une autre solution accessible."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q21",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger une clause dans le contrat : l'art. 15 al. 3 LUL impose de sauvegarder explicitement \nl'indépendance de l'enseignement et de la recherche dans les engagements contractuels."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S06-Q22",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "En tenir compte dans la synthèse (étape 8)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Oui, avec modifications",
+          "consequence": "Négocier",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation c : écarter le fournisseur, car sans documentation l'UNIL ne peut pas évaluer les risques de l'outil \n(art. 53 AI Act)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non, il exige une confidentialité absolue",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : refuser, car l'UNIL est soumise à la transparence et ne peut garder secret que ce que la LInfo VD \npermet (art. 16 et 17 LInfo VD)."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Politique sans indemnisation",
+          "consequence": "Négocier",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : exiger l'indemnisation, car si le modèle reproduit une œuvre protégée, c'est l'UNIL qui risque \nd'être poursuivie (art. 10 et 62 LDA)."
+          ]
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Rédhibitoire",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : écarter le fournisseur, car l'UNIL doit pouvoir utiliser et publier librement ce que l'outil produit \npour elle."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a : exiger au minimum la politique de droit d'auteur et un résumé des données d'entraînement : ce \nsont les obligations qui subsistent pour les modèles open source (art. 53 § 2 AI Act)."
+          ]
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q06",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre sous condition",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a et c : prévoir une clause obligeant le fournisseur à informer l'UNIL sans délai de tout incident \ngrave lié au modèle. L'art. 55 AI Act l'oblige à signaler ces incidents à l'AI Office, mais pas à ses clients : seule une \nclause contractuelle le garantit."
+          ]
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Je ne sais pas",
+          "consequence": "Poursuivre sous condition : vérifier dans la liste des modèles à risque systémique publiée par la Commission européenne (art. 52 § 6 AI Act)",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation a et c : prévoir une clause obligeant le fournisseur à informer l'UNIL sans délai de tout incident \ngrave lié au modèle. L'art. 55 AI Act l'oblige à signaler ces incidents à l'AI Office, mais pas à ses clients : seule une \nclause contractuelle le garantit."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S07-Q07",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui, ou contrat conclu directement avec le fournisseur du modèle",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Ne pas poursuivre (rédhibitoire)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S08-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Outil refusé : aller à la question 4 et enregistrer la décision « No-go »",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S08-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Aucune analyse n'est requise",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Décision suspendue jusqu'à leur réalisation",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S08-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Aucun avis n'a été demandé",
+          "consequence": "Poursuivre",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "Non",
+          "consequence": "Décision suspendue jusqu'à leur réception",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S08-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Go",
+          "consequence": "Mise en service autorisée",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Go sous conditions",
+          "consequence": "Mise en service autorisée lorsque les conditions sont remplies ; chaque condition a un responsable et une échéance",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "c",
+          "label": "No-go",
+          "consequence": "Outil refusé",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [
+        "À remplir : nom et fonction de la personne qui décide (autorité compétente à désigner par l'UNIL), date de la \ndécision, conditions, responsables, échéances, date de la première revue."
+      ],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S09-Q01",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Terminé",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "À effectuer",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : publier l'adjudication et conserver le dossier complet, comme l'exigent les art. 48 et 49 AIMP."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S09-Q02",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Terminé",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Fixer une date de revue",
+          "routingOnly": false,
+          "recommendations": [
+            "Recommandation b : prévoir cette revue, car un nouveau modèle peut changer les risques sans que le contrat \nchange."
+          ]
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S09-Q03",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Terminé",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "Fixer la fréquence du suivi et son responsable",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S09-Q04",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Terminé",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "À mettre en place avant la mise en service",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    },
+    {
+      "id": "V32-S09-Q05",
+      "answers": [
+        {
+          "letter": "a",
+          "label": "Oui",
+          "consequence": "Terminé",
+          "routingOnly": false,
+          "recommendations": []
+        },
+        {
+          "letter": "b",
+          "label": "Non",
+          "consequence": "À mettre en place ; fixer l'échéance dans la décision finale (étape 8, question 4)",
+          "routingOnly": false,
+          "recommendations": []
+        }
+      ],
+      "generalNotes": [],
+      "choiceGuidance": [],
+      "rulesForChoosing": []
+    }
+  ]
+}

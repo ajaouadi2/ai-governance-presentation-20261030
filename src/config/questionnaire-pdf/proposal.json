@@ -1,0 +1,798 @@
+{
+  "status": "proposal-not-implemented",
+  "date": "2026-10-26",
+  "source": "Due Diligence cheklist  (2).pdf",
+  "sha256": "d337fe9e1786640dacb07e2f36bf62f2ff61aa254130ede6d29cb219f87bfbbf",
+  "approved": ["five-outcome-labels", "contract-before-signature-and-separate-deployment"],
+  "unresolved": "D01",
+  "sourceQuestionCount": 85,
+  "proposedEntryCount": 89,
+  "questions": [
+    {
+      "id": "E01",
+      "source": "Ajout proposé sans équivalent autonome",
+      "question": "Quel projet et quel usage précis évaluez-vous ?",
+      "answers": "Titre, unité, utilisateurs, exemple concret, outil, version et finalité prévue.",
+      "effect": "Informations à compléter si l’usage ou la version ne sont pas identifiables.",
+      "legal": "Collecte des faits ; pas une conclusion de droit."
+    },
+    {
+      "id": "E02",
+      "source": "Ajout proposé pour qualification",
+      "question": "Quelles fonctions permettent de qualifier le système comme IA et quel est le rôle de chaque acteur ?",
+      "answers": "Documentation du fonctionnement ; utilisateur, intégrateur, modification ou changement de finalité ; fournisseur du système et du modèle.",
+      "effect": "Examen motivé de la qualification. Ne pas présumer les responsabilités à partir du seul nom commercial.",
+      "legal": "AI Act art. 3 et 25 à vérifier selon le rôle."
+    },
+    {
+      "id": "E03",
+      "source": "Ajout proposé pour champ territorial",
+      "question": "Quels cadres de protection des données s’appliquent aux acteurs et traitements ?",
+      "answers": "Cadre cantonal pour les tâches concernées ; cadre fédéral du fournisseur ; liens éventuels avec le RGPD ; justification et source.",
+      "effect": "Informations à compléter jusqu’à une analyse motivée ; ne pas confondre LPrD, LPD et RGPD.",
+      "legal": "Compétence et portée à vérifier ; source R1."
+    },
+    {
+      "id": "E04",
+      "source": "Ajout proposé pour choix de parcours",
+      "question": "Qui répond dans ce dossier ?",
+      "answers": "Entité universitaire ; fournisseur ; les deux. Nommer un responsable du dossier et un évaluateur.",
+      "effect": "Afficher les contributions du rôle choisi ; l’évaluateur rapproche les déclarations. Rôles applicatifs distincts de la qualification juridique.",
+      "legal": "Organisation proposée ; aucun compte réel créé."
+    },
+    {
+      "id": "U-D01",
+      "source": "p. 1 UNIL données q. 1",
+      "question": "La finalité du traitement est-elle précisément définie ?",
+      "answers": "Oui, décrire ; en cours ; non ; inconnu.",
+      "effect": "Oui documenté : poursuivre l’évaluation. Sinon informations à compléter ; si finalité refusée ou impossible à définir : point bloquant à examiner.",
+      "legal": "Finalité ; LPrD art. 6 cité à vérifier."
+    },
+    {
+      "id": "U-D02",
+      "source": "p. 1 UNIL données q. 2",
+      "question": "Quel fondement permet ce traitement et, séparément, le traitement de données sensibles ?",
+      "answers": "Identifier le texte ou autre justification invoquée et ses conditions ; validation du service compétent ; aucune justification ; inconnu.",
+      "effect": "Fondement documenté : poursuivre l’évaluation sous réserve de revue. Absent : point bloquant à examiner. Inconnu : informations à compléter.",
+      "legal": "Ne pas transformer une liste de justifications en choix automatique ; LPrD art. 5 à vérifier."
+    },
+    {
+      "id": "U-D03",
+      "source": "p. 1 UNIL données q. 3",
+      "question": "Quelles données sont utilisées et dans quelles opérations ?",
+      "answers": "Aucune donnée personnelle ; ordinaires ; sensibles ; biométrie et finalité ; profils et effets. Choix multiples et inventaire par opération.",
+      "effect": "Chaque catégorie active son examen. Sans donnée personnelle, documenter ce constat et passer seulement les questions devenues non pertinentes ; sécurité et contrat restent à examiner.",
+      "legal": "Les catégories ne sont pas interchangeables ; définitions LPrD à vérifier."
+    },
+    {
+      "id": "U-D04",
+      "source": "p. 1 premier q. 4",
+      "question": "L’identification des personnes est-elle nécessaire et quelles transformations sont effectivement appliquées ?",
+      "answers": "Identification nécessaire : oui/non/inconnu. Mesure distincte : anonymisation vérifiée ; pseudonymisation ; aucune ; en cours.",
+      "effect": "Données excessives : point bloquant à examiner et réduction proposée. Mesure projetée : correction avant mise en service. Pseudonymisation ne signifie pas absence de données personnelles.",
+      "legal": "Correction logique ; nécessité et proportionnalité à justifier."
+    },
+    {
+      "id": "U-D05",
+      "source": "p. 1 second q. 4",
+      "question": "Chaque catégorie collectée est-elle nécessaire à la finalité ?",
+      "answers": "Oui avec justification par catégorie ; collecte excessive ; analyse en cours ; inconnu.",
+      "effect": "Excès : point bloquant à examiner ; retirer les données excessives avant usage. En cours ou inconnu : informations à compléter.",
+      "legal": "LPrD art. 7 cité à vérifier."
+    },
+    {
+      "id": "U-D06",
+      "source": "pp. 1 et 2 UNIL données q. 5",
+      "question": "Quelles mesures l’UNIL met-elle en place et comment vérifie-t-elle celles du fournisseur ?",
+      "answers": "Mesures internes ; responsabilités ; contrôles fournisseur ; audit ou autre preuve ; lacunes et plan.",
+      "effect": "Mesures non décrites : informations à compléter. Lacune critique : point bloquant à examiner. Mesure remédiable : échéance motivée avant signature ou mise en service selon le risque.",
+      "legal": "Séparer mesures internes et contrôle du prestataire ; source R2."
+    },
+    {
+      "id": "U-D07",
+      "source": "p. 2 UNIL données q. 6",
+      "question": "Quels facteurs de risque justifient une analyse d’impact relative aux données ?",
+      "answers": "Cocher les neuf facteurs source : évaluation, décision importante, surveillance, sensibilité, échelle, croisement, vulnérabilité, innovation, obstacle à un droit. Justifier le caractère innovant ; ne pas le cocher automatiquement pour toute IA.",
+      "effect": "Documenter la nécessité de l’analyse selon le droit applicable. Si requise et absente : correction avant mise en service. Moins de deux facteurs ne vaut pas exemption automatique.",
+      "legal": "La grille est un indicateur, pas un seuil légal universel ; R3."
+    },
+    {
+      "id": "U-D08",
+      "source": "p. 2 UNIL données q. 7",
+      "question": "Quelles règles de journalisation s’appliquent aux données et traitements prévus ?",
+      "answers": "Nature des données, volume, profils, opérations ; obligation identifiée, mesure interne ou recommandation ; justification.",
+      "effect": "Rapprocher P-D15 à P-D17 et U-A06. Fondement ou paramètres inconnus : informations à compléter.",
+      "legal": "Supprimer le mélange recommandation/obligatoire ; art. 4 OPDo à rattacher au champ applicable."
+    },
+    {
+      "id": "U-D09",
+      "source": "p. 2 UNIL données q. 8",
+      "question": "Un circuit est-il défini pour les demandes des personnes concernées ?",
+      "answers": "Contact UNIL ; contact fournisseur ; procédure ; coordonnées fonctionnelles ; test ou référence ; en cours.",
+      "effect": "Contacts et engagements de coopération à obtenir avant signature ; organisation et test opérationnels avant mise en service.",
+      "legal": "Doublon coordonné avec P-D09, sans effacer les responsabilités des deux parties."
+    },
+    {
+      "id": "U-D10",
+      "source": "p. 2 UNIL données q. 9",
+      "question": "Quel rôle l’outil joue-t-il dans une décision concernant une personne ?",
+      "answers": "Aucune décision ; aide avec contrôle humain effectif ; décision entièrement automatisée ; inconnu. Décrire information, explication et réexamen.",
+      "effect": "Automatisation complète : point bloquant à examiner selon le droit applicable et la politique retenue. Contrôle annoncé sans procédure : correction avant mise en service.",
+      "legal": "Le contrôle humain déclaré ne constitue pas à lui seul une approbation ; procédure de recours à documenter."
+    },
+    {
+      "id": "U-A01",
+      "source": "pp. 2 et 3 UNIL AI Act q. 1",
+      "question": "Quels liens avec l’UE concernent le fournisseur, l’université et l’utilisation des résultats ?",
+      "answers": "Pour chaque acteur : établissement, mise sur le marché, déploiement ou résultats utilisés dans l’UE ; justification ; calendrier.",
+      "effect": "Examen de l’applicabilité par acteur. Si non applicable, qualifier séparément les exigences retenues comme politique ou bonnes pratiques. Pas d’anticipation présentée comme droit suisse déjà en vigueur.",
+      "legal": "AI Act art. 2 et calendrier consolidé à vérifier ; R4."
+    },
+    {
+      "id": "U-A02",
+      "source": "p. 3 UNIL AI Act q. 2",
+      "question": "L’usage présente-t-il une caractéristique potentiellement interdite ?",
+      "answers": "Une réponse et une description pour chacun des dix sous-points source : manipulation, vulnérabilité, contenu intime sans consentement, contenu impliquant un enfant, notation sociale, risque d’infraction, collecte faciale non ciblée, émotions, catégorisation biométrique, identification répressive. Inclure inconnu.",
+      "effect": "Signal positif ou exception invoquée : point bloquant à examiner ; pas de validation automatique. Sous-points négatifs documentés : poursuivre. Vérifier séparément portée et date des ajouts source.",
+      "legal": "Conserver les sous-points b.a et b.b mais ne pas certifier leur base ou date ; texte consolidé R4."
+    },
+    {
+      "id": "U-A03",
+      "source": "p. 3 UNIL AI Act q. 3",
+      "question": "L’usage entre-t-il dans une catégorie potentiellement à haut risque ?",
+      "answers": "Décrire admission, évaluation, orientation, examens, recrutement ou autre usage ; tâche simple invoquée ; aucun ; inconnu. Avis fournisseur et revue distincts.",
+      "effect": "Enregistrer un signal de classification à examiner. Une tâche simple ne ferme pas automatiquement la revue. La structure d’activation finale reste ouverte en D01.",
+      "legal": "AI Act art. 6 et annexe III ; calendrier et exceptions à vérifier."
+    },
+    {
+      "id": "U-A04",
+      "source": "pp. 3 et 4 UNIL AI Act q. 4",
+      "question": "Les personnes chargées de superviser l’outil sont-elles désignées et formées ?",
+      "answers": "Oui avec fonctions, compétences et moyens ; prévu avec date ; non ; inconnu.",
+      "effect": "Si contrôle requis et non opérationnel : correction avant mise en service. Distinguer formation générale et supervision d’un usage particulier. Activation finale D01.",
+      "legal": "AI Act art. 4 et 26 cités ; rôle et portée à vérifier."
+    },
+    {
+      "id": "U-A05",
+      "source": "p. 4 UNIL AI Act q. 5",
+      "question": "Une analyse des effets sur les droits fondamentaux est-elle requise et réalisée ?",
+      "answers": "Nécessité motivée ; analyse réalisée avec référence ; en cours ; non ; inconnu.",
+      "effect": "Si requise, correction avant mise en service. Relier sans fusionner l’analyse de données U-D07. Activation finale D01.",
+      "legal": "AI Act art. 27 ; ne pas appeler cette analyse simplement AIPD."
+    },
+    {
+      "id": "U-A06",
+      "source": "p. 4 UNIL AI Act q. 6",
+      "question": "L’UNIL peut-elle conserver les journaux requis pendant la durée applicable ?",
+      "answers": "Catégories, détenteur, durée, accès, justification et capacité technique ; lacunes ; inconnu.",
+      "effect": "Aligner les paramètres avec P-D15 à P-D17 avant mise en service. Un chiffre générique de six mois ne remplace pas l’analyse. Activation finale D01.",
+      "legal": "AI Act art. 26 cité ; conditions et autres règles à vérifier."
+    },
+    {
+      "id": "U-A07",
+      "source": "p. 4 UNIL AI Act q. 7",
+      "question": "Comment expliquer et faire réexaminer une décision liée à l’outil ?",
+      "answers": "Procédure opérationnelle ; prévue ; absente ; pas de décision individuelle, justification ; inconnu.",
+      "effect": "Procédure nécessaire absente : correction avant mise en service. Ne pas confondre supervision technique et droit de contestation. Activation finale D01.",
+      "legal": "AI Act art. 86 cité et procédure applicable ; pas de conclusion automatique."
+    },
+    {
+      "id": "U-A08",
+      "source": "p. 4 UNIL AI Act q. 8",
+      "question": "Un responsable UNIL est-il désigné pour signaler les incidents au fournisseur ?",
+      "answers": "Responsable, canal, suppléance, procédure et délais ; en cours ; absent ; inconnu.",
+      "effect": "Organisation et contact opérationnels avant mise en service. L’engagement du fournisseur est examiné en P-A19.",
+      "legal": "AI Act art. 26 cité à vérifier selon le contexte."
+    },
+    {
+      "id": "U-A09",
+      "source": "p. 4 UNIL AI Act q. 9",
+      "question": "Les utilisateurs reçoivent-ils une formation adaptée aux usages et données autorisés ?",
+      "answers": "Programme, publics, limites, données interdites et preuve de réalisation ; prévu ; non ; inconnu.",
+      "effect": "Si insuffisant : correction avant mise en service ; contenu proportionné au contexte.",
+      "legal": "AI Act art. 4 cité ; politique interne à identifier."
+    },
+    {
+      "id": "U-A10",
+      "source": "p. 4 UNIL AI Act q. 10",
+      "question": "L’usage est-il obligatoire et quelles alternatives accessibles sont prévues ?",
+      "answers": "Obligatoire ; facultatif ; selon les groupes ; inconnu. Justifier les alternatives et aménagements.",
+      "effect": "Rapprocher P-A22. Usage facultatif ne ferme pas l’examen d’accessibilité. Obstacles critiques sans solution : point bloquant à examiner.",
+      "legal": "Cst et CDPH citées ; portée institutionnelle à vérifier. Réparer le renvoi source erroné vers question 25."
+    },
+    {
+      "id": "U-M01",
+      "source": "p. 5 marchés A q. 1",
+      "question": "Quelle contrepartie l’UNIL fournit-elle pour l’offre ?",
+      "answers": "Prix ; données ou autre avantage ; gratuit sans contrepartie identifiée ; inconnu. Coût et conditions d’utilisation.",
+      "effect": "L’évaluateur confirme l’assujettissement. Si la branche d’achat est écartée, passer à la section suivante sans fermer les contrôles de données et de contrat.",
+      "legal": "AIMP art. 8 ; qualification à vérifier, pas d’exemption automatique."
+    },
+    {
+      "id": "U-M02",
+      "source": "p. 5 marchés A q. 2",
+      "question": "Un contrat existant couvre-t-il précisément cet usage et cette version ?",
+      "answers": "Non ; couverture confirmée avec référence ; couverture partielle ; analyse en cours ; inconnu.",
+      "effect": "Confirmer étendue, conditions et modifications. Passer uniquement les questions d’une nouvelle procédure jugée inutile ; continuer les garanties.",
+      "legal": "AIMP art. 25 cité ; éviter arrêt global."
+    },
+    {
+      "id": "U-M03",
+      "source": "p. 5 marchés A q. 3",
+      "question": "Quelle chaîne de prestataires participe à l’offre ?",
+      "answers": "Fournisseur direct ; intégrateur ; fournisseurs du modèle, hébergeurs, sous-traitants ; engagements applicables et recours.",
+      "effect": "Lacune de garanties ou absence de contrôle : point bloquant à examiner ; engagements contractuels adéquats avant signature. Ne pas présumer qu’une absence de contrat direct est toujours prohibitive.",
+      "legal": "Responsabilités et sous-traitance à examiner ; politique de garanties à approuver."
+    },
+    {
+      "id": "U-M04",
+      "source": "p. 5 marchés B q. 4",
+      "question": "Quelle est la valeur totale de l’acquisition et quelle procédure est confirmée ?",
+      "answers": "Montant hors TVA, devise, durée, options, renouvellements, achats liés ; type de marché ; seuil et version de référence ; avis du service achats.",
+      "effect": "Calculer et faire confirmer la procédure avant sélection. Les bandes 150k/250k/350k du PDF restent des repères source non validés.",
+      "legal": "AIMP art. 15 à 21 et annexes à vérifier selon marché ; aucun seuil universel encodé dans la proposition."
+    },
+    {
+      "id": "U-M05",
+      "source": "p. 6 marchés B q. 5",
+      "question": "Comment les achats liés sont-ils regroupés pour calculer la valeur ?",
+      "answers": "Liste et somme ; lots justifiés ; risque de fractionnement ; inconnu.",
+      "effect": "Clarifier la valeur globale ; fractionnement contraire aux règles : point bloquant à examiner. Ne pas assimiler tout allotissement à une irrégularité.",
+      "legal": "AIMP art. 15 cité à vérifier."
+    },
+    {
+      "id": "U-M06",
+      "source": "p. 6 marchés B q. 6",
+      "question": "Une exception de fournisseur unique est-elle invoquée et documentée ?",
+      "answers": "Non ; oui avec faits, alternatives et analyse ; en cours ; inconnu.",
+      "effect": "Exception examinée par le service compétent avant sélection ; pas de gré à gré automatique sur simple déclaration.",
+      "legal": "AIMP art. 21 al. 2 cité ; conditions précises à vérifier."
+    },
+    {
+      "id": "U-M07",
+      "source": "p. 6 marchés C q. 7",
+      "question": "Les spécifications permettent-elles une concurrence adaptée au besoin ?",
+      "answers": "Fonctions neutres ; marque avec équivalence ; marque imposée avec justification ; lacune ; inconnu.",
+      "effect": "Corriger ou faire valider la justification avant lancement de la procédure. Équivalent ne suffit pas à justifier toute mention de marque.",
+      "legal": "AIMP art. 30 cité à vérifier."
+    },
+    {
+      "id": "U-M08",
+      "source": "p. 6 marchés C q. 8",
+      "question": "Les critères, pondérations et méthodes sont-ils définis et annoncés au moment requis ?",
+      "answers": "Oui avec documents ; en cours ; non ; inconnu.",
+      "effect": "Correction avant lancement ou avis spécialisé si la procédure a déjà commencé ; ne pas prétendre réparer rétroactivement toute omission avant signature.",
+      "legal": "AIMP art. 29 ; R5."
+    },
+    {
+      "id": "U-M09",
+      "source": "p. 6 marchés C q. 9",
+      "question": "Le prix est-il seul critère et, si oui, quelle exception est justifiée ?",
+      "answers": "Prix et qualité ; prix seul avec qualification de prestation standardisée examinée ; prix seul sans justification ; inconnu.",
+      "effect": "Sans justification appropriée : point bloquant à examiner avant procédure ; ne pas rejeter automatiquement l’exception légale.",
+      "legal": "AIMP art. 29 al. 4 ; R5."
+    },
+    {
+      "id": "U-M10",
+      "source": "p. 6 marchés C q. 10",
+      "question": "Quels droits sont préservés sur les contenus saisis et quels usages des résultats sont nécessaires ?",
+      "answers": "Titulaire des contenus ; licences limitées au service ; droits d’usage/publication/export des résultats ; restrictions et réserves de tiers.",
+      "effect": "Faire préciser les droits avant appel d’offres et contractualiser avant signature. Ne pas attribuer automatiquement à l’UNIL tous les droits des étudiants ou chercheurs.",
+      "legal": "LDA art. 6 cité ne suffit pas à établir propriété de tout résultat."
+    },
+    {
+      "id": "U-M11",
+      "source": "p. 7 marchés C q. 11",
+      "question": "Quelles garanties documentent le respect du droit d’auteur par le fournisseur du modèle ?",
+      "answers": "Acteur du modèle ; politique ; documentation pertinente ; limites ; garanties contractuelles ; inconnu.",
+      "effect": "Examen des pièces ; garantie insuffisante : point bloquant à examiner. Une politique seule ne prouve pas la licéité de toutes les données.",
+      "legal": "AI Act art. 53 cité ; vérifier rôle et modèle concerné."
+    },
+    {
+      "id": "P-D01",
+      "source": "p. 8 fournisseur données q. 1",
+      "question": "Où sont établis les prestataires traitant des données ordinaires et leurs maisons mères ?",
+      "answers": "Entités légales, pays, rôle, certification DPF éventuelle et périmètre ; lois d’accès invoquées ; inconnu.",
+      "effect": "Rapprocher lieux réels P-D03. Politique pays et DPF à trancher en D02 ; aucune option ne produit seule une exemption.",
+      "legal": "R1 R2 ; distinction établissement et traitement."
+    },
+    {
+      "id": "P-D02",
+      "source": "p. 8 fournisseur données q. 2",
+      "question": "Où sont établis les prestataires traitant des données sensibles et leurs maisons mères ?",
+      "answers": "Même inventaire, accès possibles, garanties, maîtrise des clés et limites techniques.",
+      "effect": "Signal de risque étranger : point bloquant à examiner jusqu’à décision documentée. Politique restrictive du PDF conservée dans le registre D02, sans la déclarer illégale ni la lever.",
+      "legal": "R2 ; ne pas appliquer une présomption uniforme sans analyse."
+    },
+    {
+      "id": "P-D03",
+      "source": "p. 8 fournisseur données q. 3",
+      "question": "Où les données ordinaires sont-elles traitées, sauvegardées et consultées ?",
+      "answers": "Plusieurs pays et opérations ; génération, support et accès distant ; prestataire par opération ; inconnu.",
+      "effect": "Documenter tous les lieux. Divergence avec P-D01 et DPF : D02. Autres pays : examiner P-D05.",
+      "legal": "R1 R2 ; pas d’assimilation siège et hébergement."
+    },
+    {
+      "id": "P-D04",
+      "source": "pp. 8 et 9 fournisseur données q. 4",
+      "question": "Où les données sensibles sont-elles traitées, sauvegardées et consultées ?",
+      "answers": "Pays, opérations, accès, garanties et prestataires ; inconnu.",
+      "effect": "Politique des pays et mesures spéciales : D02. Une situation non admise ou non documentée reste à examiner avant transfert.",
+      "legal": "R2 ; champ et garanties à vérifier."
+    },
+    {
+      "id": "P-D05",
+      "source": "p. 9 fournisseur données q. 5",
+      "question": "Quelle base ou garantie justifie chaque communication à l’étranger ?",
+      "answers": "Lister transfert, pays, données, fréquence, fondement invoqué et conditions. Conserver les catégories source comme aide, sans validation automatique ; aucune base ; inconnu.",
+      "effect": "Absence de fondement identifié : point bloquant à examiner. Vérification avant transfert et engagement avant signature. Ne pas réserver l’analyse aux transferts ponctuels ordinaires.",
+      "legal": "LPrD art. 17 ; articulation des exceptions et garanties à vérifier."
+    },
+    {
+      "id": "P-D06",
+      "source": "p. 9 fournisseur données q. 6",
+      "question": "Quelles durées ou règles de suppression s’appliquent à chaque catégorie ?",
+      "answers": "Données de travail, sauvegardes, journaux, justificatifs ; durée ou critère précis ; motif ; responsable ; inconnu.",
+      "effect": "Une formule vague appelle des informations à compléter. Une conservation excessive : point bloquant à examiner ; règles proportionnées avant usage.",
+      "legal": "R1 ; supprimer les deux réponses sémantiquement proches."
+    },
+    {
+      "id": "P-D07",
+      "source": "p. 9 fournisseur données q. 7",
+      "question": "Quelles protections de chiffrement et de gestion des clés sont effectivement utilisées ?",
+      "answers": "Repos et transit séparés ; détenteur et accès aux clés ; lieux ; déchiffrement nécessaire au service ; mesures alternatives et limites.",
+      "effect": "Politique de maîtrise des clés D02. Lacune critique : point bloquant à examiner ; engagement avant signature, fonctionnement avant mise en service.",
+      "legal": "R2 ; ne pas confondre stockage chiffré et impossibilité d’accès fournisseur."
+    },
+    {
+      "id": "P-D08",
+      "source": "p. 9 fournisseur données q. 8",
+      "question": "Les données sont-elles réutilisées pour entraîner, améliorer ou évaluer les modèles ?",
+      "answers": "Jamais ; uniquement activation explicite ; activé par défaut désactivable ; obligatoire ; inconnu. Préciser acteurs, données et effet sur sauvegardes.",
+      "effect": "Politique stricte du PDF non levée : scénarios de réutilisation et opt-out restent en discussion D03. Paramètres et engagements documentés avant usage.",
+      "legal": "Séparer fait technique, finalité et décision institutionnelle."
+    },
+    {
+      "id": "P-D09",
+      "source": "p. 10 fournisseur données q. 9",
+      "question": "Quel contact et quels engagements permettent de traiter les demandes des personnes ?",
+      "answers": "Contact, suppléance, procédure, périmètre, engagements ; prévu ; absent ; inconnu.",
+      "effect": "Engagement avant signature et fonctionnement avant mise en service ; rapprocher U-D09.",
+      "legal": "Droits et coopération selon cadre applicable R1."
+    },
+    {
+      "id": "P-D10",
+      "source": "p. 10 fournisseur données q. 10",
+      "question": "Quels délais et limites s’appliquent à chaque opération sur les données d’une personne ?",
+      "answers": "Pour accès, rectification, export et suppression : délai chiffré, point de départ, données actives, sauvegardes et journaux ; impossibilité ; inconnu.",
+      "effect": "Délai et exclusion évalués séparément. Le repère de dix jours reste une proposition contractuelle à justifier, pas un délai légal universel.",
+      "legal": "R1 ; ne pas assimiler délai fournisseur au délai de réponse légal de l’UNIL."
+    },
+    {
+      "id": "P-D11",
+      "source": "p. 10 fournisseur données q. 11",
+      "question": "Quel délai maximal de notification à l’UNIL est garanti après connaissance d’un incident ?",
+      "answers": "Immédiat ou moins de 24 h ; jusqu’à 24 h ; plus de 24 à 72 h ; plus de 72 h ; non fixé ; inconnu. Contenu initial et mises à jour.",
+      "effect": "Délai à justifier et contractualiser avant signature ; circuit à tester avant usage. Pas d’acceptation automatique d’un intervalle.",
+      "legal": "Distinguer notification fournisseur, autorité et personnes ; LPD art. 24 source à vérifier."
+    },
+    {
+      "id": "P-D12",
+      "source": "p. 10 fournisseur données q. 12",
+      "question": "Comment les mesures du fournisseur couvrent-elles confidentialité, intégrité, disponibilité et traçabilité ?",
+      "answers": "Description par objectif, contrôles, audit, certification ou équivalent, limites et preuves ; refus ; inconnu.",
+      "effect": "Absence critique ou refus de description : point bloquant à examiner. Lacunes remédiables : correction avec échéance motivée. Relier P-C14, sans imposer deux verdicts contradictoires.",
+      "legal": "R2 ; alternatives de preuve D04."
+    },
+    {
+      "id": "P-D13",
+      "source": "p. 10 fournisseur données q. 13",
+      "question": "Comment les données sont-elles restituées puis supprimées en fin de relation ?",
+      "answers": "Format réutilisable, calendrier d’export, attestation, sauvegardes, journaux, obligations de conservation et vérification ; aucune mesure ; inconnu.",
+      "effect": "Garanties avant signature ; vérifier capacité de sortie. Suppression sans export utile ou absence de garanties : point bloquant à examiner.",
+      "legal": "Suppression intégrale immédiate non présumée possible ; justifier exceptions et durées."
+    },
+    {
+      "id": "P-D14",
+      "source": "p. 10 fournisseur données q. 14",
+      "question": "Quels tests couvrent les attaques propres à l’IA ?",
+      "answers": "Types, périmètre, date, indépendance, résultats, corrections et preuves ; internes ; absents ; inconnu.",
+      "effect": "Partager le dossier de preuve avec P-A10. Niveau de preuve et caractère bloquant à trancher D04, sans deux issues concurrentes.",
+      "legal": "AI Act art. 15 source ; portée et politique à confirmer."
+    },
+    {
+      "id": "P-D15",
+      "source": "p. 10 fournisseur données q. 15",
+      "question": "Quelle exigence de journalisation est retenue et pour quel traitement ?",
+      "answers": "Fondement applicable ; mesure interne ; recommandation ; justification et périmètre ; inconnu.",
+      "effect": "Décision cohérente avec U-D08 et U-A06 ; paramètres à définir avant usage. Ne pas confondre art. 19 source et règle universelle de conservation.",
+      "legal": "OPDo et AI Act cités à rattacher à la bonne entité."
+    },
+    {
+      "id": "P-D16",
+      "source": "pp. 10 et 11 fournisseur données q. 16",
+      "question": "Quels événements et quelles données sont journalisés ?",
+      "answers": "Connexions, accès, métadonnées des requêtes, exports/partages/suppressions, personnel, configuration, contenu ; identité/date/heure/destinataire ; finalité et accès.",
+      "effect": "Examen de la nécessité. Journalisation du contenu : point bloquant à examiner selon politique D05 ; pas de suppression automatique de la restriction source.",
+      "legal": "Séparer contenu et métadonnées ; minimisation et confidentialité."
+    },
+    {
+      "id": "P-D17",
+      "source": "p. 11 fournisseur données q. 17",
+      "question": "Comment l’UNIL accède-t-elle aux journaux et combien de temps sont-ils disponibles ?",
+      "answers": "Détenteur, export, droits d’accès, délais, durée totale, justification ; non disponible ; inconnu.",
+      "effect": "Concilier six mois et un an par catégorie en D05. Engagement avant signature et capacité avant mise en service.",
+      "legal": "Conservation et disponibilité sont deux paramètres distincts."
+    },
+    {
+      "id": "P-A01",
+      "source": "p. 11 fournisseur AI Tool q. 1",
+      "question": "Les personnes sont-elles informées qu’elles interagissent avec une IA ?",
+      "answers": "Oui avec exemple ; aucune interaction ; non ; inconnu. Acteur et exception invoquée.",
+      "effect": "Si mesure applicable absente : correction avant mise en service ; engagement avant signature. Placement et activation réservés D01.",
+      "legal": "AI Act art. 50 cité ; portée à vérifier."
+    },
+    {
+      "id": "P-A02",
+      "source": "p. 11 fournisseur AI Tool premier q. 2",
+      "question": "Quels contenus sont générés et quels mécanismes de marquage s’appliquent ?",
+      "answers": "Texte/image/son/vidéo ; marquage lisible par machine ; autre information ; pas de génération ; absent ; inconnu. Acteur responsable et preuve.",
+      "effect": "Examen distinct de l’information utilisateur. Si requis, correction avant mise en service. Placement et activation réservés D01.",
+      "legal": "AI Act art. 50 et transitions à vérifier ; aucune date unique présumée."
+    },
+    {
+      "id": "P-A03",
+      "source": "p. 11 fournisseur AI Tool second q. 2",
+      "question": "Quel est l’état documenté de la conformité et du marquage requis ?",
+      "answers": "Déjà obtenu avec déclaration/référence ; en cours avec échéance ; non requis avec justification ; absent ; inconnu.",
+      "effect": "Séparer preuve actuelle et promesse. L’échéance du PDF ne vaut pas autorisation de déployer : régime applicable à vérifier D06. Activation finale D01.",
+      "legal": "AI Act art. 47 à 49 et amendement 2026/1744 ; date non certifiée."
+    },
+    {
+      "id": "P-A04",
+      "source": "p. 11 fournisseur AI Tool q. 3",
+      "question": "La notice décrit-elle capacités, limites et performances dans l’usage prévu ?",
+      "answers": "Notice et version ; essais pertinents ; taux d’erreur contextualisés ; lacunes ; refus ; inconnu.",
+      "effect": "Documents à obtenir avant signature ; limite critique non maîtrisée : point bloquant à examiner. Activation D01.",
+      "legal": "AI Act art. 13 et 15 cités ; portée à confirmer."
+    },
+    {
+      "id": "P-A05",
+      "source": "p. 11 fournisseur AI Tool q. 4",
+      "question": "Les personnes compétentes peuvent-elles comprendre, corriger et arrêter l’utilisation ?",
+      "answers": "Fonctions disponibles, rôles, formation, essais, limites ; prévu ; non ; inconnu.",
+      "effect": "Lacune critique : point bloquant à examiner ; mesures opérationnelles avant mise en service. Relier U-A04 et U-D10. Activation D01.",
+      "legal": "AI Act art. 14 cité ; contrôle effectif à vérifier."
+    },
+    {
+      "id": "P-A06",
+      "source": "pp. 11 et 12 fournisseur AI Tool q. 5",
+      "question": "Quelles informations aident l’UNIL à évaluer les impacts et expliquer une décision ?",
+      "answers": "Dossier fourni, limites, modalités d’assistance et références ; incomplet ; refus ; inconnu.",
+      "effect": "Séparer documentation, analyse de données et droits fondamentaux. Informations suffisantes avant la décision concernée. Activation D01.",
+      "legal": "AI Act art. 13, 27 et 86 cités ; responsabilités distinctes."
+    },
+    {
+      "id": "P-A07",
+      "source": "p. 12 fournisseur AI Tool q. 6",
+      "question": "Comment les changements de sous-traitants sont-ils annoncés et encadrés ?",
+      "answers": "Liste, préavis, objection ou autre mécanisme, garanties, changement urgent ; absence ; inconnu.",
+      "effect": "Clause et processus à convenir avant signature ; un simple oui au préavis ne suffit pas.",
+      "legal": "LPrD art. 18 et LPD art. 9 à rattacher au champ ; R1 R2."
+    },
+    {
+      "id": "P-A08",
+      "source": "p. 12 fournisseur AI Tool q. 7",
+      "question": "Quelle authentification protège les accès et répond au besoin institutionnel ?",
+      "answers": "Compte institutionnel compatible ; autre solution équivalente ; absence ; inconnu. Décrire comptes, permissions et authentification renforcée.",
+      "effect": "Choix SWITCH edu-ID et équivalents à confirmer comme exigence institutionnelle D04 ; sécurité opérationnelle avant usage.",
+      "legal": "Ne pas présenter une marque de connexion comme obligation légale universelle."
+    },
+    {
+      "id": "P-A09",
+      "source": "p. 12 fournisseur AI Tool q. 8",
+      "question": "Les accès du personnel sont-ils limités au besoin et contrôlés ?",
+      "answers": "Rôles, autorisations, support exceptionnel, revue et journaux ; insuffisant ; inconnu.",
+      "effect": "Engagement avant signature ; contrôles avant mise en service. Lacune critique : point bloquant à examiner.",
+      "legal": "Privilège minimal ; fondement et proportionnalité à documenter."
+    },
+    {
+      "id": "P-A10",
+      "source": "p. 12 fournisseur AI Tool q. 9",
+      "question": "Des tests indépendants couvrent-ils les risques propres à l’IA ?",
+      "answers": "Réutiliser les pièces P-D14 ; indépendance et périmètre ; tests internes ; absence ; inconnu.",
+      "effect": "Une seule revue de tests et une seule échéance à confirmer en D04 ; ne pas créer un verdict opposé à P-D14.",
+      "legal": "Doublon conservé comme renvoi et non contrôle contradictoire."
+    },
+    {
+      "id": "P-A11",
+      "source": "p. 12 fournisseur AI Tool q. 10",
+      "question": "Comment les changements importants du modèle sont-ils annoncés et évalués ?",
+      "answers": "Préavis, version, impact, documentation, requalification éventuelle, possibilité de suspendre ; absence ; inconnu.",
+      "effect": "Clause avant signature ; revue avant adoption du changement. Ne pas assimiler tout changement commercial à une modification substantielle juridique.",
+      "legal": "AI Act art. 43 source ; rôle et qualification à vérifier."
+    },
+    {
+      "id": "P-A12",
+      "source": "p. 12 fournisseur AI Tool q. 11",
+      "question": "Quelles mesures traitent le risque d’empoisonnement des données ou du modèle ?",
+      "answers": "Responsable de chaque composant, mesures, essais et limites ; non maîtrisé ; inconnu.",
+      "effect": "Informations à compléter ; mesures ou garanties avant mise en service selon risque. Ne pas exiger d’un intégrateur des actions qu’il ne contrôle pas sans garantie de chaîne.",
+      "legal": "AI Act art. 15 cité ; rôle et périmètre à vérifier."
+    },
+    {
+      "id": "P-A13",
+      "source": "p. 12 fournisseur AI Tool q. 13",
+      "question": "Quelles performances et erreurs sont mesurées pour notre usage ?",
+      "answers": "Jeu d’essai, langue, version, indicateurs, erreurs et limites ; résultats manquants ; inconnu.",
+      "effect": "Compléter avant sélection ou engagement selon le besoin ; pas de taux universel d’hallucination présumé.",
+      "legal": "Spécifications et qualité ; AIMP art. 30 source ne fixe pas de taux."
+    },
+    {
+      "id": "P-A14",
+      "source": "p. 12 fournisseur AI Tool q. 14",
+      "question": "Les performances sont-elles acceptables dans les langues nécessaires ?",
+      "answers": "Langues requises ; tests FR et EN si pertinents ; résultats, limites et adaptations ; inconnu.",
+      "effect": "Tester selon le besoin avant sélection ; écart critique : point bloquant à examiner. Ne pas exiger une égalité parfaite abstraite.",
+      "legal": "RLUL source à préciser ; exigence fonctionnelle à justifier."
+    },
+    {
+      "id": "P-A15",
+      "source": "p. 13 fournisseur AI Tool q. 15",
+      "question": "Quelles actions l’outil peut-il exécuter dans les autres systèmes ?",
+      "answers": "Aucune ; actions limitées ; validation humaine ; autonomie encadrée ; absence de contrôle ; inconnu. Permissions, arrêt, limites et journalisation.",
+      "effect": "Autonomie sans garde-fous : point bloquant à examiner. Toute ouverture par rapport à la restriction source reste proposée, non approuvée.",
+      "legal": "AI Act et OWASP source ; distinguer guide de sécurité et loi."
+    },
+    {
+      "id": "P-A16",
+      "source": "p. 13 fournisseur AI Tool q. 16",
+      "question": "Quel niveau de disponibilité est garanti et comment est-il mesuré ?",
+      "answers": "Pourcentage ou objectif adapté, plage, exclusions, incidents, recours, preuves ; non défini ; inconnu.",
+      "effect": "Objectifs contractuels avant signature ; solution opérationnelle avant mise en service.",
+      "legal": "Remplacer presque tout le temps par une mesure contrôlable."
+    },
+    {
+      "id": "P-A17",
+      "source": "p. 13 fournisseur AI Tool q. 17",
+      "question": "Quel dispositif de continuité et de reprise est prévu ?",
+      "answers": "Plan, tests, temps de reprise, perte de données acceptable, solution alternative ; absence ; inconnu.",
+      "effect": "Garantie et plan avant signature selon criticité ; test avant usage lorsque nécessaire.",
+      "legal": "Politique de résilience à proportionner."
+    },
+    {
+      "id": "P-A18",
+      "source": "p. 13 fournisseur AI Tool q. 18",
+      "question": "Comment la gestion des risques d’IA est-elle organisée ?",
+      "answers": "ISO 42001 ; autre système documenté ; en cours ; absent ; inconnu. Périmètre, responsable et preuves.",
+      "effect": "Même fait et même revue que P-C15 ; niveau de preuve obligatoire à trancher D04.",
+      "legal": "Éviter deux conséquences contradictoires pour le même dispositif."
+    },
+    {
+      "id": "P-A19",
+      "source": "p. 13 fournisseur AI Tool q. 19",
+      "question": "Quel contact fournisseur assure le traitement des incidents et risques ?",
+      "answers": "Contact, disponibilité, escalade, engagements et suppléance ; absent ; inconnu.",
+      "effect": "Engagement avant signature et circuit opérationnel avant mise en service ; relier U-A08.",
+      "legal": "AI Act art. 26 source concerne notamment le déployeur ; ne pas déduire automatiquement une obligation générale de hotline."
+    },
+    {
+      "id": "P-A20",
+      "source": "p. 13 fournisseur AI Tool q. 20",
+      "question": "Quels tests externes de sécurité sont réalisés et à quelle fréquence justifiée ?",
+      "answers": "Rapports ou synthèse, périmètre, fréquence, corrections, indépendance ; autre preuve ; absent ; inconnu.",
+      "effect": "Fréquence annuelle source à confirmer D04 ; ne pas la présenter comme universellement imposée par la loi.",
+      "legal": "Distinguer tests d’intrusion généraux et tests spécifiques P-D14."
+    },
+    {
+      "id": "P-A21",
+      "source": "p. 13 fournisseur AI Tool q. 21",
+      "question": "Quels risques de discrimination sont évalués dans l’usage prévu ?",
+      "answers": "Groupes, situations comparables, méthodes, résultats, limites et mesures ; absent ; inconnu.",
+      "effect": "Résultats et mesures avant sélection ou déploiement selon criticité ; risque non maîtrisé : point bloquant à examiner.",
+      "legal": "Cst art. 8 et AI Act art. 10 source ; éviter traite tout le monde exactement pareil."
+    },
+    {
+      "id": "P-A22",
+      "source": "p. 13 fournisseur AI Tool q. 22",
+      "question": "Quels besoins d’accessibilité sont couverts et quelles alternatives existent ?",
+      "answers": "Évaluation, utilisateurs, obstacles, adaptations, alternative, délai ; absent ; inconnu.",
+      "effect": "Si usage obligatoire inaccessible sans solution : point bloquant à examiner. Usage facultatif : examiner aussi les obligations ; alternative avant usage.",
+      "legal": "Cst et CDPH citées ; ne pas limiter toute obligation au caractère obligatoire."
+    },
+    {
+      "id": "P-A23",
+      "source": "p. 14 fournisseur AI Tool q. 23",
+      "question": "Quelles restrictions de contenu peuvent affecter l’enseignement et la recherche ?",
+      "answers": "Restrictions, motifs, recours, paramétrage, garanties ; absence de réponse ; inconnu.",
+      "effect": "Examen au regard des usages universitaires ; clauses avant signature. Restriction incompatible avec le besoin : point bloquant à examiner.",
+      "legal": "Liberté académique ; ne pas promettre absence absolue de toute restriction."
+    },
+    {
+      "id": "P-C10",
+      "source": "p. 14 contrat D q. 10",
+      "question": "Existe-t-il un motif d’exclusion à examiner ?",
+      "answers": "Non avec attestations ; oui préciser ; vérification en cours ; inconnu.",
+      "effect": "Examen motivé avant sélection. Ne pas présumer que chaque motif impose ou permet librement le même traitement.",
+      "legal": "AIMP art. 44 source ; conditions exactes et procédure à vérifier."
+    },
+    {
+      "id": "P-C11",
+      "source": "p. 14 contrat D q. 11",
+      "question": "Quelles preuves établissent le respect des conditions de travail et d’égalité salariale ?",
+      "answers": "Attestations et contrôles ; manquement ; preuve en cours ; inconnu.",
+      "effect": "Manquement : point bloquant à examiner avant sélection ; preuve manquante : informations à compléter selon la procédure applicable.",
+      "legal": "AIMP art. 12 et 26 cités ; R6."
+    },
+    {
+      "id": "P-C12",
+      "source": "p. 14 contrat D q. 12",
+      "question": "Les capacités financières satisfont-elles les critères annoncés ?",
+      "answers": "Preuves adaptées, garanties ou autre pièce recevable ; insuffisant ; inconnu.",
+      "effect": "Évaluer selon critères annoncés et proportionnés ; absence de comptes ne signifie pas automatiquement faillite.",
+      "legal": "AIMP art. 27 source ; ne pas inventer après réception un nouveau critère."
+    },
+    {
+      "id": "P-C13",
+      "source": "p. 14 contrat D q. 13",
+      "question": "Les références ou preuves d’expérience satisfont-elles les critères annoncés ?",
+      "answers": "Références comparables, nombre exigé justifié, autres preuves admises ; insuffisant ; inconnu.",
+      "effect": "Examen avant sélection selon procédure ; deux références universitaires ne sont pas présentées comme obligation légale générale.",
+      "legal": "AIMP art. 27 source ; proportionnalité et concurrence à vérifier."
+    },
+    {
+      "id": "P-C14",
+      "source": "p. 14 contrat D q. 14",
+      "question": "Quel niveau d’assurance de sécurité est documenté ?",
+      "answers": "ISO 27001 valide avec périmètre ; preuve alternative ; certification en cours avec date ; absence ; inconnu.",
+      "effect": "Relier P-D12. Politique de certification et alternatives D04 : le PDF rejette sans certification mais propose une vérification IT, contradiction à décider.",
+      "legal": "Proposition d’examen des équivalents, non approuvée ; aucune exemption créée."
+    },
+    {
+      "id": "P-C15",
+      "source": "p. 15 contrat D q. 15",
+      "question": "Le système de gestion de l’IA répond-il au niveau exigé pour ce besoin ?",
+      "answers": "Reprendre P-A18 sans demander deux fois le même fait ; écart et preuve complémentaire.",
+      "effect": "Une seule revue ; conséquence et risque de référence à décider D04. Éviter confusion entre risque interne, haut risque AI Act et risque systémique.",
+      "legal": "Critère institutionnel ou aptitude à justifier ; pas d’exigence ISO universelle présumée."
+    },
+    {
+      "id": "P-C20",
+      "source": "p. 15 contrat F q. 20",
+      "question": "Quelle documentation du système et du modèle est contractuellement disponible ?",
+      "answers": "Documents, acteur responsable, version, limites d’accès, mises à jour ; incomplet ; refus ; inconnu.",
+      "effect": "Documentation suffisante pour le besoin avant signature. Refus empêchant l’évaluation : point bloquant à examiner.",
+      "legal": "AI Act art. 53 concerne certains fournisseurs de modèles ; distinguer modèle et système."
+    },
+    {
+      "id": "P-C21",
+      "source": "p. 15 contrat F q. 21",
+      "question": "La confidentialité contractuelle permet-elle de respecter la LInfo et ses exceptions ?",
+      "answers": "Clause adaptée ; négociation ; confidentialité absolue ; inconnu.",
+      "effect": "Négocier avant signature ; refus incompatible avec le droit applicable : point bloquant à examiner.",
+      "legal": "LInfo source ; pas de promesse de publication intégrale de tout document."
+    },
+    {
+      "id": "P-C22",
+      "source": "p. 15 contrat F q. 22",
+      "question": "Quels engagements couvrent droits de tiers, réclamations et indemnisation ?",
+      "answers": "Garantie, procédure, périmètre, exclusions, plafond, indemnité ou alternative ; refus ; inconnu.",
+      "effect": "Examen et négociation avant signature. Une absence d’indemnité n’établit pas à elle seule une violation du droit d’auteur.",
+      "legal": "LDA art. 10 et 62 source ; distinguer loi et protection contractuelle recherchée."
+    },
+    {
+      "id": "P-C24",
+      "source": "p. 15 contrat F q. 24",
+      "question": "L’UNIL dispose-t-elle des droits d’usage nécessaires sur les résultats ?",
+      "answers": "Utilisation, publication, modification, export, exclusivité éventuelle, droits préexistants et de tiers ; restrictions ; inconnu.",
+      "effect": "Garanties avant signature ; restrictions incompatibles avec le besoin : point bloquant à examiner. Rapprocher U-M10.",
+      "legal": "Ne pas présumer qu’un résultat généré est une œuvre ni qu’il appartient automatiquement à l’UNIL."
+    },
+    {
+      "id": "P-C25",
+      "source": "p. 15 contrat F q. 25",
+      "question": "Quels composants sont sous licence ouverte et avec quelles obligations ?",
+      "answers": "Modèle, logiciel, licence, restrictions, redistribution, documentation du fournisseur ; pas ouvert ; inconnu.",
+      "effect": "Examen des obligations et des responsabilités ; open source ne crée pas une exemption générale ni un défaut automatique.",
+      "legal": "AI Act art. 53 source ; conditions et acteur à vérifier."
+    },
+    {
+      "id": "P-C26",
+      "source": "p. 16 contrat F q. 26",
+      "question": "Le modèle relève-t-il d’un régime de risque systémique et quelles preuves le documentent ?",
+      "answers": "Qualification motivée, acteur du modèle, référence et obligations pertinentes ; non ; analyse en cours ; inconnu.",
+      "effect": "Inconnu : informations à compléter ; si applicable vérifier l’ensemble des mesures concernées, pas seulement un contact d’incident.",
+      "legal": "AI Act art. 55 cité ; risque systémique du modèle distinct du haut risque de l’usage."
+    },
+    {
+      "id": "POST30",
+      "source": "p. 7 UNIL G q. 30",
+      "question": "Quelles obligations de publication et de conservation s’appliquent à cette procédure ?",
+      "answers": "Décision, date et support de publication lorsque requis ; dossier, durée, accès ; non applicable motivé ; manquant ; inconnu.",
+      "effect": "Publier au stade requis par la procédure, qui peut précéder la signature. Conserver et suivre les obligations ensuite. Ne pas tout différer après signature.",
+      "legal": "AIMP art. 48 et 49 source à vérifier ; correction de la séquence source proposée."
+    },
+    {
+      "id": "POST31",
+      "source": "p. 7 UNIL G q. 31",
+      "question": "Quand et par qui le projet sera-t-il réexaminé ?",
+      "answers": "Responsable, date, renouvellement, changement de modèle, incidents, nouveaux usages ou données ; procédure et pièces.",
+      "effect": "Organiser le suivi avant mise en service. Un changement pertinent rouvre les examens concernés avant son adoption.",
+      "legal": "Mesure de gouvernance proposée ; ne pas annoncer une obligation légale universelle de revue à chaque changement."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "title": "Structure du haut risque",
+      "status": "OUVERT NON APPROUVÉ",
+      "problem": "L’utilisateur n’a pas approuvé la séparation proposée entre contrôles généraux et contrôles de haut risque. Aucun déplacement définitif ni règle d’activation n’est adopté ici. Les questions source sont toutes conservées.",
+      "recommendation": "Recommandation à discuter : distinguer portée juridique et emplacement visuel, puis décider question par question. Le schéma montre un module réservé sans flèche de décision oui/non imposée.",
+      "questions": "U-A03 à U-A07 et P-A01 à P-A23"
+    },
+    {
+      "id": "D02",
+      "title": "Pays transferts et clés",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "Les réponses US et DPF des questions d’établissement et de traitement divergent. La maîtrise des clés est présentée comme absolue dans le PDF.",
+      "recommendation": "Conserver les signaux restrictifs pour revue ; décider une politique par données, opérations et garanties. Ni autorisation nouvelle ni levée de la restriction source.",
+      "questions": "P-D01 à P-D07"
+    },
+    {
+      "id": "D03",
+      "title": "Réutilisation pour les modèles",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "Le PDF bloque toute réutilisation et toute configuration opt-out.",
+      "recommendation": "Séparer la collecte des faits et la règle institutionnelle. Recommandation : données non réutilisées par défaut, tout autre cas soumis à décision explicite ; aucune exception automatique.",
+      "questions": "P-D08"
+    },
+    {
+      "id": "D04",
+      "title": "Preuves certifications et tests",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "Des doublons exigent tantôt un rejet et tantôt une correction pour ISO et tests. SWITCH et la fréquence annuelle sont aussi à justifier.",
+      "recommendation": "Une seule donnée et une seule revue pour chaque contrôle. Recommandation : preuves proportionnées et équivalents examinés quand recevables. L’équipe doit confirmer toute exigence non négociable et son échéance ; le standard n’est pas abaissé automatiquement.",
+      "questions": "P-D12 P-D14 P-A08 P-A10 P-A18 P-A20 P-C14 P-C15"
+    },
+    {
+      "id": "D05",
+      "title": "Journaux et délais",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "Six mois et un an se côtoient ; le contenu des requêtes est bloqué sans distinguer les contextes.",
+      "recommendation": "Décider catégories, finalités, durées, accès et données exclues. Garder le contenu comme signal bloquant tant que la politique n’est pas arrêtée.",
+      "questions": "U-D08 U-A06 P-D15 à P-D17"
+    },
+    {
+      "id": "D06",
+      "title": "Références et échéances légales",
+      "status": "VÉRIFICATION REQUISE",
+      "problem": "Le PDF cite des dates et articles dont la portée varie selon l’acteur et la catégorie de système.",
+      "recommendation": "Vérifier le texte consolidé, notamment S2 devenu P-A03 et les sous-points b.a/b.b de U-A02. L’existence d’un amendement retrouvée n’est pas une validation de toutes ses dates. Identifier le cadre cantonal/fédéral/européen pour chaque exigence.",
+      "questions": "E03 U-A01 U-A02 P-A03 et références de toutes les fiches"
+    },
+    {
+      "id": "D07",
+      "title": "Échéances avant procédure et sélection",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "Les cinq libellés approuvés ne nomment pas un libellé spécifique avant publication de l’appel d’offres ou sélection.",
+      "recommendation": "Conserver les cinq libellés ; ajouter à chaque action un champ échéance (avant procédure, sélection, signature, mise en service, suivi). Valider cette granularité. Une correction avant signature ne répare pas automatiquement une procédure déjà irrégulière.",
+      "questions": "U-M04 à U-M11 et P-C10 à P-C15"
+    },
+    {
+      "id": "D08",
+      "title": "Périmètre par rapport à l’app actuelle",
+      "status": "CHOIX DE L’ÉQUIPE",
+      "problem": "Le nouveau PDF ne reprend pas les quatre questions de notation M16 à M19 ni toutes les anciennes qualifications Ahmed.",
+      "recommendation": "Les quatre entrées E sont des ajouts proposés. Aucun barème 40/15/30/15 n’est réintroduit comme acquis. Confirmer si la comparaison chiffrée et les anciennes questions doivent être reprises dans une annexe ultérieure.",
+      "questions": "E01 à E04 et ancienne comparaison de l’app"
+    },
+    {
+      "id": "D09",
+      "title": "Publication et après signature",
+      "status": "PROPOSITION À VALIDER",
+      "problem": "La source place publication et archivage après signature ; certaines obligations de procédure peuvent intervenir avant.",
+      "recommendation": "Recommandation : publication au moment juridiquement requis, puis conservation et suivi après signature. Le principe clauses avant signature est approuvé ; ce calendrier détaillé de publication ne l’est pas encore.",
+      "questions": "POST30 POST31"
+    }
+  ]
+}

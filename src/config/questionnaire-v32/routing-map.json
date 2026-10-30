@@ -1,0 +1,4621 @@
+{
+  "version": "2026-10-27.checklist-v3.2.routing-map.1",
+  "status": "specification-not-active-not-executable",
+  "sourceSha256": "7fefb8e12cce5bf30c2e1a38c0f6499c1dd561ad9b7db29768d676c453a74ca2",
+  "precedence": [
+    "Établir les faits de cadrage depuis les réponses, sans valeur implicite pour une question sans réponse.",
+    "Calculer la visibilité ; une question omise ne fournit pas de verdict courant.",
+    "Lire le verdict source ; appliquer seulement la conversion AI ACT explicitement prévue.",
+    "Appliquer l’exception rouge maintenu de 2.1.",
+    "Un rouge effectif arrête la collecte et dirige vers la synthèse ; les suspensions spéciales empêchent la poursuite concernée.",
+    "Appliquer les sauts explicites puis la prochaine question visible ; les cibles sont des candidats, jamais une permission de poser une question exclue.",
+    "Reporter conditions, recommandations et avis ; décision finale humaine."
+  ],
+  "issues": [
+    {
+      "id": "A01",
+      "topic": "5.2 f → 5.5",
+      "description": "Renvoi des données sensibles vers une question limitée aux données ordinaires ; contradiction également signalée en annexe 4.",
+      "questions": [
+        "V32-S05-Q02",
+        "V32-S05-Q05",
+        "V32-S05-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A02",
+      "topic": "3.1 b / 3.2 b → étape 5",
+      "description": "Le saut évite 3.3 (intermédiaire), mais 7.7 en dépend. Définir comment recueillir ce fait sans ajouter ou déplacer silencieusement une question.",
+      "questions": [
+        "V32-S03-Q01",
+        "V32-S03-Q02",
+        "V32-S03-Q03",
+        "V32-S07-Q07"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A03",
+      "topic": "5.1 d et 5.3 c",
+      "description": "DPF : orange pour le siège, vert pour le lieu de traitement. Conserver les deux résultats sans les fusionner ; changement éventuel à décider (annexe 4).",
+      "questions": [
+        "V32-S05-Q01",
+        "V32-S05-Q03"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A04",
+      "topic": "5.2 b/e et 5.4 a/b",
+      "description": "Exposition au droit américain : restrictions différentes pour le siège et le lieu de traitement (annexe 4).",
+      "questions": [
+        "V32-S05-Q02",
+        "V32-S05-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A05",
+      "topic": "5.2 recommandation c",
+      "description": "Application de l’accord Royaume-Uni/États-Unis aux territoires liés et mesure concrète à préciser (annexe 4).",
+      "questions": [
+        "V32-S05-Q02"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A06",
+      "topic": "2.3 b",
+      "description": "Suspension immédiate jusqu’à avis écrit, mais cet avis ne peut être renseigné dans le parcours qu’en 8.3. Définir une reprise et un accès aux avis sans considérer cet orange comme une simple continuation.",
+      "questions": [
+        "V32-S02-Q03",
+        "V32-S08-Q03"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A07",
+      "topic": "Preuves fournisseur",
+      "description": "Page 1 : possibilité de joindre une preuve ; annexe 3 : preuve exigée pour toutes les réponses. Confirmer quand la pièce est obligatoire, et si une référence seule suffit.",
+      "questions": [
+        "V32-S04-Q01",
+        "V32-S04-Q02",
+        "V32-S04-Q03",
+        "V32-S04-Q04",
+        "V32-S04-Q05",
+        "V32-S04-Q06",
+        "V32-S05-Q01",
+        "V32-S05-Q02",
+        "V32-S05-Q03",
+        "V32-S05-Q04",
+        "V32-S05-Q05",
+        "V32-S05-Q06",
+        "V32-S05-Q07",
+        "V32-S05-Q08",
+        "V32-S05-Q09",
+        "V32-S05-Q10",
+        "V32-S05-Q11",
+        "V32-S05-Q12",
+        "V32-S05-Q13",
+        "V32-S05-Q14",
+        "V32-S05-Q15",
+        "V32-S05-Q16",
+        "V32-S05-Q17",
+        "V32-S06-Q01",
+        "V32-S06-Q02",
+        "V32-S06-Q03",
+        "V32-S06-Q04",
+        "V32-S06-Q05",
+        "V32-S06-Q06",
+        "V32-S06-Q07",
+        "V32-S06-Q08",
+        "V32-S06-Q09",
+        "V32-S06-Q10",
+        "V32-S06-Q11",
+        "V32-S06-Q12",
+        "V32-S06-Q13",
+        "V32-S06-Q14",
+        "V32-S06-Q15",
+        "V32-S06-Q16",
+        "V32-S06-Q17",
+        "V32-S06-Q18",
+        "V32-S06-Q19",
+        "V32-S06-Q20",
+        "V32-S06-Q21",
+        "V32-S06-Q22",
+        "V32-S07-Q01",
+        "V32-S07-Q02",
+        "V32-S07-Q03",
+        "V32-S07-Q04",
+        "V32-S07-Q05",
+        "V32-S07-Q06",
+        "V32-S07-Q07"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A08",
+      "topic": "9.4 / décision 8.4",
+      "description": "Procédure d’incident demandée après signature, mais à établir avant mise en service. Définir le verrou de déploiement et le lien avec les conditions finales.",
+      "questions": [
+        "V32-S09-Q04",
+        "V32-S08-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A09",
+      "topic": "2.2 / questions HAUT RISQUE",
+      "description": "Une réponse manquante n’équivaut pas à absence de haut risque. Définir l’affichage provisoire ; hors AI Act, articuler le filtre haut risque et la conversion rouge/orange.",
+      "questions": [
+        "V32-S00-Q01",
+        "V32-S02-Q02"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A10",
+      "topic": "3.4 et 3.5",
+      "description": "Le montant détermine la procédure avant la question sur les achats regroupés. Après modification du montant ou du regroupement, recalculer la procédure sans effacer les anciennes réponses.",
+      "questions": [
+        "V32-S03-Q04",
+        "V32-S03-Q05"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A11",
+      "topic": "8.4 Go sous conditions",
+      "description": "Le suivi des conditions et leur vérification par l’UNIL sont désormais enregistrés. L’autorité habilitée à autoriser la mise en service et les exigences institutionnelles de déploiement restent à confirmer ; le Go sous conditions ne vaut pas autorisation automatique.",
+      "questions": [
+        "V32-S08-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A12",
+      "topic": "AI Act et autres références",
+      "description": "Dates, règlement 2026/1744, seuils, révision LPrD, RLUL, bourses et régime applicable restent à vérifier selon l’annexe 4. Ne pas modifier les règles selon la date sans autorisation explicite.",
+      "questions": [
+        "V32-S00-Q01",
+        "V32-S02-Q02",
+        "V32-S03-Q04",
+        "V32-S06-Q13"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A13",
+      "topic": "3.1 c → 3.2 b",
+      "description": "Un outil gratuit avec contrepartie de données est traité comme marché, mais le contrat existant fait ensuite sauter le reste. Confirmer le statut marché public à conserver pour 9.1.",
+      "questions": [
+        "V32-S03-Q01",
+        "V32-S03-Q02",
+        "V32-S09-Q01"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A14",
+      "topic": "8.1 et 8.4",
+      "description": "La réponse sur la présence d’un rouge doit correspondre au calcul. Confirmer le traitement d’une réponse contradictoire et l’interdiction de Go avec rouge effectif.",
+      "questions": [
+        "V32-S08-Q01",
+        "V32-S08-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A15",
+      "topic": "1.4 a/b",
+      "description": "Le texte associe absence de collecte identifiante à anonymisation et collecte à pseudonymisation. Conserver les mots, mais ne pas inventer une vérification technique automatique de ces affirmations.",
+      "questions": [
+        "V32-S01-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A16",
+      "topic": "1.3 d (catégories multiples)",
+      "description": "La source impose la catégorie la plus protectrice et remplace 5.1/5.3 par 5.2/5.4. Ne pas importer le choix « mixed » du moteur précédent ni poser les quatre questions sans changement approuvé.",
+      "questions": [
+        "V32-S01-Q03",
+        "V32-S05-Q01",
+        "V32-S05-Q02",
+        "V32-S05-Q03",
+        "V32-S05-Q04"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A17",
+      "topic": "1.7 b / 8.2 b",
+      "description": "L’absence d’AIPD est orange avec justification détaillée. Définir comment constater que cette justification est satisfaite sans effacer l’historique orange.",
+      "questions": [
+        "V32-S01-Q07",
+        "V32-S08-Q02"
+      ],
+      "status": "discussion-required"
+    },
+    {
+      "id": "A18",
+      "topic": "Autorité institutionnelle de la décision",
+      "description": "L’UNIL renseigne désormais toutes les étapes et enregistre la décision dans l’application. La personne habilitée à autoriser la mise en service et les validations institutionnelles nécessaires restent à confirmer.",
+      "questions": [
+        "V32-S04-Q01",
+        "V32-S08-Q04"
+      ],
+      "status": "discussion-required"
+    }
+  ],
+  "questions": [
+    {
+      "id": "V32-S00-Q01",
+      "stage": 0,
+      "number": 1,
+      "pages": [
+        2
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : documenter cette analyse. Même sans application directe, ces exigences anticipent le futur \ndroit suisse de mise en œuvre de la Convention du Conseil de l'Europe sur l'IA, que le Conseil fédéral a décidé de \nratifier en février 2025.",
+      "issues": [
+        "A09",
+        "A12"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  a) Oui → Poursuivre : l'AI Act s'applique ; les questions « AI ACT » et « HAUT RISQUE » sont obligatoires",
+          "control": "continue",
+          "next": "V32-S01-Q01",
+          "conversion": null,
+          "effects": [],
+          "facts": {
+            "aiAct": "applicable"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) Non → Poursuivre : l'AI Act ne s'applique pas directement ; les questions « AI ACT » et « HAUT \nRISQUE » sont des bonnes pratiques et leurs réponses rouges deviennent orange",
+          "control": "continue",
+          "next": "V32-S01-Q01",
+          "conversion": null,
+          "effects": [
+            "Convertir les rouges AI ACT/HAUT RISQUE visés en orange ; exception 2.1 : rouge maintenu."
+          ],
+          "facts": {
+            "aiAct": "good-practice"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Je ne sais pas → Poursuivre sous condition : demander l'avis du service juridique ; dans l'attente, \nappliquer la réponse a)",
+          "control": "continue-with-condition",
+          "next": "V32-S01-Q01",
+          "conversion": null,
+          "effects": [
+            "Avis juridique requis ; appliquer a dans l’attente."
+          ],
+          "facts": {
+            "aiAct": "pending-apply-a"
+          },
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q01",
+      "stage": 1,
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q02",
+      "stage": 1,
+      "number": 2,
+      "pages": [
+        3
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "À remplir a : indiquer la base légale ou la tâche publique invoquée.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Aucune de ces conditions → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q03",
+      "stage": 1,
+      "number": 3,
+      "pages": [
+        3
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Règle : si plusieurs catégories sont traitées, choisir la plus protectrice (d avant c, c avant b, b avant a).\nRecommandation d : mettre en place une journalisation des accès (art. 4 OPDo, appliqué comme bonne pratique à \nl'UNIL ; obligatoire pour le fournisseur dans les cas prévus par cet article).",
+      "issues": [
+        "A16"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  a) Données publiques (ni personnelles, ni confidentielles) → Passer directement à l'étape 2 ; à l'étape \n5, ne pas poser les questions « DONNÉES PERSONNELLES »",
+          "control": "continue",
+          "next": "V32-S02-Q01",
+          "conversion": null,
+          "effects": [
+            "Omettre 1.4 à 1.9 ; ne pas poser les badges DONNÉES PERSONNELLES à l’étape 5."
+          ],
+          "facts": {
+            "data": "public"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) Données confidentielles non personnelles (données de recherche, secret, propriété intellectuelle) → \nAller à la question 6, puis passer à l'étape 2 ; à l'étape 5, ne pas poser les questions « DONNÉES PERSONNELLES » et \nposer toutes les autres",
+          "control": "continue",
+          "next": "V32-S01-Q06",
+          "conversion": null,
+          "effects": [
+            "Après 1.6, étape 2 ; ne pas poser les badges DONNÉES PERSONNELLES à l’étape 5 ; poser les autres."
+          ],
+          "facts": {
+            "data": "confidential-nonpersonal"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  c) Données personnelles ordinaires → Poursuivre ; à l'étape 5, poser les questions 1 et 3, ne pas poser \nles questions 2 et 4",
+          "control": "continue",
+          "next": "V32-S01-Q04",
+          "conversion": null,
+          "effects": [
+            "À l’étape 5, poser 1 et 3 ; omettre 2 et 4."
+          ],
+          "facts": {
+            "data": "ordinary"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  d) Données personnelles sensibles, données biométriques, profils de la personnalité → Poursuivre ; à \nl'étape 5, poser les questions 2 et 4 à la place des questions 1 et 3",
+          "control": "continue",
+          "next": "V32-S01-Q04",
+          "conversion": null,
+          "effects": [
+            "À l’étape 5, poser 2 et 4 à la place de 1 et 3 ; catégorie la plus protectrice si plusieurs."
+          ],
+          "facts": {
+            "data": "sensitive"
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q04",
+      "stage": 1,
+      "number": 4,
+      "pages": [
+        3
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A15"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre car anonymisation",
+          "control": "continue",
+          "next": "V32-S01-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Oui → Poursuivre car pseudonymisation",
+          "control": "continue",
+          "next": "V32-S01-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  c) Oui, et données supplémentaires à l'objectif poursuivi → Aller à la question 5",
+          "control": "continue",
+          "next": "V32-S01-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q05",
+      "stage": 1,
+      "number": 5,
+      "pages": [
+        3
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : réduire la collecte aux données nécessaires à la finalité (art. 7 LPrD VD).",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non, davantage “au cas où” → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q06",
+      "stage": 1,
+      "number": 6,
+      "pages": [
+        4
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, chacun des principes est respecté (authentification, contrôle, journaux, etc.) et un audit est \nrégulièrement effectué auprès du fournisseur → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q07",
+          "conversion": null,
+          "effects": [],
+          "conditionalNext": [
+            {
+              "when": "1.3=b",
+              "next": "V32-S02-Q01"
+            }
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, chacun des principes est respecté, mais les mesures du fournisseur ne sont pas \nrégulièrement vérifiées → Audit à mettre en place",
+          "control": "continue-with-condition",
+          "next": "V32-S01-Q07",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "conditionalNext": [
+            {
+              "when": "1.3=b",
+              "next": "V32-S02-Q01"
+            }
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q07",
+      "stage": 1,
+      "number": 7,
+      "pages": [
+        4
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Note : la révision de la LPrD VD introduit une analyse d'impact. Vérifier si elle est entrée en vigueur et adapter les \ncritères en conséquence.",
+      "issues": [
+        "A17"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  a) Oui : l'outil présente un risque élevé et nécessite une AIPD (analyse d'impact relative à la \nprotection des données) → Réaliser l'AIPD et la faire valider par le DPO avant la décision finale (étape 8, question 2) :\n◦ i) évaluation/scoring (y compris le profilage) ;\n◦ ii) décision automatique avec effet légal ou similaire ;\n◦ iii) surveillance systématique ;\n◦ iv) collecte de données sensibles ou de données à caractère hautement personnel ;\n◦ v) collecte de données personnelles à large échelle ;\n◦ vi) croisement de données ;\n◦ vii) personnes vulnérables (patients, personnes âgées, enfants, etc.) ;\n◦ viii) usage innovant (utilisation d'une nouvelle technologie), par défaut pour un outil IA ;\n◦ ix) exclusion du bénéfice d'un droit ou d'un contrat.",
+          "control": "continue-with-condition",
+          "next": "V32-S01-Q08",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non, l'AIPD n'est pas nécessaire → Pas rédhibitoire, mais vérifier les conditions précises et rédiger \nune justification détaillée",
+          "control": "continue-with-condition",
+          "next": "V32-S01-Q08",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q08",
+      "stage": 1,
+      "number": 8,
+      "pages": [
+        4
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Oui, mais il y a un contrôle humain et la personne concernée en est informée → Poursuivre",
+          "control": "continue",
+          "next": "V32-S01-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Oui, la décision est prise par l'outil IA → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S01-Q09",
+      "stage": 1,
+      "number": 9,
+      "pages": [
+        4
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, les trois conditions sont remplies → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Doute sur l'une des conditions → Poursuivre sous condition : avis du DPO",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q01",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q01",
+      "stage": 2,
+      "number": 1,
+      "pages": [
+        5
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Règle : cette réponse rouge reste rouge même si l'AI Act ne s'applique pas : ces pratiques portent atteinte aux droits \nfondamentaux.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  a) Oui, au moins une des pratiques (1) à (10) → Ne pas poursuivre, la pratique est interdite \n(rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non, aucune → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q02",
+      "stage": 2,
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "badge": "AI ACT",
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation c : documenter par écrit l'analyse de l'UNIL et demander au fournisseur sa propre documentation, \nqu'il doit établir lorsqu'il estime que son système n'est pas à haut risque (art. 6 § 4 AI Act).\nNote : les exigences « haut risque » s'appliquent dès le 2 décembre 2027 pour les usages de l'annexe III et dès le 2 \naoût 2028 pour l'annexe I (règlement (UE) 2026/1744). La checklist les anticipe.",
+      "issues": [
+        "A09",
+        "A12"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  a) Oui, au moins un usage, et l'outil fait du profilage de personnes → Poursuivre mais l'outil est à \nHAUT RISQUE (l'exception de l'art. 6 § 3 ne s'applique pas) → Poser toutes les questions « HAUT RISQUE »",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q03",
+          "conversion": null,
+          "effects": [
+            "Afficher les questions HAUT RISQUE."
+          ],
+          "facts": {
+            "highRisk": true
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, au moins un usage, sans profilage, et l'outil prend une décision ou l'influence de façon \nsignificative → Poursuivre mais l'outil est à HAUT RISQUE → Poser toutes les questions « HAUT RISQUE »",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q03",
+          "conversion": null,
+          "effects": [
+            "Afficher les questions HAUT RISQUE."
+          ],
+          "facts": {
+            "highRisk": true
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  c) Oui, au moins un usage, sans profilage, mais seulement pour une tâche limitée (triage, mise en forme, \nvérification après une décision humaine) → Poursuivre ; ne pas poser les questions « HAUT RISQUE »",
+          "control": "continue",
+          "next": "V32-S02-Q03",
+          "conversion": null,
+          "effects": [
+            "Ne pas afficher les questions HAUT RISQUE."
+          ],
+          "facts": {
+            "highRisk": false
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  d) Non → Poursuivre ; ne pas poser les questions « HAUT RISQUE »",
+          "control": "continue",
+          "next": "V32-S02-Q03",
+          "conversion": null,
+          "effects": [
+            "Ne pas afficher les questions HAUT RISQUE."
+          ],
+          "facts": {
+            "highRisk": false
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q03",
+      "stage": 2,
+      "number": 3,
+      "pages": [
+        6
+      ],
+      "badge": "AI ACT",
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : l'UNIL devient « fournisseur », avec des obligations beaucoup plus lourdes (gestion des risques, \ndocumentation technique, évaluation de la conformité).",
+      "issues": [
+        "A06"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Aucun de ces cas : l'UNIL utilise l'outil tel quel, elle est « déployeur » → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Au moins un de ces cas → Poursuivre sous condition : escalade au service juridique ; suspendre le \nparcours jusqu'à son avis écrit",
+          "control": "pause-written-legal-opinion",
+          "next": null,
+          "conversion": null,
+          "effects": [
+            "Suspendre le parcours jusqu’à avis juridique écrit."
+          ],
+          "issues": [
+            "A06"
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q04",
+      "stage": 2,
+      "number": 4,
+      "pages": [
+        6
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "Recommandation b : désigner ces personnes avant la mise en service.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q05",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q05",
+      "stage": 2,
+      "number": 5,
+      "pages": [
+        6
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "Recommandation b : la réaliser avant la mise en service et la faire valider (étape 8, question 2).",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q06",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q06",
+      "stage": 2,
+      "number": 6,
+      "pages": [
+        6
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "Recommandation b : prévoir le stockage avant la mise en service. Voir aussi l'étape 5, questions 15 à 17 \n(journalisation).",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q07",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q07",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q07",
+      "stage": 2,
+      "number": 7,
+      "pages": [
+        6
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "Recommandation b : mettre en place une procédure.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q08",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q08",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q08",
+      "stage": 2,
+      "number": 8,
+      "pages": [
+        7
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) L'outil ne concerne pas le personnel → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Poursuivre sous condition : informer avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q09",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q09",
+      "stage": 2,
+      "number": 9,
+      "pages": [
+        7
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q10",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition : prévoir cette information avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q10",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q10",
+      "stage": 2,
+      "number": 10,
+      "pages": [
+        7
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q11",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non applicable selon l'avis écrit du service juridique → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q11",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Poursuivre sous condition : demander l'avis du service juridique et, si requis, enregistrer \navant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q11",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q11",
+      "stage": 2,
+      "number": 11,
+      "pages": [
+        7
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q12",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre mais il faut la nommer",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q12",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q12",
+      "stage": 2,
+      "number": 12,
+      "pages": [
+        7
+      ],
+      "badge": "AI ACT",
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Note : la mention n'est pas exigée pour un texte relu et publié sous la responsabilité éditoriale d'une personne.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q13",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) L'outil ne sert pas à publier de tels contenus → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q13",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Poursuivre sous condition : prévoir une mention avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q13",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q13",
+      "stage": 2,
+      "number": 13,
+      "pages": [
+        7
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q14",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre, mais prévoir une formation avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q14",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q14",
+      "stage": 2,
+      "number": 14,
+      "pages": [
+        7
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q15",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) L'outil n'est pas utilisé dans l'enseignement ni dans les évaluations → Poursuivre",
+          "control": "continue",
+          "next": "V32-S02-Q15",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Poursuivre sous condition : définir ces règles avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S02-Q15",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S02-Q15",
+      "stage": 2,
+      "number": 15,
+      "pages": [
+        7
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  a) Oui → Poursuivre, mais l'accessibilité devient obligatoire (étape 6, question 20)",
+          "control": "continue-with-condition",
+          "next": "V32-S03-Q01",
+          "conversion": null,
+          "effects": [
+            "Accessibilité obligatoire en 6.20."
+          ],
+          "facts": {
+            "mandatoryUse": true
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q01",
+          "conversion": null,
+          "effects": [],
+          "facts": {
+            "mandatoryUse": false
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q01",
+      "stage": 3,
+      "number": 1,
+      "pages": [
+        8
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : pas de marché public, car le fournisseur d'IA doit fournir une prestation pour que l'art. 8 AIMP \ns'applique. Vérifier les conditions d'utilisation, car un outil gratuit peut poser des problèmes de droit d'auteur ou de \nconfidentialité.\nRecommandation c : traiter comme un marché par prudence et consulter le service juridique : en donnant ses \ndonnées à un seul fournisseur sans mise en concurrence, l'UNIL lui accorde un avantage économique réel.",
+      "issues": [
+        "A02",
+        "A13"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Pas de marché public : passer directement à l'étape 5 (ne pas poser l'étape 4) ; à l'étape 7, \nvérifier les points correspondants dans les conditions d'utilisation",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q01",
+          "conversion": null,
+          "effects": [
+            "Omettre le reste de l’étape 3 et l’étape 4 ; étape 7 : vérifier les conditions d’utilisation."
+          ],
+          "facts": {
+            "publicProcurement": false
+          },
+          "issues": [
+            "A02"
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non, mais le fournisseur utilise des données de l'UNIL → Poursuivre sous condition : traiter \ncomme un marché public",
+          "control": "continue-with-condition",
+          "next": "V32-S03-Q02",
+          "conversion": null,
+          "effects": [
+            "Traiter comme marché public par prudence ; demander avis juridique."
+          ],
+          "facts": {
+            "publicProcurement": true
+          },
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q02",
+      "stage": 3,
+      "number": 2,
+      "pages": [
+        8
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : vérifier que le contrat existant interdit la réutilisation des données de l'UNIL et garantit la \nconfidentialité, car il a pu être signé avant que l'outil intègre de l'IA.",
+      "issues": [
+        "A02",
+        "A13"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui → Pas de nouvel appel d'offres : passer directement à l'étape 5 (ne pas poser l'étape 4)",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q01",
+          "conversion": null,
+          "effects": [
+            "Omettre le reste de l’étape 3 et l’étape 4 ; vérifier le contrat existant."
+          ],
+          "issues": [
+            "A02",
+            "A13"
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q03",
+      "stage": 3,
+      "number": 3,
+      "pages": [
+        8
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger que l'intermédiaire garantisse par écrit que le fournisseur du modèle respecte les mêmes \nengagements : documentation, confidentialité, droit d'auteur, non-réutilisation des données et propriété des \nrésultats. Sans cette garantie, l'offre est rédhibitoire, car l'UNIL n'a aucun contrat avec celui qui contrôle réellement le \nmodèle.",
+      "issues": [
+        "A02"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Directement avec le fournisseur du modèle → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q04",
+          "conversion": null,
+          "effects": [],
+          "facts": {
+            "intermediary": false
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Avec un intermédiaire qui intègre le modèle d'un tiers → Clause obligatoire pour poursuivre \n(vérifiée à l'étape 7, question 7)",
+          "control": "continue-with-condition",
+          "next": "V32-S03-Q04",
+          "conversion": null,
+          "effects": [
+            "Exiger la clause vérifiée en 7.7."
+          ],
+          "facts": {
+            "intermediary": true
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q04",
+      "stage": 3,
+      "number": 4,
+      "pages": [
+        8
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Note : montants pour les prestations de services selon les annexes 1 et 2 AIMP (valeurs 2024-2025). Vérifier les \nvaleurs en vigueur : les seuils de l'annexe 1 sont adaptés tous les deux ans.\nRecommandations b, c et d : documenter chaque étape et chaque décision, car un fournisseur écarté peut faire \nrecours dès 150'000 CHF (art. 52 AIMP).\nRecommandation d : prévoir des délais plus longs et s'attendre à des offres étrangères, car le marché est ouvert à la \nconcurrence internationale.",
+      "issues": [
+        "A10",
+        "A12"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  a) Moins de 150'000 CHF → Gré à gré ; ne pas poser les questions 6 à 9 ; poser les questions 10 et 11 \n(exigences à intégrer au contrat)",
+          "control": "continue",
+          "next": "V32-S03-Q05",
+          "conversion": null,
+          "effects": [
+            "Omettre 3.6 à 3.9 ; conserver 3.5, 3.10 et 3.11."
+          ],
+          "facts": {
+            "procedure": "direct"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) De 150'000 à 249'999 CHF → Procédure sur invitation",
+          "control": "continue",
+          "next": "V32-S03-Q05",
+          "conversion": null,
+          "effects": [
+            "Procédure indiquée par la tranche de montant ; vérifier les seuils."
+          ],
+          "facts": {
+            "procedure": "invitation"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  c) De 250'000 à 349'999 CHF → Procédure ouverte ou sélective",
+          "control": "continue",
+          "next": "V32-S03-Q05",
+          "conversion": null,
+          "effects": [
+            "Procédure indiquée par la tranche de montant ; vérifier les seuils."
+          ],
+          "facts": {
+            "procedure": "open-selective"
+          },
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  d) 350'000 CHF ou plus → Procédure ouverte ou sélective, soumise aux traités internationaux",
+          "control": "continue",
+          "next": "V32-S03-Q05",
+          "conversion": null,
+          "effects": [
+            "Procédure indiquée par la tranche de montant ; vérifier les seuils."
+          ],
+          "facts": {
+            "procedure": "open-selective-treaties"
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q05",
+      "stage": 3,
+      "number": 5,
+      "pages": [
+        8
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : additionner les montants de tous les achats pour déterminer la procédure, car fractionner un \nmarché pour passer sous un seuil est interdit (art. 15 AIMP).",
+      "issues": [
+        "A10"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Oui → Rédhibitoire si le découpage est maintenu",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q06",
+      "stage": 3,
+      "number": 6,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "3.4=b, c ou d et aucun saut antérieur.",
+      "sourceNotes": "Recommandation b : rédiger une justification écrite (art. 21 al. 2 AIMP). Exiger aussi que l'UNIL puisse récupérer ses \ndonnées dans un format réutilisable en fin de contrat, car elle risque de devenir dépendante de ce fournisseur.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  a) Non → Procédure normale selon le montant",
+          "control": "continue",
+          "next": "V32-S03-Q07",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) Oui → Gré à gré exceptionnel possible ; ne pas poser les questions 7 à 9",
+          "control": "continue",
+          "next": "V32-S03-Q10",
+          "conversion": null,
+          "effects": [
+            "Omettre 3.7 à 3.9 ; justification écrite et récupération des données."
+          ],
+          "facts": {
+            "procedure": "exceptional-direct"
+          },
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q07",
+      "stage": 3,
+      "number": 7,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "Pas de gré à gré selon 3.4=a ou 3.6=b ; aucun saut antérieur.",
+      "sourceNotes": "Recommandation c : ajouter « ou équivalent » avant publication, car imposer une marque exclut les concurrents sans \nraison (art. 30 AIMP).",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q08",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Oui, avec « ou équivalent » → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q08",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Oui, sans « ou équivalent » → Rédhibitoire",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q08",
+      "stage": 3,
+      "number": 8,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "Pas de gré à gré selon 3.4=a ou 3.6=b ; aucun saut antérieur.",
+      "sourceNotes": "Recommandation b : les publier avant la réception des offres : l'art. 29 al. 3 AIMP l'exige pour que tous les \nfournisseurs soient évalués selon les mêmes règles.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Rédhibitoire",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q09",
+      "stage": 3,
+      "number": 9,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "Pas de gré à gré selon 3.4=a ou 3.6=b ; aucun saut antérieur.",
+      "sourceNotes": "Recommandation b : ajouter des critères de qualité, car le prix seul n'est admis que pour les prestations \nstandardisées (art. 29 al. 4 AIMP). Deux outils d'IA au même prix peuvent présenter des risques très différents.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q10",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Oui → Rédhibitoire",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q10",
+      "stage": 3,
+      "number": 10,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : ajouter cette exigence avant publication, car l'auteur d'une œuvre est la personne qui l'a créée \n(art. 6 LDA). Le fournisseur ne doit acquérir aucun droit sur les mémoires, thèses ou articles saisis dans l'outil.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S03-Q11",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Rédhibitoire",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S03-Q11",
+      "stage": 3,
+      "number": 11,
+      "pages": [
+        9
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : ajouter cette exigence avant publication, car l'AI Act impose aux fournisseurs de modèles d'IA à \nusage général une politique de respect du droit d'auteur (art. 53 § 1 let. c). Elle protège l'UNIL contre le risque \nd'utiliser un outil entraîné sur des œuvres copiées sans autorisation.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q01",
+      "stage": 4,
+      "number": 1,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation b : l'UNIL décide d'exclure ou non et justifie sa décision par écrit, car l'art. 44 AIMP permet \nl'exclusion sans l'imposer.",
+      "issues": [
+        "A07",
+        "A18"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non, attestations fournies → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S04-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q02",
+      "stage": 4,
+      "number": 2,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation b : écarter le fournisseur, car ce respect est une condition de participation (art. 12 et 26 AIMP).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, attestation fournie → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q03",
+      "stage": 4,
+      "number": 3,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation b : écarter le fournisseur, car sa faillite couperait l'accès à l'outil et aux données de l'UNIL (art. 27 \nAIMP).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, comptes ou justificatifs fournis → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q04",
+      "stage": 4,
+      "number": 4,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation b : écarter le fournisseur, car rien ne prouve qu'il sait répondre aux besoins d'une institution \npublique.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q05",
+      "stage": 4,
+      "number": 5,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation b : fixer dans le contrat un délai pour obtenir la certification.\nRecommandation c : demander au fournisseur de décrire ses mesures de sécurité et les faire vérifier par le service \ninformatique.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S04-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) En cours → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S04-Q06",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Poursuivre sous condition (description des mesures de sécurité vérifiée par le service \ninformatique)",
+          "control": "continue-with-condition",
+          "next": "V32-S04-Q06",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S04-Q06",
+      "stage": 4,
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs. Étape omise si 3.1=b ou 3.2=b.",
+      "sourceNotes": "Recommandation c et d : demander au fournisseur comment il contrôle les risques de son modèle (tests, \nsurveillance, corrections), car sans système de gestion ces contrôles ne sont pas garantis.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Équivalent démontré → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non, et l'outil est marqué « HAUT RISQUE » → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S05-Q01"
+          },
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  d) Non, et l'outil n'est pas à haut risque → Poursuivre sous condition : en tenir compte dans la \nsynthèse (étape 8)",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q01",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q01",
+      "stage": 5,
+      "number": 1,
+      "pages": [
+        11
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "Recommandation c : vérifier que la reconnaissance du pays couvre bien ce fournisseur (pour le Canada : seulement \nune entreprise privée exerçant une activité commerciale), et prévoir dans le contrat que les données ne sont pas \ntransférées ailleurs sans l'accord de l'UNIL.\nRecommandation d et e : le transfert est légal (le DPF est reconnu par la Suisse depuis le 15 septembre 2024), mais le \nCloud Act permet aux autorités américaines d'exiger les données. Interdire par contrat tout transfert sans l'accord de \nl'UNIL et faire détenir les clés de chiffrement par l'UNIL.",
+      "issues": [
+        "A03",
+        "A07",
+        "A16"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) En Suisse (nLPD, OPDo, LPrD VD) → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Dans l'EEE (RGPD) → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles \nFéroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → \nPoursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  d) Aux États-Unis, entreprise certifiée Data Privacy Framework (DPF) → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "e",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  e) Filiale suisse ou européenne d'un groupe soumis au droit américain → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "f",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  f) Aux États-Unis, entreprise non certifiée DPF → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "g",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  g) Dans un autre pays → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q02",
+      "stage": 5,
+      "number": 2,
+      "pages": [
+        11
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "Recommandation c : pour un fournisseur au Canada, vérifier qu'il s'agit d'une entreprise privée qui exerce une \nactivité commerciale : c'est seulement dans ce cas que la loi canadienne sur la protection des données s'applique et \nque le Canada est reconnu comme sûr (annexe 1 OPDo). Prévoir dans le contrat que le fournisseur ne transfère pas \nles données ailleurs sans l'accord de l'UNIL, et demander l'avis du DPO de l'UNIL. Pour le Royaume-Uni et les \nterritoires liés, la prudence doit être renforcée, car ils sont exposés à l'accord avec les États-Unis sur l'accès aux \ndonnées.",
+      "issues": [
+        "A01",
+        "A04",
+        "A05",
+        "A07",
+        "A16"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) En Suisse (nLPD, OPDo, LPrD VD) → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Dans l'EEE (RGPD, AI Act), non soumis au droit américain → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Dans un pays ou territoire hors EEE listé à l'annexe 1 OPDo (Andorre, Argentine, Canada, Îles \nFéroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay) → \nPoursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q03",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  d) Aux États-Unis, entreprise certifiée DPF (soumise au Cloud Act) → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "e",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  e) Filiale suisse ou européenne d'un groupe soumis au droit américain → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "f",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  f) Dans un autre pays → Aller à la question 5",
+          "control": "continue",
+          "next": "V32-S05-Q05",
+          "conversion": null,
+          "effects": [],
+          "issues": [
+            "A01"
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q03",
+      "stage": 5,
+      "number": 3,
+      "pages": [
+        12
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "",
+      "issues": [
+        "A03",
+        "A07",
+        "A16"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) En Suisse → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Dans un pays ou territoire reconnu par l'annexe 1 OPDo : États de l'EEE, Andorre, Argentine, Canada, \nÎles Féroé, Gibraltar, Guernesey, Île de Man, Israël, Jersey, Monaco, Nouvelle-Zélande, Royaume-Uni, Uruguay → \nPoursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  c) Aux États-Unis, par une entreprise certifiée selon le Swiss-U.S. Data Privacy Framework → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  d) Dans un autre pays → Aller à la question 5",
+          "control": "continue",
+          "next": "V32-S05-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q04",
+      "stage": 5,
+      "number": 4,
+      "pages": [
+        12
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "Recommandation c : même si le transfert est licite, plusieurs conditions cumulatives s'ajoutent à la reconnaissance \npar l'annexe 1 : pas d'exposition au droit américain, rédaction d'une analyse d'impact, avis favorable du DPO, \ngaranties contractuelles (pas de transfert ultérieur sans l'accord de l'UNIL).",
+      "issues": [
+        "A01",
+        "A04",
+        "A07",
+        "A16"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) En Suisse → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Dans l'EEE → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Dans un pays hors EEE reconnu par l'annexe 1 OPDo → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q05",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  d) Aux États-Unis, par une entreprise certifiée DPF → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "e",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  e) Dans un autre pays → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q05",
+      "stage": 5,
+      "number": 5,
+      "pages": [
+        12
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "Renvoi depuis 5.3=d ; renvoi 5.2=f non résolu (A01). Absence de renvoi : portée du « Si » à respecter, ne pas demander une exception inexistante.",
+      "sourceNotes": "Recommandation a à f : documenter par écrit l'exception utilisée et limiter le transfert au cas ponctuel.",
+      "issues": [
+        "A01",
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) la personne concernée a donné son consentement, qui doit dans tous les cas être explicite → \nPoursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) la communication de données est nécessaire à l'exécution d'un contrat entre la personne concernée \net le responsable du traitement ou à l'exécution de mesures précontractuelles prises à la demande de la personne \nconcernée → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  c) la communication est nécessaire à la conclusion ou à l'exécution d'un contrat conclu ou à conclure, \ndans l'intérêt de la personne concernée, entre le responsable du traitement et un tiers → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  d) la communication est, en l'espèce, indispensable soit à la sauvegarde d'un intérêt public, soit à la \nconstatation, l'exercice ou la défense d'un droit en justice → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "e",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  e) la communication est, en l'espèce, nécessaire pour protéger la vie ou l'intégrité corporelle de la \npersonne concernée → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "f",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  f) la communication intervient d'un registre public qui, en vertu de dispositions légales ou \nréglementaires, est destiné à l'information du public ou de toute personne justifiant d'un intérêt légitime, dans la \nmesure où les conditions légales pour la consultation sont remplies dans le cas particulier → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "g",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  g) des garanties suffisantes, notamment contractuelles, permettent d'assurer un niveau de protection \nadéquat à l'étranger → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "h",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  h) Aucune de ces bases → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q06",
+      "stage": 5,
+      "number": 6,
+      "pages": [
+        13
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, chaque catégorie de données est conservée aussi longtemps que sa finalité l'exige, puis détruite \nou anonymisée → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q07",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Elles sont conservées « aussi longtemps que nécessaire », sans durée définie → Ne pas \npoursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q07",
+      "stage": 5,
+      "number": 7,
+      "pages": [
+        13
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Preuve exigée : le protocole utilisé en transit (TLS 1.3 recommandé) et le standard de chiffrement au repos (AES-256 \nrecommandé).\nRecommandation b : négocier la détention des clés par l'UNIL : celui qui détient la clé peut lire les données, et donc \nêtre obligé de les remettre à une autorité étrangère.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, au repos et en transit, avec des clés détenues par l'UNIL → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q08",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, au repos et en transit, mais les clés restent chez le fournisseur → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q08",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Seulement en transit → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  d) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q08",
+      "stage": 5,
+      "number": 8,
+      "pages": [
+        13
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non, mais seulement si l'utilisateur ou l'administrateur le désactive → Ne pas poursuivre \n(rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Oui → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q09",
+      "stage": 5,
+      "number": 9,
+      "pages": [
+        13
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, une personne de contact est désignée → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q10",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → À exiger avant la signature",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q10",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q10",
+      "stage": 5,
+      "number": 10,
+      "pages": [
+        13
+      ],
+      "badge": "DONNÉES PERSONNELLES",
+      "visibility": "1.3=c ou d ; filtres supplémentaires : 5.1/5.3 pour c, 5.2/5.4 pour d.",
+      "sourceNotes": "Recommandation b : négocier la suppression dans les sauvegardes et les journaux, dans un délai fixé.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Jusqu'à 10 jours ouvrables → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q11",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Possible, mais pas dans les sauvegardes ni les journaux → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q11",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Pas possible → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q11",
+      "stage": 5,
+      "number": 11,
+      "pages": [
+        13
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une justification et négocier un délai plus court.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Dans les 72 heures au maximum, avec le type de violation, les personnes et données touchées et les \nmesures prises → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q12",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Plus de 72 heures → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q12",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q12",
+      "stage": 5,
+      "number": 12,
+      "pages": [
+        13
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : prévoir un audit du fournisseur ; fixer son échéance et son responsable dans la décision finale \n(étape 8, question 4).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, les mesures sont décrites pour chacun des objectifs et un audit est réalisé → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q13",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, les mesures sont décrites, mais sans certification ni audit → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q13",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Oui, mais l'un des principes n'est pas couvert → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "d",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  d) Pas de description détaillée des mesures, ou refus de les communiquer → Ne pas poursuivre \n(rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q13",
+      "stage": 5,
+      "number": 13,
+      "pages": [
+        14
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : ajouter l'obligation de suppression attestée par écrit, sauvegardes comprises, sinon le \nfournisseur garde les données après la fin du contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, les deux, avec une attestation écrite de suppression → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q14",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Récupération seulement → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q14",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q14",
+      "stage": 5,
+      "number": 14,
+      "pages": [
+        14
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger ces tests, y compris par des experts indépendants.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, tests réguliers et documentés → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q15",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, mais seulement en interne ou sans documentation particulière → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q15",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q15",
+      "stage": 5,
+      "number": 15,
+      "pages": [
+        14
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  a) Oui : traitement automatisé à grande échelle de données sensibles ou profilage à risque élevé, \nlorsque les mesures préventives ne suffisent pas ; conservation d'au moins 1 an (art. 4 al. 1 et 5 OPDo) → Poser les \nquestions 16 et 17",
+          "control": "continue",
+          "next": "V32-S05-Q16",
+          "conversion": null,
+          "effects": [
+            "Poser 5.16 et 5.17 ; recommandées pour b."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) Non, mais recommandée → Poser les questions 16 et 17 (recommandé)",
+          "control": "continue",
+          "next": "V32-S05-Q16",
+          "conversion": null,
+          "effects": [
+            "Poser 5.16 et 5.17 ; recommandées pour b."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q16",
+      "stage": 5,
+      "number": 16,
+      "pages": [
+        14
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : compléter la liste des événements journalisés.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Tous ces événements, sous forme de métadonnées → Poursuivre",
+          "control": "continue",
+          "next": "V32-S05-Q17",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Une partie seulement → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S05-Q17",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Le contenu des requêtes est journalisé → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S05-Q17",
+      "stage": 5,
+      "number": 17,
+      "pages": [
+        14
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Note : 1 an correspond à la durée minimale de l'art. 4 al. 5 OPDo ; l'AI Act exige au moins 6 mois pour un système à \nhaut risque (art. 26 § 6).\nRecommandation c : prévoir la mise à disposition des journaux dans le contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, pendant au moins 1 an → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non, et l'outil est marqué « HAUT RISQUE » → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q01"
+          },
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non, et l'outil n'est pas à haut risque → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q01",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q01",
+      "stage": 6,
+      "number": 1,
+      "pages": [
+        15
+      ],
+      "badge": "AI ACT",
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) L'outil ne discute pas avec des personnes → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q02"
+          },
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q02",
+      "stage": 6,
+      "number": 2,
+      "pages": [
+        15
+      ],
+      "badge": "AI ACT",
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Note : les systèmes génératifs mis sur le marché avant le 2 août 2026 ont jusqu'au 2 décembre 2026 pour se mettre \nen conformité (règlement (UE) 2026/1744).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, marquage lisible par machine → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) L'outil ne génère pas de contenus → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Sous condition : exiger le marquage avant la signature",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q03",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q03",
+      "stage": 6,
+      "number": 3,
+      "pages": [
+        15
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q04"
+          },
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q04",
+      "stage": 6,
+      "number": 4,
+      "pages": [
+        15
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q05"
+          },
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q05",
+      "stage": 6,
+      "number": 5,
+      "pages": [
+        15
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q06"
+          },
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q06",
+      "stage": 6,
+      "number": 6,
+      "pages": [
+        15
+      ],
+      "badge": "HAUT RISQUE",
+      "visibility": "2.2=a ou b ; sinon omise. AI Act non applicable : bonne pratique, sans supprimer ce filtre haut risque.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q07",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": {
+            "when": "0.1=b",
+            "effectiveVerdict": "SOUS CONDITION",
+            "control": "continue-with-condition",
+            "next": "V32-S06-Q07"
+          },
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q07",
+      "stage": 6,
+      "number": 7,
+      "pages": [
+        15
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q08",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q08",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q08",
+      "stage": 6,
+      "number": 8,
+      "pages": [
+        15
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger cette connexion.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q09",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q09",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q09",
+      "stage": 6,
+      "number": 9,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q10",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q10",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q10",
+      "stage": 6,
+      "number": 10,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q11",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q11",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q11",
+      "stage": 6,
+      "number": 11,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger des explications sur les mesures prises.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q12",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q12",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q12",
+      "stage": 6,
+      "number": 12,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger ces chiffres.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q13",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q13",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q13",
+      "stage": 6,
+      "number": 13,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : le tester en français avant de signer.",
+      "issues": [
+        "A07",
+        "A12"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q14",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q14",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q14",
+      "stage": 6,
+      "number": 14,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q15",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Oui, mais chaque action doit être validée par l'utilisateur et l'UNIL peut désactiver ces fonctions → \nPoursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q15",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Oui, sans validation possible → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q15",
+      "stage": 6,
+      "number": 15,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat, avec un taux chiffré.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q16",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q16",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q16",
+      "stage": 6,
+      "number": 16,
+      "pages": [
+        16
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger ce plan.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q17",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q17",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q17",
+      "stage": 6,
+      "number": 17,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q18",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q18",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q18",
+      "stage": 6,
+      "number": 18,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger ces tests.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q19",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q19",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q19",
+      "stage": 6,
+      "number": 19,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger un rapport de tests avant de signer.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q20",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q20",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q20",
+      "stage": 6,
+      "number": 20,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation c : prévoir une autre solution accessible.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q21",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non, et l'outil est obligatoire → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non, et l'outil est facultatif → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q21",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q21",
+      "stage": 6,
+      "number": 21,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger une clause dans le contrat : l'art. 15 al. 3 LUL impose de sauvegarder explicitement \nl'indépendance de l'enseignement et de la recherche dans les engagements contractuels.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S06-Q22",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S06-Q22",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S06-Q22",
+      "stage": 6,
+      "number": 22,
+      "pages": [
+        17
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "ORIENTATION",
+          "sourceText": "● ORIENTATION  b) Non → En tenir compte dans la synthèse (étape 8)",
+          "control": "continue",
+          "next": "V32-S07-Q01",
+          "conversion": null,
+          "effects": [
+            "Reporter l’absence d’information environnementale à la synthèse, sans transformer ORIENTATION en orange."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q01",
+      "stage": 7,
+      "number": 1,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation c : écarter le fournisseur, car sans documentation l'UNIL ne peut pas évaluer les risques de l'outil \n(art. 53 AI Act).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Oui, avec modifications → Négocier",
+          "control": "continue-with-condition",
+          "next": "V32-S07-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q02",
+      "stage": 7,
+      "number": 2,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : refuser, car l'UNIL est soumise à la transparence et ne peut garder secret que ce que la LInfo VD \npermet (art. 16 et 17 LInfo VD).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non, il exige une confidentialité absolue → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q03",
+      "stage": 7,
+      "number": 3,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : exiger l'indemnisation, car si le modèle reproduit une œuvre protégée, c'est l'UNIL qui risque \nd'être poursuivie (art. 10 et 62 LDA).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Politique sans indemnisation → Négocier",
+          "control": "continue-with-condition",
+          "next": "V32-S07-Q04",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) Non → Ne pas poursuivre",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q04",
+      "stage": 7,
+      "number": 4,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation b : écarter le fournisseur, car l'UNIL doit pouvoir utiliser et publier librement ce que l'outil produit \npour elle.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Rédhibitoire",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q05",
+      "stage": 7,
+      "number": 5,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation a : exiger au minimum la politique de droit d'auteur et un résumé des données d'entraînement : ce \nsont les obligations qui subsistent pour les modèles open source (art. 53 § 2 AI Act).",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  a) Oui → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S07-Q06",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q06",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q06",
+      "stage": 7,
+      "number": 6,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "Recommandation a et c : prévoir une clause obligeant le fournisseur à informer l'UNIL sans délai de tout incident \ngrave lié au modèle. L'art. 55 AI Act l'oblige à signaler ces incidents à l'AI Office, mais pas à ses clients : seule une \nclause contractuelle le garantit.",
+      "issues": [
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  a) Oui → Poursuivre sous condition",
+          "control": "continue-with-condition",
+          "next": "V32-S07-Q07",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S07-Q07",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Je ne sais pas → Poursuivre sous condition : vérifier dans la liste des modèles à risque systémique \npubliée par la Commission européenne (art. 52 § 6 AI Act)",
+          "control": "continue-with-condition",
+          "next": "V32-S07-Q07",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S07-Q07",
+      "stage": 7,
+      "number": 7,
+      "pages": [
+        18
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A02",
+        "A07"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui, ou contrat conclu directement avec le fournisseur du modèle → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  b) Non → Ne pas poursuivre (rédhibitoire)",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q01",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S08-Q01",
+      "stage": 8,
+      "number": 1,
+      "pages": [
+        19
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A14"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  a) Oui → Outil refusé : aller à la question 4 et enregistrer la décision « No-go »",
+          "control": "stop-to-summary",
+          "next": "V32-S08-Q04",
+          "conversion": null,
+          "effects": [
+            "Enregistrer No-go."
+          ],
+          "issues": [
+            "A14"
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Non → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S08-Q02",
+      "stage": 8,
+      "number": 2,
+      "pages": [
+        19
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A17"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Aucune analyse n'est requise → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Décision suspendue jusqu'à leur réalisation",
+          "control": "pause-impact-assessments",
+          "next": null,
+          "conversion": null,
+          "effects": [
+            "Décision suspendue jusqu’à réalisation et validation des analyses."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S08-Q03",
+      "stage": 8,
+      "number": 3,
+      "pages": [
+        19
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "",
+      "issues": [
+        "A06"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  b) Aucun avis n'a été demandé → Poursuivre",
+          "control": "continue",
+          "next": "V32-S08-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": "Demande potentielle à relever dans les recommandations source ; report en 8.3, portée exacte à encoder."
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  c) Non → Décision suspendue jusqu'à leur réception",
+          "control": "pause-written-opinions",
+          "next": null,
+          "conversion": null,
+          "effects": [
+            "Décision suspendue jusqu’à réception des avis écrits."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S08-Q04",
+      "stage": 8,
+      "number": 4,
+      "pages": [
+        19
+      ],
+      "badge": null,
+      "visibility": "Parcours séquentiel, sous réserve des sauts antérieurs.",
+      "sourceNotes": "À remplir : nom et fonction de la personne qui décide (autorité compétente à désigner par l'UNIL), date de la \ndécision, conditions, responsables, échéances, date de la première revue.",
+      "issues": [
+        "A08",
+        "A11",
+        "A14",
+        "A18"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Go → Mise en service autorisée",
+          "control": "human-go",
+          "next": "V32-S09-Q01",
+          "conversion": null,
+          "effects": [
+            "Mise en service autorisée selon la décision source."
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Go sous conditions → Mise en service autorisée lorsque les conditions sont remplies ; chaque \ncondition a un responsable et une échéance",
+          "control": "human-conditional-go",
+          "next": "V32-S09-Q01",
+          "conversion": null,
+          "effects": [
+            "Mise en service seulement lorsque les conditions sont remplies ; responsables et échéances."
+          ],
+          "issues": [
+            "A11"
+          ],
+          "consultOpinion": null
+        },
+        {
+          "letter": "c",
+          "sourceVerdict": "NE PAS POURSUIVRE",
+          "sourceText": "● NE PAS POURSUIVRE  c) No-go → Outil refusé",
+          "control": "human-no-go",
+          "next": null,
+          "conversion": null,
+          "effects": [
+            "Outil refusé."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S09-Q01",
+      "stage": 9,
+      "number": 1,
+      "pages": [
+        20
+      ],
+      "badge": null,
+      "visibility": "Après signature, puis à chaque revue ; 9.1 seulement pour un marché public. Articulation pré-déploiement de 9.4 non résolue.",
+      "sourceNotes": "Recommandation b : publier l'adjudication et conserver le dossier complet, comme l'exigent les art. 48 et 49 AIMP.",
+      "issues": [
+        "A13"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Terminé",
+          "control": "continue",
+          "next": "V32-S09-Q02",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → À effectuer",
+          "control": "continue-with-condition",
+          "next": "V32-S09-Q02",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S09-Q02",
+      "stage": 9,
+      "number": 2,
+      "pages": [
+        20
+      ],
+      "badge": null,
+      "visibility": "Après signature, puis à chaque revue ; 9.1 seulement pour un marché public. Articulation pré-déploiement de 9.4 non résolue.",
+      "sourceNotes": "Recommandation b : prévoir cette revue, car un nouveau modèle peut changer les risques sans que le contrat \nchange.",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Terminé",
+          "control": "continue",
+          "next": "V32-S09-Q03",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Fixer une date de revue",
+          "control": "continue-with-condition",
+          "next": "V32-S09-Q03",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S09-Q03",
+      "stage": 9,
+      "number": 3,
+      "pages": [
+        20
+      ],
+      "badge": null,
+      "visibility": "Après signature, puis à chaque revue ; 9.1 seulement pour un marché public. Articulation pré-déploiement de 9.4 non résolue.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Terminé",
+          "control": "continue",
+          "next": "V32-S09-Q04",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → Fixer la fréquence du suivi et son responsable",
+          "control": "continue-with-condition",
+          "next": "V32-S09-Q04",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S09-Q04",
+      "stage": 9,
+      "number": 4,
+      "pages": [
+        20
+      ],
+      "badge": null,
+      "visibility": "Après signature, puis à chaque revue ; 9.1 seulement pour un marché public. Articulation pré-déploiement de 9.4 non résolue.",
+      "sourceNotes": "",
+      "issues": [
+        "A08"
+      ],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Terminé",
+          "control": "continue",
+          "next": "V32-S09-Q05",
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → À mettre en place avant la mise en service",
+          "control": "continue-with-condition",
+          "next": "V32-S09-Q05",
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    },
+    {
+      "id": "V32-S09-Q05",
+      "stage": 9,
+      "number": 5,
+      "pages": [
+        20
+      ],
+      "badge": null,
+      "visibility": "Après signature, puis à chaque revue ; 9.1 seulement pour un marché public. Articulation pré-déploiement de 9.4 non résolue.",
+      "sourceNotes": "",
+      "issues": [],
+      "answers": [
+        {
+          "letter": "a",
+          "sourceVerdict": "POURSUIVRE",
+          "sourceText": "● POURSUIVRE  a) Oui → Terminé",
+          "control": "continue",
+          "next": null,
+          "conversion": null,
+          "effects": [],
+          "consultOpinion": null
+        },
+        {
+          "letter": "b",
+          "sourceVerdict": "SOUS CONDITION",
+          "sourceText": "● SOUS CONDITION  b) Non → À mettre en place ; fixer l'échéance dans la décision finale (étape 8, question 4)",
+          "control": "continue-with-condition",
+          "next": null,
+          "conversion": null,
+          "effects": [
+            "Reporter condition et recommandation source en étape 8."
+          ],
+          "consultOpinion": null
+        }
+      ]
+    }
+  ]
+}

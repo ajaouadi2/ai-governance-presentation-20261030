@@ -1,0 +1,330 @@
+.guide-book {
+  max-width: 1000px;
+  margin: auto;
+  color: #294058;
+  line-height: 1.65;
+}
+.guide-cover {
+  padding: 32px;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #173652, #2d5d86);
+  color: white;
+}
+.guide-cover > small {
+  letter-spacing: 0.18em;
+  color: #bdd9ee;
+  font-size: 11px;
+}
+.guide-cover h1 {
+  color: white;
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.2;
+  margin: 12px 0;
+}
+.guide-cover p {
+  color: #e1edf6;
+  max-width: 660px;
+}
+.guide-cover nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+.guide-cover a {
+  color: white;
+  border: 1px solid #ffffff50;
+  border-radius: 30px;
+  padding: 7px 13px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.guide-book > section {
+  background: white;
+  border: 1px solid #e0e8ef;
+  border-radius: 15px;
+  padding: 28px;
+  margin: 22px 0;
+  scroll-margin-top: 20px;
+}
+.guide-book h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 23px;
+  margin: 0 0 16px;
+}
+.guide-book h2 em {
+  font-style: normal;
+  font-size: 12px;
+  color: #376a94;
+  background: #edf4fa;
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+.guide-book p {
+  font-size: 14px;
+  margin: 9px 0 15px;
+}
+.guide-stages {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 24px 0;
+}
+.guide-stages li {
+  background: #f3f7fb;
+  border: 1px solid #e0e9f1;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.guide-stages span {
+  display: block;
+  color: #6488a9;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.guide-roles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  border-top: 1px solid #e6edf3;
+  padding-top: 16px;
+}
+.guide-roles strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #294c6b;
+}
+.guide-roles p {
+  font-size: 13px;
+  color: #5b7084;
+}
+.guide-tree {
+  background: #f4f8fc;
+  border: 1px solid #dce8f2;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 22px 0;
+  text-align: center;
+}
+.guide-tree > strong {
+  display: inline-block;
+  background: #28577e;
+  padding: 9px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+}
+.guide-tree > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  border-top: 1px solid #bdd1e2;
+  margin-top: 20px;
+  padding-top: 14px;
+}
+.guide-tree p {
+  background: white;
+  border: 1px solid #e0e8ef;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin: 0;
+}
+.guide-tree span {
+  display: block;
+  color: #7195b4;
+}
+.guide-tree b {
+  font-weight: 600;
+}
+.guide-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: start;
+}
+.guide-cards details {
+  border: 1px solid #dce6ee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.guide-cards summary {
+  cursor: pointer;
+  padding: 16px;
+  list-style: disclosure-closed;
+  list-style-position: inside;
+}
+.guide-cards summary small {
+  font-size: 10px;
+  letter-spacing: 0.03em;
+  color: #5a7e9d;
+}
+.guide-cards h3 {
+  font-size: 15px;
+  margin: 5px 0 0;
+  font-weight: 650;
+}
+.guide-cards details > p {
+  padding: 0 16px;
+}
+.guide-cards aside {
+  margin: 12px 16px 16px;
+  border-left: 3px solid #82add0;
+  background: #f2f7fb;
+  padding: 10px 12px;
+}
+.guide-cards aside strong {
+  font-size: 12px;
+}
+.guide-cards aside p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.guide-caution {
+  background: #fff9ec;
+  border: 1px solid #eddfb7;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px 0;
+  font-size: 13px;
+}
+.guide-caution p {
+  font-size: 13px;
+}
+.guide-book a {
+  color: #285e8b;
+  text-underline-offset: 3px;
+}
+.guide-flow {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+  margin-top: 24px;
+}
+.guide-flow li {
+  border: 1px solid #dce6ef;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 12px;
+}
+.guide-flow small {
+  display: block;
+  color: #648aaa;
+  margin-bottom: 4px;
+}
+.guide-book .guide-muted {
+  font-size: 13px;
+  color: #60768b;
+}
+.guide-architecture {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-around;
+  background: #f2f6fa;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+.guide-architecture p {
+  margin: 0;
+  flex: 1;
+}
+.guide-architecture strong,
+.guide-architecture small {
+  display: block;
+}
+.guide-architecture small {
+  font-size: 11px;
+  color: #668099;
+}
+.guide-architecture > span {
+  color: #7198b8;
+}
+.guide-report {
+  border-top: 1px solid #e0e8ef;
+  padding-top: 16px;
+  margin-top: 20px;
+}
+.guide-report summary {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.guide-report p {
+  background: #f5f8fb;
+  padding: 16px;
+  border-radius: 8px;
+}
+.guide-book footer {
+  padding: 0 8px 30px;
+}
+.guide-book footer p {
+  font-size: 12px;
+  color: #718498;
+}
+.guide-book footer a {
+  font-size: 14px;
+  font-weight: 600;
+}
+.guide-book a:focus-visible,
+.guide-book summary:focus-visible {
+  outline: 3px solid #79b4e2;
+  outline-offset: 4px;
+}
+@media (max-width: 700px) {
+  .guide-cover,
+  .guide-book > section {
+    padding: 20px;
+  }
+  .guide-stages {
+    grid-template-columns: 1fr 1fr;
+  }
+  .guide-cards,
+  .guide-roles,
+  .guide-tree > div {
+    grid-template-columns: 1fr;
+  }
+  .guide-roles {
+    gap: 4px;
+  }
+  .guide-flow {
+    grid-template-columns: 1fr 1fr;
+  }
+  .guide-architecture {
+    flex-direction: column;
+  }
+  .guide-architecture > span {
+    transform: rotate(90deg);
+  }
+}
+@media print {
+  .guide-cover {
+    background: white;
+    border: 1px solid #ccd8e3;
+  }
+  .guide-cover h1,
+  .guide-cover p {
+    color: #294058;
+  }
+  .guide-cover nav,
+  .guide-book footer {
+    display: none;
+  }
+  .guide-stages li,
+  .guide-caution,
+  .guide-architecture {
+    break-inside: avoid;
+  }
+}
+
+.guide-book .guide-cover a { color: #fff; }

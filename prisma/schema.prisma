@@ -1,0 +1,104 @@
+generator client {
+ provider = "prisma-client-js"
+}
+datasource db {
+ provider = "postgresql"
+ url = env("DATABASE_URL")
+}
+model Case {
+ id String @id @default(cuid())
+ title String
+ department String
+ owner String
+ purpose String
+ description String
+ assessmentDate String
+ deploymentDate String
+ revision Int @default(0)
+ configVersion String
+ internalSubmitted Boolean @default(false)
+ vendorSubmitted Boolean @default(false)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ vendor Vendor?
+ answers Answer[]
+ evidence Evidence[]
+ reviews Review[]
+ scores Score[]
+ reports Report[]
+ events AuditEvent[]
+ @@index([updatedAt])
+}
+model Vendor {
+ id String @id @default(cuid())
+ caseId String @unique
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ name String
+ product String
+}
+model Answer {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ questionId String
+ value Json
+ updatedAt DateTime @updatedAt
+ @@unique([caseId,questionId])
+}
+model Evidence {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ controlId String
+ originalName String
+ storageName String
+ mime String
+ size Int
+ uploadedBy String
+ createdAt DateTime @default(now())
+ @@index([caseId,controlId])
+}
+model Review {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ controlId String
+ status String
+ justification String
+ condition String @default("")
+ blockingType String @default("")
+ legalConclusions Json @default("{}")
+ reviewer String
+ fingerprint String
+ reviewedAt DateTime @default(now())
+ @@unique([caseId,controlId])
+}
+model Score {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ criterionId String
+ weight Float
+ value Float
+ justification String
+ @@unique([caseId,criterionId])
+}
+model Report {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ version Int
+ snapshot Json
+ createdAt DateTime @default(now())
+ @@unique([caseId,version])
+}
+model AuditEvent {
+ id String @id @default(cuid())
+ caseId String
+ case Case @relation(fields:[caseId],references:[id],onDelete:Cascade)
+ actor String
+ action String
+ detail Json
+ createdAt DateTime @default(now())
+ @@index([caseId,createdAt])
+}

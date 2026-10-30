@@ -1,0 +1,847 @@
+[
+  {
+    "sourceId": "U01",
+    "sourceTextExact": "Quel service/faculté souhaite acquérir l’outil ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "TRIAGE_INFORMATION"
+    ]
+  },
+  {
+    "sourceId": "U02",
+    "sourceTextExact": "Quelle tâche exacte doit accomplir l’outil ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Finalité ; obligatoire avant tout raisonnement"
+    ]
+  },
+  {
+    "sourceId": "U03",
+    "sourceTextExact": "L’usage est-il pédagogique, scientifique, administratif, RH ou autre ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Branchement"
+    ]
+  },
+  {
+    "sourceId": "U04",
+    "sourceTextExact": "Pourquoi une solution d’IA est-elle nécessaire ? Existe-t-il une solution moins intrusive ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Proportionnalité / besoin"
+    ]
+  },
+  {
+    "sourceId": "U05",
+    "sourceTextExact": "Qui utilisera l’outil : étudiants, enseignants, chercheurs, personnel, public ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Personnes concernées"
+    ]
+  },
+  {
+    "sourceId": "U06",
+    "sourceTextExact": "Le résultat sert-il uniquement d’assistance ou influence-t-il une décision sur une personne ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "RGPD / AI Act"
+    ]
+  },
+  {
+    "sourceId": "U07",
+    "sourceTextExact": "Est-il utilisé pour l’admission ou l’affectation à une formation ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Annexe III AI Act"
+    ]
+  },
+  {
+    "sourceId": "U08",
+    "sourceTextExact": "Évalue-t-il les acquis, attribue-t-il une note ou oriente-t-il l’apprentissage ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Annexe III AI Act"
+    ]
+  },
+  {
+    "sourceId": "U09",
+    "sourceTextExact": "Surveille-t-il les étudiants pendant des examens ou détecte-t-il des comportements interdits ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Annexe III / art. 5"
+    ]
+  },
+  {
+    "sourceId": "U10",
+    "sourceTextExact": "Sera-t-il utilisé pour recruter, évaluer ou gérer du personnel ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Annexe III emploi"
+    ]
+  },
+  {
+    "sourceId": "U11",
+    "sourceTextExact": "Quelles données seront saisies ou accessibles ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "LPrD / confidentialité"
+    ]
+  },
+  {
+    "sourceId": "U12",
+    "sourceTextExact": "Des données sensibles sont-elles concernées ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Protection renforcée"
+    ]
+  },
+  {
+    "sourceId": "U13",
+    "sourceTextExact": "Des documents de recherche non publiés, sous embargo ou confidentiels seront-ils transmis ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Confidentialité / PI"
+    ]
+  },
+  {
+    "sourceId": "U14",
+    "sourceTextExact": "S’agit-il de données de participants, de santé ou de recherche sur l’être humain ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Droit sectoriel"
+    ]
+  },
+  {
+    "sourceId": "U15",
+    "sourceTextExact": "Où se trouvent les utilisateurs et personnes concernées ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Territoire RGPD"
+    ]
+  },
+  {
+    "sourceId": "U16",
+    "sourceTextExact": "Les outputs seront-ils utilisés dans l’UE ? Où et par qui ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "AI Act art. 2"
+    ]
+  },
+  {
+    "sourceId": "U17",
+    "sourceTextExact": "Le service est-il volontairement proposé à des personnes se trouvant dans l’UE ou suit-il leur comportement dans l’UE ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "RGPD art. 3(2)"
+    ]
+  },
+  {
+    "sourceId": "U18",
+    "sourceTextExact": "Une personne humaine peut-elle vérifier, ignorer ou corriger l’output avant qu’il n’ait un effet ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Décision automatisée / supervision"
+    ]
+  },
+  {
+    "sourceId": "U19",
+    "sourceTextExact": "Quelle serait la gravité d’une erreur : faible, significative ou grave ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Risque interne"
+    ]
+  },
+  {
+    "sourceId": "U20",
+    "sourceTextExact": "Quelle est la date prévue de mise en service et la durée du contrat ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Calendrier AI Act"
+    ]
+  },
+  {
+    "sourceId": "U21",
+    "sourceTextExact": "Quelle est la valeur totale estimée, options/prolongations incluses ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "AIMP"
+    ]
+  },
+  {
+    "sourceId": "U22",
+    "sourceTextExact": "Existe-t-il une politique UNIL spécifique sur l’IA, le cloud, l’hébergement ou les données ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "Politique interne ; **ne rien inventer**"
+    ]
+  },
+  {
+    "sourceId": "U23",
+    "sourceTextExact": "L’utilisation proposée entraînera-t-elle une décision exclusivement automatisée produisant des effets juridiques ou des effets significatifs comparables sur une personne ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Permet le test exact de l’art. 22 RGPD lorsque le RGPD est applicable."
+    ]
+  },
+  {
+    "sourceId": "U24",
+    "sourceTextExact": "Le projet prévoit-il que des personnes situées dans l’UE soient directement destinataires ou affectées par les résultats du système ? Préciser pays et contexte.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Complète l’analyse extraterritoriale AI Act."
+    ]
+  },
+  {
+    "sourceId": "U25",
+    "sourceTextExact": "L’usage ou les catégories de données peuvent-ils être modifiés après le déploiement sans nouvelle autorisation ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Déclenche la réévaluation en cas de changement de finalité ou de risque."
+    ]
+  },
+  {
+    "sourceId": "I-U01",
+    "sourceTextExact": "**« L’outil IA est-il utilisé pour une finalité précise ? »** a) Oui ; b) Non - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` = BLOQUANT uniquement si un traitement personnel nécessitant une finalité déterminée ne peut être défini ; sinon À CORRIGER avant de poursuivre."
+    ]
+  },
+  {
+    "sourceId": "I-U02",
+    "sourceTextExact": "**« Cette finalité est licite car elle est justifiée par l’une des conditions suivantes : »** [conditions LPrD reproduites dans le PDF] a) Oui ; b) Aucune de ces conditions - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Si LPrD applicable et aucune base légale/tâche publique ou condition renforcée pour données sensibles : BLOQUANT tant qu’aucune base valable n’existe."
+    ]
+  },
+  {
+    "sourceId": "I-U03",
+    "sourceTextExact": "**« Quel type de données seront traitées ? En dresser la liste du côté de l’UNIL ⚠️ »** a) Donnés simples ; b) Données personnelles ordinaires ; c) Donnée personnelles sensible, biométrique, profil de la personnalité…",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Information de triage ; aucune option n’est en soi non conforme."
+    ]
+  },
+  {
+    "sourceId": "I-U04a",
+    "sourceTextExact": "**« Des données identifiantes doivent-elles être collectées afin de répondre à la finalité ? »** a) Non - anonymisation ; b) Oui - pseudonymisation ; c) Oui - et données supplémentaires à l’objectif poursuivi",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`c` + données non nécessaires = À CORRIGER."
+    ]
+  },
+  {
+    "sourceId": "I-U04b",
+    "sourceTextExact": "**« Selon la finalité poursuivie, seules les données strictement nécessaires seront collectées ? »** a) Oui ; b) Non, plus que nécessaire au cas où - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` = À CORRIGER ; BLOQUANT seulement si la collecte disproportionnée est indispensable à la configuration et ne peut être réduite."
+    ]
+  },
+  {
+    "sourceId": "I-U05",
+    "sourceTextExact": "**« La confidentialité, l’intégrité, la disponibilité et la traçabilité sont assurées… ? »** a) principes + audit ; b) principes mais pas de vérification régulière ; c) Non - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`a` conforme ; `b` condition/audit ; `c` À CORRIGER, puis BLOQUANT si aucune sécurité appropriée ne peut être assurée."
+    ]
+  },
+  {
+    "sourceId": "I-U06",
+    "sourceTextExact": "**« Le traitement … présente au moins 2 des caractéristiques suivantes (ligne directrices G29) »** a) Oui → AIPD ; b) Non…",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ne jamais déduire automatiquement une AIPD LPrD. Appliquer le régime juridiquement applicable."
+    ]
+  },
+  {
+    "sourceId": "I-U07",
+    "sourceTextExact": "**« Des données personnelles particulièrement sensibles sont-elles traitées ? »** a) Non ; b) Oui, une journalisation devra obligatoirement être réalisée (art. 4 OPDo)…",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` active une revue de journalisation ; l’OPDo fédérale ne s’applique pas automatiquement à l’UNIL."
+    ]
+  },
+  {
+    "sourceId": "I-U08",
+    "sourceTextExact": "**« Il sera aisé de communiquer avec le sous-traitant… afin de permettre … les droits… ? »** a) Oui ; b) Non - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` = À CORRIGER ; si sous-traitant refuse toute coopération nécessaire → BLOQUANT pour le traitement personnel concerné."
+    ]
+  },
+  {
+    "sourceId": "I-U09",
+    "sourceTextExact": "**« Les résultats de l'IA serviront-ils à prendre une décision sur une personne ? »** a) Non ; b) Oui + contrôle humain + information ; c) Oui, décision prise par l’outil - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`c` déclenche le test RGPD art. 22 s’il s’applique ; pas de blocage universel automatique."
+    ]
+  },
+  {
+    "sourceId": "M-U01",
+    "sourceTextExact": "« combien coûte l’outil par an (ou par mois) ? » / « pendant combien de temps ? » / « le conetrat prévoit-il une possibilité de prolonger ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "TRIAGE_INFORMATION AIMP"
+    ]
+  },
+  {
+    "sourceId": "M-U02",
+    "sourceTextExact": "« D’autres facultés ou services de l’UNIL achètent-ils déjà le même outil, ou prévoient-ils de le faire ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "TRIAGE_INFORMATION ; détecter fractionnement potentiel"
+    ]
+  },
+  {
+    "sourceId": "M-U03",
+    "sourceTextExact": "« La durée prévue du contrat dépasse-t-elle cinq ans ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "TRIAGE_INFORMATION ; si oui → justification requise selon l’art. 15 AIMP, pas « illégalité automatique »"
+    ]
+  },
+  {
+    "sourceId": "F01",
+    "sourceTextExact": "Indiquez le nom juridique du fournisseur, l’entité contractante, le produit et sa version.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Identification"
+    ]
+  },
+  {
+    "sourceId": "F02",
+    "sourceTextExact": "Décrivez les fonctionnalités et la finalité prévue ainsi que les usages exclus/interdits.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Finalité"
+    ]
+  },
+  {
+    "sourceId": "F03",
+    "sourceTextExact": "Le produit constitue-t-il un système d’IA au sens de l’AI Act ? Justifiez.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "AI Act art. 3"
+    ]
+  },
+  {
+    "sourceId": "F04",
+    "sourceTextExact": "Utilise-t-il un ou plusieurs modèles d’IA à usage général ? Lesquels, de quelle version et de quel fournisseur ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "GPAI"
+    ]
+  },
+  {
+    "sourceId": "F05",
+    "sourceTextExact": "Quel rôle exerce votre entreprise : fournisseur du système, fournisseur du modèle, intégrateur, importateur, distributeur ou autre ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Acteurs"
+    ]
+  },
+  {
+    "sourceId": "F06",
+    "sourceTextExact": "Quels autres prestataires, API, modèles et infrastructures sont nécessaires au service ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Chaîne de valeur"
+    ]
+  },
+  {
+    "sourceId": "F07",
+    "sourceTextExact": "Dans quels pays sont établies les entités concernées ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Territoire"
+    ]
+  },
+  {
+    "sourceId": "F08",
+    "sourceTextExact": "Le système ou le modèle est-il mis sur le marché ou mis en service dans l’UE ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "AI Act art. 2"
+    ]
+  },
+  {
+    "sourceId": "F09",
+    "sourceTextExact": "Selon votre analyse, le système relève-t-il de l’AI Act ? Pour quels acteurs et quelles activités ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "AI Act"
+    ]
+  },
+  {
+    "sourceId": "F10",
+    "sourceTextExact": "Quelle classification AI Act attribuez-vous à chaque cas d’usage : interdit, high-risk, art. 50, autre ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Qualification"
+    ]
+  },
+  {
+    "sourceId": "F11",
+    "sourceTextExact": "Si vous considérez un cas de l’annexe III comme non-high-risk, fournissez l’analyse documentée fondée sur l’art. 6(3).",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Art. 6(3)"
+    ]
+  },
+  {
+    "sourceId": "F12",
+    "sourceTextExact": "Le système effectue-t-il un profilage de personnes ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Art. 6 / données"
+    ]
+  },
+  {
+    "sourceId": "F13",
+    "sourceTextExact": "Peut-il être utilisé pour admission, notation, évaluation, orientation ou surveillance d’examens ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Annexe III"
+    ]
+  },
+  {
+    "sourceId": "F14",
+    "sourceTextExact": "Le produit infère-t-il des émotions ou utilise-t-il la biométrie ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Art. 5 / annexe III"
+    ]
+  },
+  {
+    "sourceId": "F15",
+    "sourceTextExact": "Possède-t-il une fonction de manipulation comportementale, exploitation de vulnérabilités ou autre fonction pouvant relever de l’art. 5 ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Interdictions"
+    ]
+  },
+  {
+    "sourceId": "F16",
+    "sourceTextExact": "Interagit-il directement avec des personnes ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Transparence"
+    ]
+  },
+  {
+    "sourceId": "F17",
+    "sourceTextExact": "Produit-il du texte, de l’audio, des images ou vidéos synthétiques, et comment sont-ils détectables/marqués ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Art. 50"
+    ]
+  },
+  {
+    "sourceId": "F18",
+    "sourceTextExact": "Si high-risk, fournissez votre documentation sur les exigences pertinentes des art. 8–15 et votre conformité à la date prévue de déploiement.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "High-risk"
+    ]
+  },
+  {
+    "sourceId": "F19",
+    "sourceTextExact": "Quelles possibilités de supervision humaine le système offre-t-il ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Art. 14 / 26"
+    ]
+  },
+  {
+    "sourceId": "F20",
+    "sourceTextExact": "Quelles sont les limites connues, taux d’erreur, biais et conditions de mauvaise utilisation raisonnablement prévisibles ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Risque / score"
+    ]
+  },
+  {
+    "sourceId": "F21",
+    "sourceTextExact": "Quelles données le système reçoit, produit, conserve et journalise ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Données"
+    ]
+  },
+  {
+    "sourceId": "F22",
+    "sourceTextExact": "Utilisez-vous les données, prompts ou outputs de l’UNIL pour entraîner, affiner, évaluer ou améliorer vos modèles ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Réutilisation"
+    ]
+  },
+  {
+    "sourceId": "F23",
+    "sourceTextExact": "Pour quelles finalités déterminez-vous vous-même l’utilisation de ces données ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Qualification des rôles"
+    ]
+  },
+  {
+    "sourceId": "F24",
+    "sourceTextExact": "Dans quels pays les données sont-elles traitées, stockées, sauvegardées ou accessibles ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Transferts"
+    ]
+  },
+  {
+    "sourceId": "F25",
+    "sourceTextExact": "Quels sous-traitants ou sous-traitants ultérieurs accèdent aux données ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "LPrD art. 18 / RGPD art. 28"
+    ]
+  },
+  {
+    "sourceId": "F26",
+    "sourceTextExact": "Quelles garanties juridiques couvrent les transferts vers des pays sans protection adéquate ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Transferts"
+    ]
+  },
+  {
+    "sourceId": "F27",
+    "sourceTextExact": "Quelles mesures de sécurité et procédures d’incident sont mises en œuvre ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Sécurité"
+    ]
+  },
+  {
+    "sourceId": "F28",
+    "sourceTextExact": "Comment les changements de modèles, versions, finalités ou sous-traitants sont-ils communiqués ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Réévaluation"
+    ]
+  },
+  {
+    "sourceId": "F29",
+    "sourceTextExact": "Acceptez-vous de fournir les documents et logs nécessaires pour démontrer la conformité et permettre l’audit ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Preuves / audit"
+    ]
+  },
+  {
+    "sourceId": "F30",
+    "sourceTextExact": "Quelles données et formats sont restitués ou supprimés à la fin du contrat ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Réversibilité"
+    ]
+  },
+  {
+    "sourceId": "F31",
+    "sourceTextExact": "La fonctionnalité d’utilisation des données clients pour l’entraînement peut-elle être désactivée **au niveau de l’organisation par défaut et verrouillée administrativement** ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed / Iliana",
+      "CONTRACTUAL + DATA"
+    ]
+  },
+  {
+    "sourceId": "F32",
+    "sourceTextExact": "Pour chaque traitement de données UNIL, indiquez si vous agissez uniquement sur instructions de l’UNIL ou si vous déterminez une finalité propre.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "LEGAL_TRIAGE"
+    ]
+  },
+  {
+    "sourceId": "F33",
+    "sourceTextExact": "Quelle entité peut accéder aux clés de chiffrement et depuis quelle juridiction ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed / Noé",
+      "DATA / SECURITY"
+    ]
+  },
+  {
+    "sourceId": "F34",
+    "sourceTextExact": "Pouvez-vous assurer une séparation logique des données UNIL et empêcher leur utilisation par d’autres clients ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Noé",
+      "SECURITY"
+    ]
+  },
+  {
+    "sourceId": "F35",
+    "sourceTextExact": "Indiquez la date d’introduction prévue des mesures nécessaires à la conformité AI Act pendant toute la durée envisagée du contrat.",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "DATE_AWARE"
+    ]
+  },
+  {
+    "sourceId": "F36",
+    "sourceTextExact": "Une modification substantielle du produit ou de sa finalité peut-elle intervenir automatiquement ? Comment l’UNIL peut-elle la refuser ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed / Manel",
+      "CONTRACTUAL"
+    ]
+  },
+  {
+    "sourceId": "F37",
+    "sourceTextExact": "Pouvez-vous fournir une matrice indiquant, pour chaque fonctionnalité, le modèle sous-jacent, la version et l’entité juridiquement responsable ?",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Ahmed",
+      "SUPPLY_CHAIN"
+    ]
+  },
+  {
+    "sourceId": "M-F01",
+    "sourceTextExact": "« Disposez-vous d’une certification de sécurité de l’information ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Critère d’aptitude **seulement si UNIL l’a défini comme tel** ; sinon preuve de sécurité / best practice"
+    ]
+  },
+  {
+    "sourceId": "M-F02",
+    "sourceTextExact": "« Pouvez-vous héberger les données de l’UNIL en Suisse ou dans l’Union européenne ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Question de localisation ; pas exclusion légale automatique"
+    ]
+  },
+  {
+    "sourceId": "M-F03",
+    "sourceTextExact": "« Pouvez-vous démontrer la stabilité financière de votre entreprise pour toute la durée du contrat ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Critère d’aptitude possible si annoncé"
+    ]
+  },
+  {
+    "sourceId": "M-F04",
+    "sourceTextExact": "« Disposez-vous d’une procédure de gestion des incidents de sécurité, et dans quel délai informez-vous vos clients ? (Renforce la protection des données même en dehors d’un contexte données personnelles) »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Sécurité + éventuelle exigence contractuelle"
+    ]
+  },
+  {
+    "sourceId": "M-F05",
+    "sourceTextExact": "« Avez-vous désigné un responsable de la protection des données ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Vérifier d’abord si un DPO est légalement exigé ; sinon demander interlocuteur privacy"
+    ]
+  },
+  {
+    "sourceId": "M-F06",
+    "sourceTextExact": "« Pouvez-vous présenter des déploiements comparables à celui envisagé par l’UNIL ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Critère d’aptitude possible"
+    ]
+  },
+  {
+    "sourceId": "M-F07",
+    "sourceTextExact": "« Quelle est la précision de votre outil, et comment ses résultats peuvent-ils être vérifiés (ex: citation des sources) ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "SCORE"
+    ]
+  },
+  {
+    "sourceId": "M-F08",
+    "sourceTextExact": "« Quel est le coût total de l’outil sur toute la durée du contrat, y compris l’intégration, la formation et la sortie ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "SCORE"
+    ]
+  },
+  {
+    "sourceId": "M-F09",
+    "sourceTextExact": "« Votre outil s’intègre-t-il aux systèmes informatiques existants de l’UNIL ou à des systèmes équivalents ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "SCORE ou exigence technique"
+    ]
+  },
+  {
+    "sourceId": "M-F10",
+    "sourceTextExact": "« Quel est l’impact environnemental de votre outil, notamment sa consommation énergétique ? »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "SCORE"
+    ]
+  },
+  {
+    "sourceId": "I-F01",
+    "sourceTextExact": "Fournisseur/maison mère pour données ordinaires : a CH ; b UE ; c pays listé ; d USA DPF ; e filiale CH/UE groupe US ; f USA non-DPF ; g autre - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Toutes les options = déclenchement d’analyse, **pas de blocage par pays seul**."
+    ]
+  },
+  {
+    "sourceId": "I-F02",
+    "sourceTextExact": "Même question données sensibles ; d/e/f qualifiés « rédhibitoire »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "CLOUD Act / secrets / chiffrement → analyse renforcée ; pas de rejet automatique par nationalité."
+    ]
+  },
+  {
+    "sourceId": "I-F03",
+    "sourceTextExact": "Où données ordinaires traitées/stockées/sauvegardées/consultées ? CH / pays adéquat / US DPF / autre",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Déclenche LPrD art. 17 et garanties."
+    ]
+  },
+  {
+    "sourceId": "I-F04",
+    "sourceTextExact": "Même question données sensibles ; plusieurs options « rédhibitoire »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Appliquer secret + garanties renforcées ; correction ou blocage uniquement après analyse concrète."
+    ]
+  },
+  {
+    "sourceId": "I-F05",
+    "sourceTextExact": "Si pays non adéquat, quelle base de transfert selon art. 17 LPrD ? a–g exceptions/garanties ; h aucune - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`h` → À CORRIGER ; BLOQUANT si aucun mécanisme valable ne peut être établi et transfert indispensable."
+    ]
+  },
+  {
+    "sourceId": "I-F06",
+    "sourceTextExact": "Conservation proportionnelle : a durée proportionnelle ; b « aussi longtemps que nécessaire - rédhibitoire »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` = À CLARIFIER, pas BLOQUANT : demander durée/critères précis."
+    ]
+  },
+  {
+    "sourceId": "I-F07",
+    "sourceTextExact": "Chiffrement : a repos+transit ; b transit seul - rédhibitoire ; c non - rédhibitoire ; remarque « UNIL doit détenir les clés »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Mesures proportionnées au risque ; régime spécial lorsque données sensibles exposées à législation étrangère."
+    ]
+  },
+  {
+    "sourceId": "I-F08",
+    "sourceTextExact": "Réutilisation entraînement : a non ; b désactivation user/admin - rédhibitoire ; c oui - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` peut devenir CONFORME SOUS CONDITIONS si désactivation organisationnelle verrouillée ; `c` dépend données/rôles/finalité."
+    ]
+  },
+  {
+    "sourceId": "I-F09",
+    "sourceTextExact": "Communication pour droits : a contact ; b non - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`b` = À CORRIGER ; blocage si coopération requise impossible."
+    ]
+  },
+  {
+    "sourceId": "I-F10",
+    "sourceTextExact": "Accès/modification/export/suppression : a ≤10 jours ; b pas backups/logs ; c impossible - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "10 jours = SLA contractuel, pas délai légal universel."
+    ]
+  },
+  {
+    "sourceId": "I-F11",
+    "sourceTextExact": "Notification violation : a 24–72h ; b >72h justification",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Délai fournisseur contractuel distinct du délai du responsable vers l’autorité."
+    ]
+  },
+  {
+    "sourceId": "I-F12",
+    "sourceTextExact": "Mesures CIA+traçabilité : a + ISO/audit ; b sans cert/audit ; c principe manquant - rédhibitoire ; d aucune description - rédhibitoire",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Évaluer mesures réelles ; ISO ≠ obligation légale universelle."
+    ]
+  },
+  {
+    "sourceId": "I-F13",
+    "sourceTextExact": "Fin contrat : a export + suppression attestée ; b suppression sans export ; c rien",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "`a` favorable ; `b` condition selon besoin ; `c` À CORRIGER."
+    ]
+  },
+  {
+    "sourceId": "I-F14",
+    "sourceTextExact": "Tests attaques IA : a tests documentés ; b tests non documentés ; c non",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Exigence sécurité/risk-based ou SCORE ; pas universal blocking."
+    ]
+  },
+  {
+    "sourceId": "I-F15",
+    "sourceTextExact": "Journalisation : a oui + « 6 mois minimum » ; b non mais recommandée",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Séparer OPDo et AI Act ; ne pas fusionner leurs durées/champs."
+    ]
+  },
+  {
+    "sourceId": "I-F16",
+    "sourceTextExact": "Événements journalisés, dont « contenu - rédhibitoire »",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Le contenu dans les logs n’est pas automatiquement interdit ; appliquer nécessité/proportionnalité/confidentialité."
+    ]
+  },
+  {
+    "sourceId": "I-F17",
+    "sourceTextExact": "Journaux mis à disposition UNIL : a oui au moins 1 an ; b non",
+    "sourceOptionsExact": [],
+    "sourceContextColumns": [
+      "Durée dépend du régime applicable et du besoin contractuel."
+    ]
+  }
+]
